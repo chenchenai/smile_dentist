@@ -1,0 +1,128 @@
+.productDetailDialog{
+	.el-dialog{
+		width: 1180px;
+		min-height: 585px;
+		position: relative;
+		.el-dialog__body{
+			padding: 12px 30px 20px 30px;
+		}
+		.el-dialog__header{
+			padding: 20px 30px 10px;
+		}
+		.postionBtns{
+			position: absolute;
+			right: 60px;
+			top: 7px;
+			button{
+				height: 14px;
+				font-size: 14px;
+				font-family: MicrosoftYaHei;
+				font-weight: 400;
+				color: rgba(54,114,198,1);
+				line-height: 14px;
+				margin-right: 30px;
+				margin-left: 0;
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+		}
+		.topTitle{
+			height: 17px;
+			font-size: 16px;
+			line-height: 17px;
+			font-family: MicrosoftYaHei;
+			font-weight: bold;
+			color: rgba(51,51,51,1);
+			margin-bottom: 22px;
+		}
+		.el-form{
+			font-size: 14px;
+			overflow-y: hidden;
+			.el-form-item{
+				width: 310px;
+				margin-right: 90px;
+				height: 14px;
+				line-height: 14px;
+				margin-bottom: 22px;
+				color: rgba(119,119,119,1);
+				float: left;
+				&:nth-child(3n){
+					margin-right: 0;
+				}
+			}
+			.el-form-item__label{
+				height: 14px;
+				line-height: 14px;
+				color: #777;
+			}
+			.el-input{
+				width: 240px;
+			}
+			.el-form-item__content, .el-input, .el-input__inner, .el-select__caret{
+				height: 14px;
+				line-height: 14px;
+				color: #333;
+			}
+			.remarks{
+				width: 860px;
+				height: auto;
+				.el-form-item__content{
+					height: auto;
+				}
+			}
+		}
+		.tabs{
+			height: 30px;
+			margin-bottom: 20px;
+			p{
+				float: left;
+				width: 278px;
+				text-align: center;
+				line-height: 30px;
+				background: rgba(226,226,226,1);
+				border: 1px solid rgba(226,226,226,1);
+				cursor: pointer;
+				&.isActive{
+					background: rgba(245,245,245,1);
+					color: #3672C6;
+				}
+			}
+		}
+		.technologyContent{
+			.title{
+				height: 14px;
+				font-size: 14px;
+				font-family: MicrosoftYaHei;
+				font-weight: bold;
+				color: rgba(51,51,51,1);
+				line-height: 14px;
+				margin-bottom: 20px;
+			}
+			> div{
+				>p{
+					float: left;
+					height: 26px;
+					line-height: 26px;
+					padding: 0 11px;
+					background: rgba(233,242,254,1);
+					border: 1px solid rgba(133,177,238,1);
+					border-radius: 4px;
+					position: relative;
+					margin-right: 30px;
+					&:after{
+						content: '>';
+						position: absolute;
+						right: -22px;
+					}
+					&:last-child{
+						margin-right: 0;
+						&:after{
+							content: '';
+						}
+					}
+				}
+			}
+		}
+	}
+}

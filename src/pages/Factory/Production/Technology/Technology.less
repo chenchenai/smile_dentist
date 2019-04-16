@@ -1,0 +1,336 @@
+.technology {
+  margin: 14px;
+  .top-btns {
+    background-color: #fff;
+    margin-bottom: 14px;
+    padding: 16px 40px 18px;
+    .el-button {
+      border: none;
+      margin-right: 16px;
+      margin-left: 0;
+      padding: 0;
+      color: #333333;
+      img {
+        display: block;
+        height: 27px;
+        width: auto;
+        margin: 0 auto 10px;
+      }
+    }
+    .search {
+      float: right;
+      .el-input-group {
+        width: 200px;
+        height: 30px;
+        border: 1px solid rgb(184, 184, 184);
+        border-radius: 2px;
+
+        .el-input__inner {
+          border: none;
+          height: 30px;
+        }
+        .el-input-group__append {
+          width: 50px;
+          height: 30px;
+          background: rgb(89, 115, 152);
+          border: 0px;
+          border-radius: 0px;
+          border-top-left-radius: 2px;
+          border-bottom-left-radius: 2px;
+          padding: 0;
+          .el-button {
+            color: #fff;
+            margin: 0 11px
+          }
+        }
+      }
+    }
+  }
+  //表格
+  .Table {
+    width: 100%;
+    background: #ddd;
+    .el-table {
+      color: #777;
+      .el-table-column--selection {
+        .cell {
+          padding-left: 30px;
+        }
+      }
+      thead {
+        color: #333;
+        tr {
+          background-color: #F5F5F5 !important;
+          th {
+            background-color: #F5F5F5 !important;
+            padding: 19px 0;
+          }
+        }
+      }
+      tbody {
+        th {
+          padding: 15px 0;
+        }
+      }
+    }
+    .el-checkbox__inner {
+      border: 1px solid #999999;
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner,
+    .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+      background-color: #fff;
+      border-color: #999999;
+    }
+    .el-checkbox__input.is-checked{
+      .el-checkbox__inner::after{
+        background: url(../../../../../static/images/technology/gouxuan.png) no-repeat center center;
+        background-size: 100% 100%;
+        transform: rotate(0deg) scaleY(1);
+        width: 10px;
+        height: 10px;
+        left: 0;
+      }
+    }
+  }
+  // 新建工序
+  .addTechnology{
+    .el-dialog{
+      width: 640px;
+      height: 536px;
+      .el-dialog__body{
+        //height: 276px;
+        //overflow-y: auto;
+        padding-top: 10px;
+        padding-bottom: 0;
+      }
+      .el-dialog__title{
+        font-weight: bold;
+      }
+      .el-row{
+        margin-bottom: 16px;
+        height: 24px;
+        line-height: 24px;
+        float: left;
+        .rowLabel{
+          float: left;
+          display: block;
+          width: 90px;
+          height: 24px;
+          line-height: 24px;
+          margin-right: 16px;
+        }
+        .isRequired::before{
+          content: "*";
+          color: #f56c6c;
+          position: absolute;
+          left: -6px;
+        }
+        .rowContent{
+          float: left;
+          height: 24px;
+          line-height: 24px;
+          .el-input{
+            width: 180px;
+            height: 24px;
+            line-height: 24px;
+            .el-input__inner{
+              height: 24px;
+            }
+          }
+          .el-checkbox__label{
+            padding-left: 3px;
+          }
+          .disabledInput{
+            .el-input__inner{
+              cursor: pointer;
+              background: none;
+            }
+          }
+          .el-input__icon{
+            line-height: 24px;
+          }
+        }
+        .users{
+          width: 347px;
+          height: 150px;
+          float: left;
+          margin-left: 22px;
+          border: 1px solid rgba(226,226,226,1);
+          border-radius: 2px;
+          .header{
+            height: 24px;
+            background: rgba(245,245,245,1);
+            padding-left: 14px;
+            line-height: 24px;
+            vertical-align: middle;
+            width: 333px;
+            display: block;
+            .el-checkbox__input, .el-checkbox__label{
+              margin-bottom: 4px;
+            }
+            + div {
+              margin: 10px!important;
+            }
+          }
+          .el-checkbox-group{
+            .el-checkbox{
+              margin-left: 0px!important;
+              width: 110px;
+              &:nth-child(3n+1){
+                margin-left: 14px!important;
+              }
+            }
+          }
+        }
+      }
+      .checkTemplate{
+        float: right;
+      }
+      .productDept, .checkDept{
+        height: 150px;
+      }
+      .dialog-footer{
+        position: absolute;
+        bottom: 20px;
+        right: 52px;
+        button{
+          width: 80px;
+          height: 30px;
+          margin-left: 30px;
+          padding: 0;
+          text-align: center;
+          line-height: 30px;
+          background: none;
+          border-radius: 4px;
+          border-color: rgba(254,129,39,1);
+          color: rgba(254,129,39,1);
+          &:last-child{
+            background: rgba(254,129,39,1);
+            color: #fff;
+          }
+        }
+      }
+      .errorText{
+        height: 16px;
+        line-height: 16px;
+        font-size: 12px;
+        color: #f56c6c;
+        margin-top: 5px;
+      }
+    }
+    //穿梭框
+    .transfer,.row{
+      width: 100%;
+      overflow: hidden;
+      padding-top: 10px;
+      .rowLabel{
+        float: left;
+        margin-top: 22px;
+      }
+      .isRequired::before{
+        content: "*";
+        color: #f56c6c;
+        position: absolute;
+        left: 14px;
+      }
+      .col-md-5{
+        width: 220px!important;
+        height: 360px;
+        margin-left:22px;
+        float: left;
+        border:1px solid rgba(224,224,224,1);
+        .panel-heading{
+          border-bottom: 1px solid rgba(224,224,224,1);
+          padding: 5px 16px;
+          input{
+            margin-right: 10px;
+            width: 12px;
+            height: 12px;
+          }
+        }
+      }
+
+      .col-md-5:last-child{
+        float: right;
+        margin: 0;
+      }
+      .col-md-2{
+        float: left;
+        margin-left: 40px;
+        p:first-child{
+          margin-top: 131px;
+        }
+        .el-button{
+          padding: 0;
+        }
+        .btn{
+          width:28px;
+          height:28px;
+          border:1px solid rgba(224,224,224,1);
+          background-image: url("../../../../../static/images/technology/left.png");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-color: #fff;
+          //cursor: pointer;
+
+        }
+        p:last-child .btn{
+          background-image: url("../../../../../static/images/technology/right.png");
+          margin-top: 30px;
+        }
+      }
+      .panel-body{
+        ul{
+          padding:5px 0px;
+          height: 320px;
+          overflow: auto;
+
+          li{
+            margin: 10px 0;
+            font-size: 12px;
+            input{
+              width:12px;
+              height:12px;
+              border:1px solid rgba(204,204,204,1);
+              background-color: #fff;
+              margin-left: 16px;
+            }
+            .el-button{
+              padding: 0;
+              border: none;
+              float: right;
+              margin-right: 15px;
+              font-size: 12px;
+              margin-top: 6px;
+              color: #3672C6;
+              display: none;
+            }
+          }
+          li:first-child .el-button:last-child,
+          li:last-child .el-button:nth-child(2){
+            color: #CCCCCC;
+            cursor: inherit;
+          }
+
+
+        }
+      }
+      .col-md-5:last-child{
+        .panel-body {
+          ul{
+            li{
+              .el-button{
+                display: block!important;
+              }
+            }
+          }
+        }
+      }
+      //.col-md-5:last-child{
+      //  width: 30%;
+      //  float: right;
+      //}
+    }
+  }
+
+}

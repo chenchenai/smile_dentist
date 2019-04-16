@@ -1,0 +1,391 @@
+.addSupplier .happy-scroll-strip {
+  background: #c7c7c7;
+}
+.addSupplier .happy-scroll-strip--horizontal {
+  display: none;
+}
+.addSupplier .happy-scroll-content {
+  border-bottom: 20px solid transparent !important;
+}
+.addSupplier .add {
+  color: #3672c6;
+  cursor: pointer;
+}
+.addSupplier .fromDate .el-input__prefix {
+  left: inherit;
+  right: 5px;
+  padding-left: 0;
+}
+.addSupplier .fromDate .el-input__prefix .el-icon-date {
+  line-height: 30px;
+}
+.addSupplier .fromDate .el-input__prefix .el-icon-date:before {
+  content: '' !important;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.addSupplier .fromDate .el-input__prefix .el-icon-date:after {
+  content: '\E608';
+  width: 28px;
+}
+.addSupplier .fromDate .el-input__suffix .el-input__suffix-inner .el-input__icon {
+  width: 10px;
+}
+.addSupplier .fromDate .fromDateInput {
+  width: 240px;
+}
+.addSupplier .material_tab {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 176px;
+}
+.addSupplier .material_tab .material_tab_th {
+  background: #f5f5f5;
+  width: 100%;
+  overflow: hidden;
+}
+.addSupplier .material_tab .material_tab_th li {
+  float: left;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  color: #333333;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.addSupplier .material_tab .material_tab_th li:first-child {
+  width: 10%;
+}
+.addSupplier .material_tab .material_tab_th li:nth-child(2) {
+  width: 12%;
+}
+.addSupplier .material_tab .material_tab_th li:nth-child(3) {
+  width: 6%;
+}
+.addSupplier .material_tab .material_tab_th li:nth-child(4) {
+  width: 8%;
+}
+.addSupplier .material_tab .material_tab_th li:nth-child(5) {
+  width: 5%;
+}
+.addSupplier .material_tab .material_tab_th li:nth-child(6) {
+  width: 21%;
+}
+.addSupplier .material_tab .material_tab_th li:nth-child(7) {
+  width: 20%;
+}
+.addSupplier .material_tab .material_tab_th li:nth-child(8) {
+  width: 15%;
+}
+.addSupplier .material_tab .material_tab_th li:nth-child(9) {
+  width: 3%;
+  border-right: none;
+}
+.addSupplier .material_tab .happy-scroll-container {
+  width: 100% !important;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content {
+  width: 100% !important;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li {
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  border-left: none;
+  overflow: hidden;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  word-wrap: break-word;
+  text-align: center;
+  border-right: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: #666666;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:first-child {
+  width: 10%;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:nth-child(2) {
+  width: 12%;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:nth-child(3) {
+  width: 6%;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:nth-child(4) {
+  width: 8%;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:nth-child(5) {
+  width: 5%;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:nth-child(6) {
+  width: 21%;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:nth-child(7) {
+  width: 20%;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:nth-child(8) {
+  width: 15%;
+}
+.addSupplier .material_tab .happy-scroll-container .happy-scroll-content .material_tab_td li p:nth-child(9) {
+  cursor: pointer;
+  width: 2.5%;
+  border-right: none;
+}
+.addSupplier .material_tab_nodata {
+  overflow: hidden;
+  height: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.addSupplier .material_tab_nodata .noDataTip {
+  margin-top: 15px;
+  color: #666666;
+}
+.addSupplier .attachment {
+  padding-left: 17px;
+}
+.addSupplier .attachment .el-form-item__content {
+  width: 510px !important;
+}
+.addSupplier .el-dialog {
+  width: 1180px !important;
+  overflow-y: auto;
+}
+.addSupplier .el-dialog .el-form {
+  margin-bottom: 22px;
+}
+.addSupplier .el-dialog .el-dialog__body {
+  padding-top: 0;
+  color: #333;
+}
+.addSupplier .el-dialog .el-form-item {
+  position: relative;
+}
+.addSupplier .el-dialog .el-form-item {
+  float: left;
+  width: 320px;
+  margin-right: 54px;
+}
+.addSupplier .el-dialog .el-form-item .el-form-item__label {
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+  color: #888888;
+}
+.addSupplier .el-dialog .el-form-item .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.addSupplier .el-dialog .el-form-item .el-input {
+  width: 240px;
+}
+.addSupplier .el-dialog .el-form-item .el-form-item__content,
+.addSupplier .el-dialog .el-form-item .el-input,
+.addSupplier .el-dialog .el-form-item .el-input__inner,
+.addSupplier .el-dialog .el-form-item .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+}
+.addSupplier .el-dialog .isRequired .el-form-item__label {
+  position: relative;
+}
+.addSupplier .el-dialog .isRequired .el-form-item__label::after {
+  content: "*";
+  color: #f56c6c;
+}
+.addSupplier .el-dialog .isRequired .el-form-item__label::before {
+  content: "";
+}
+.addSupplier .el-dialog .supper_type {
+  margin-right: 300px;
+}
+.addSupplier .el-dialog .supper_type .type_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+.addSupplier .el-dialog .supper_type .type_con .type_list {
+  flex-grow: 1;
+  text-align: center;
+}
+.addSupplier .el-dialog .supper_type .type_con .active_type_list {
+  background: #e2e2e2;
+}
+.addSupplier .el-dialog .baseInfo .remarks {
+  height: 100px;
+  width: 100%;
+  margin-right: 0;
+}
+.addSupplier .el-dialog .baseInfo .remarks .el-input,
+.addSupplier .el-dialog .baseInfo .remarks .el-input__inner,
+.addSupplier .el-dialog .baseInfo .remarks .el-form-item__content,
+.addSupplier .el-dialog .baseInfo .remarks .el-textarea,
+.addSupplier .el-dialog .baseInfo .remarks textarea {
+  height: 70px;
+}
+.addSupplier .el-dialog .miniInput .el-input {
+  margin-right: 12px;
+}
+.addSupplier .el-dialog .miniInput .el-input__inner {
+  text-align: left;
+  width: 204px;
+}
+.addSupplier .el-dialog .miniInput .el-input,
+.addSupplier .el-dialog .miniInput .el-input__inner,
+.addSupplier .el-dialog .miniInput .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+  width: 204px;
+}
+.addSupplier .el-dialog .inputCountingType .el-form-item__content {
+  margin-left: 0 !important;
+  width: 284px;
+}
+.addSupplier .el-dialog .inputCountingType .el-form-item__content .el-input,
+.addSupplier .el-dialog .inputCountingType .el-form-item__content .el-input__inner {
+  width: 284px;
+}
+.addSupplier .el-dialog .calcNumber {
+  height: 136px;
+  border-bottom: 1px dashed #eeeeee;
+}
+.addSupplier .el-dialog .pro {
+  height: 60px;
+  padding-top: 30px;
+  border-bottom: 1px dashed #eeeeee;
+}
+.addSupplier .el-dialog .remindDayBox .el-form-item__content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.addSupplier .el-dialog .remindDayBox .el-form-item__content .remindDay {
+  display: flex;
+  margin: 0 0 0 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+.addSupplier .el-dialog .remindDayBox .el-form-item__content .remindDay .el-input {
+  width: 100%;
+  margin-right: 5%;
+}
+.addSupplier .el-dialog .remindDayBox .el-form-item__content .el-form-item__error {
+  position: absolute;
+  left: 55px;
+}
+.addSupplier .el-dialog .dialog-footer {
+  padding-top: 0;
+  padding-bottom: 0px;
+  height: 30px;
+}
+.addSupplier .el-dialog .dialog-footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+}
+.addSupplier .el-dialog .dialog-footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.addSupplier .el-dialog .dialog-footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.addSupplier .el-dialog .dialog-footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.addSupplier .el-dialog .dialog-footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.addSupplier .el-dialog .dialog-footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.addSupplier .selectAddress {
+  width: 100% !important;
+}
+.addSupplier .selectAddress .el-input,
+.addSupplier .selectAddress .el-input__inner,
+.addSupplier .selectAddress .el-select__caret {
+  width: 90px !important;
+}
+.addSupplier .selectAddress .el-input__suffix .el-select__caret {
+  width: 15px !important;
+}
+.addSupplier .widthFull {
+  width: 100% !important;
+  padding-right: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.addSupplier .widthFull .el-input {
+  width: 100% !important;
+}
+.addSupplier .widthFullInput .el-input {
+  width: 100% !important;
+}
+.addSupplier .uploadImg {
+  width: auto !important;
+}
+.addSupplier .uploadImg .upload {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.addSupplier .uploadImg .upload p {
+  width: 36px;
+  height: 34px;
+  background: url('../../../../../../../static/images/icon/img18.png') 100% 100%;
+}
+.addSupplier .uploadImg .el-upload-list {
+  padding: 0;
+  overflow: hidden;
+}
+.addSupplier .uploadImg .el-upload-list .el-upload-list__item-name {
+  display: none;
+}
+.addSupplier .uploadImg .el-upload-list .el-upload-list__item .el-icon-close {
+  display: block;
+  z-index: 99;
+  top: 2px;
+  right: 0px;
+}
+.addSupplier .uploadImg .el-upload-list li {
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.addSupplier .uploadImg .el-upload-list li:nth-child(13n) {
+  margin-right: 0;
+}
+.addSupplier .uploadImg .el-upload-list li img {
+  width: 36px;
+  height: 36px;
+  margin-left: 0;
+  border-radius: 5px;
+}

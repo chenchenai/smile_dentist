@@ -1,0 +1,28 @@
+.inventory .el-main {
+  padding: 0;
+}
+.inventory .nav-left {
+  background-color: #fff;
+  padding: 20px;
+  height: calc(100vh - 54px);
+}
+.inventory .nav-left .el-col-24 h5 {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+.inventory .nav-left .el-menu {
+  border: none;
+}
+.inventory .nav-left .el-menu .el-menu-item * {
+  color: unset;
+}
+.inventory .nav-left .el-menu .el-menu-item {
+  padding-left: 0 !important;
+  height: 36px;
+  line-height: 36px;
+  color: unset;
+}
+.inventory .nav-left .el-menu .el-menu-item.is-active {
+  color: #3771C5 !important;
+}

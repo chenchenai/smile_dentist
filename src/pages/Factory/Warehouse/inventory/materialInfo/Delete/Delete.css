@@ -1,0 +1,41 @@
+.deleteMaterial .el-dialog {
+  margin-top: 40vh !important;
+}
+.deleteMaterial .el-dialog .el-dialog__body {
+  padding: 0 20px 30px;
+}
+.deleteMaterial .el-dialog .el-dialog__body .topTitle {
+  margin: 10px 0 30px;
+}
+.deleteMaterial .el-dialog .el-dialog__body .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+  margin-right: 30px;
+}
+.deleteMaterial .el-dialog .el-dialog__body .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.deleteMaterial .el-dialog .el-dialog__body .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.deleteMaterial .el-dialog .el-dialog__body .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.deleteMaterial .el-dialog .el-dialog__body .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.deleteMaterial .el-dialog .el-dialog__body .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}

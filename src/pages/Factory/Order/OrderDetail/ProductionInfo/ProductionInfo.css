@@ -1,0 +1,5 @@
+.ProductionInfo .el-table__body-wrapper {
+  max-height: 398px;
+  overflow-y: auto;
+  padding-right: 10px;
+}

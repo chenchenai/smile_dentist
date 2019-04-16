@@ -1,0 +1,58 @@
+.setPrint .el-dialog {
+  width: 1180px !important;
+}
+.setPrint .el-dialog .postionBtns {
+  position: absolute;
+  right: 60px;
+  top: 7px;
+}
+.setPrint .el-dialog .postionBtns button {
+  height: 14px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #3672c6;
+  line-height: 14px;
+  margin-right: 30px;
+  margin-left: 0;
+}
+.setPrint .el-dialog .postionBtns button:last-child {
+  margin-right: 0;
+}
+.setPrint .el-dialog .dialog-footer {
+  padding-top: 0;
+  padding-bottom: 0px;
+  height: 30px;
+  margin-top: 30px;
+}
+.setPrint .el-dialog .dialog-footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+}
+.setPrint .el-dialog .dialog-footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.setPrint .el-dialog .dialog-footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.setPrint .el-dialog .dialog-footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.setPrint .el-dialog .dialog-footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.setPrint .el-dialog .dialog-footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}

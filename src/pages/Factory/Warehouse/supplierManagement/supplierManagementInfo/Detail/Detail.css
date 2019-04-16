@@ -1,0 +1,194 @@
+.supplierDetail .happy-scroll-strip {
+  background: #c7c7c7;
+}
+.supplierDetail .happy-scroll-strip--horizontal {
+  display: none;
+}
+.supplierDetail .happy-scroll-content {
+  border-bottom: 20px solid transparent !important;
+}
+.supplierDetail .el-dialog {
+  width: 1180px !important;
+  min-height: 585px;
+  position: relative;
+}
+.supplierDetail .el-dialog .el-dialog__body {
+  padding: 12px 30px 20px 30px;
+}
+.supplierDetail .el-dialog .el-dialog__header {
+  padding: 20px 30px 10px;
+}
+.supplierDetail .el-dialog .postionBtns {
+  position: absolute;
+  right: 60px;
+  top: 7px;
+}
+.supplierDetail .el-dialog .postionBtns button {
+  height: 14px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #3672c6;
+  line-height: 14px;
+  margin-right: 30px;
+  margin-left: 0;
+}
+.supplierDetail .el-dialog .postionBtns button:last-child {
+  margin-right: 0;
+}
+.supplierDetail .el-dialog .topTitle {
+  height: 17px;
+  font-size: 16px;
+  line-height: 17px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 22px;
+}
+.supplierDetail .el-dialog .el-form {
+  font-size: 16px;
+  overflow-y: hidden;
+}
+.supplierDetail .el-dialog .el-form .el-form-item {
+  width: 310px;
+  margin-right: 90px;
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 22px;
+  color: #777777;
+  float: left;
+}
+.supplierDetail .el-dialog .el-form .el-form-item:nth-child(3n) {
+  margin-right: 0;
+}
+.supplierDetail .el-dialog .el-form .lWith {
+  width: 440px;
+  margin-right: 20px;
+}
+.supplierDetail .el-dialog .el-form .sWith {
+  width: 200px;
+}
+.supplierDetail .el-dialog .el-form .el-form-item__label {
+  height: 14px;
+  line-height: 14px;
+  color: #777;
+  font-size: 16px;
+}
+.supplierDetail .el-dialog .el-form .el-input {
+  width: 240px;
+}
+.supplierDetail .el-dialog .el-form .el-form-item__content,
+.supplierDetail .el-dialog .el-form .el-input,
+.supplierDetail .el-dialog .el-form .el-input__inner,
+.supplierDetail .el-dialog .el-form .el-select__caret {
+  height: 14px;
+  line-height: 14px;
+  color: #333;
+  font-size: 16px;
+}
+.supplierDetail .el-dialog .el-form .remarks {
+  width: 860px;
+  height: auto;
+}
+.supplierDetail .el-dialog .el-form .remarks .el-form-item__content {
+  height: auto;
+}
+.supplierDetail .el-dialog .el-form_p {
+  font-size: 16px;
+  color: #888888;
+}
+.supplierDetail .el-dialog .material_tab {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 176px;
+  margin-top: 22px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th {
+  background: #f5f5f5;
+  display: table;
+  width: 100%;
+  overflow: hidden;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li {
+  float: left;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  color: #333333;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li:first-child {
+  width: 118px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li:nth-child(2) {
+  width: 126px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li:nth-child(3) {
+  width: 63px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li:nth-child(4) {
+  width: 90px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li:nth-child(5) {
+  width: 47px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li:nth-child(6) {
+  width: 247px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li:nth-child(7) {
+  width: 225px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_th li:nth-child(8) {
+  width: 202px;
+  border-right: none;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td {
+  display: table;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li {
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  border-left: none;
+  overflow: hidden;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  border-right: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p:first-child {
+  width: 118px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p:nth-child(2) {
+  width: 126px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p:nth-child(3) {
+  width: 63px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p:nth-child(4) {
+  width: 90px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p:nth-child(5) {
+  width: 47px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p:nth-child(6) {
+  width: 247px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p:nth-child(7) {
+  width: 225px;
+}
+.supplierDetail .el-dialog .material_tab .material_tab_td li p:nth-child(8) {
+  width: 197px;
+  border-right: none;
+}

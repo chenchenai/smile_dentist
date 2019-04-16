@@ -1,0 +1,130 @@
+.PrintOrdedrNum .el-dialog {
+  width: 1180px !important;
+}
+.PrintOrdedrNum .el-dialog .postionBtns {
+  position: absolute;
+  right: 60px;
+  top: 7px;
+}
+.PrintOrdedrNum .el-dialog .postionBtns button {
+  height: 14px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #3672c6;
+  line-height: 14px;
+  margin-right: 30px;
+  margin-left: 0;
+}
+.PrintOrdedrNum .el-dialog .postionBtns button:last-child {
+  margin-right: 0;
+}
+.PrintOrdedrNum .el-dialog .scrollBox {
+  height: 410px;
+}
+.PrintOrdedrNum .el-dialog .happy-scroll-strip--vertical {
+  background: #c7c7c7;
+  border-radius: 4px;
+}
+.PrintOrdedrNum .el-dialog .happy-scroll-strip--vertical .happy-scroll-bar {
+  border: 1px solid #c7c7c7;
+}
+.PrintOrdedrNum .el-dialog .happy-scroll-content {
+  border-bottom: 20px solid transparent !important;
+  width: calc(100% - 40px);
+}
+.PrintOrdedrNum .el-dialog .PrintBox {
+  width: 100%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon {
+  margin-bottom: 30px;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .entryDate {
+  text-align: right;
+  margin: 0 0 15px;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon {
+  width: 100%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th,
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon td {
+  border: 1px solid #cccccc;
+  text-align: center;
+  min-height: 40px;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(1) {
+  width: 13%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(2) {
+  width: 15%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(3) {
+  width: 20%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(4) {
+  width: 10%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(5) {
+  width: 5%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(6) {
+  width: 10%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(7) {
+  width: 7%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(8) {
+  width: 10%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableCon th:nth-child(9) {
+  width: 10%;
+}
+.PrintOrdedrNum .el-dialog .PrintBox .PrintBoxCon .tableBtm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.PrintOrdedrNum .el-dialog .dialog-footer {
+  padding-top: 0;
+  padding-bottom: 0px;
+  height: 30px;
+  margin-top: 30px;
+}
+.PrintOrdedrNum .el-dialog .dialog-footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+}
+.PrintOrdedrNum .el-dialog .dialog-footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.PrintOrdedrNum .el-dialog .dialog-footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.PrintOrdedrNum .el-dialog .dialog-footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.PrintOrdedrNum .el-dialog .dialog-footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.PrintOrdedrNum .el-dialog .dialog-footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}

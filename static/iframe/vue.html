@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>	
+	<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+	<!-- 引入样式 -->
+	<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+	<!-- 引入组件库 -->
+	<script src="https://unpkg.com/element-ui@2.0.3/lib/index.js"></script>
+	<script src=”http://code.jquery.com/jquery-2.1.1.min.js”></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			new Vue({
+				el: "#app",//将vue挂载到html中你创建的那个带id="app"上
+				data: function() {
+					return {
+						showThis: true
+					}
+				},
+				mounted: function() {
+					var DeviceMain;//主头
+					var Video;//视频
+					
+					function plugin()
+			        {
+			            return document.getElementById('view1');
+			        }
+				
+			        function view()
+			        {
+			            return document.getElementById('view1');
+			        }
+			        	
+					function thumb()
+			        {
+			            return document.getElementById('thumb1');
+			        }
+					
+					function addEvent(obj, name, func)
+			        {
+			            if (obj.attachEvent) {
+			                obj.attachEvent("on"+name, func);
+			            } else {
+			                obj.addEventListener(name, func, false); 
+			            }
+			        }
+					function OpenVideo()
+					{		
+							var dev = DeviceMain;
+							var nResolution = 0;
+							var SelectType= 2;
+							Video = plugin().Device_CreateVideo(dev, nResolution, SelectType);
+							if (Video)
+							{
+								view().View_SelectVideo(Video);
+								view().View_SetText("打开视频中，请等待...", 0);
+									
+							}				
+					}
+					
+					function CloseVideo()
+					{
+						if (Video)
+						{
+							view().View_SetText("", 0);
+							plugin().Video_Release(Video);
+							Video = null;
+						}		
+					}	
+					function Load()
+					{
+						//设备接入和丢失
+						//type设备类型， 1 表示视频设备， 2 表示音频设备
+						//idx设备索引
+						//dbt 1 表示设备到达， 2 表示设备丢失
+						
+						addEvent(plugin(), 'DevChange', function (type, idx, dbt) 
+						{
+							if(1 == type)//视频设备
+							{
+								if(1 == dbt)//设备到达
+								{
+									var deviceType = plugin().Global_GetEloamType(1, idx);
+									if(1 == deviceType)//主摄像头
+									{
+										if(null == DeviceMain)
+										{
+											DeviceMain = plugin().Global_CreateDevice(1, idx);										
+											if(DeviceMain)
+											{
+												
+												OpenVideo();//是主头自动打开视频
+											}
+										}
+									}
+								}
+								else if(2 == dbt)//设备丢失
+								{
+
+								}
+							}
+						});
+						
+						var title = document.title;
+						document.title = title + plugin().version;
+					
+						view().Global_SetWindowName("view");
+						thumb().Global_SetWindowName("thumb");
+
+						plugin().Global_InitDevs();
+					}
+						
+					function Unload()
+					{
+						if (Video)
+						{
+							view().View_SetText("", 0);
+							plugin().Video_Release(Video);
+							Video = null;
+						}
+						if(DeviceMain)
+						{
+							plugin().Device_Release(DeviceMain);
+							DeviceMain = null;	
+						}
+						plugin().Global_DeinitDevs();
+					}
+					
+					function Scan()
+					{	
+						var date = new Date();
+						var yy = date.getFullYear().toString();
+						var mm = (date.getMonth() + 1).toString();
+						var dd = date.getDate().toString();
+						var hh = date.getHours().toString();
+						var nn = date.getMinutes().toString();
+						var ss = date.getSeconds().toString();
+						var mi = date.getMilliseconds().toString();
+						var Name = "C:\\" + yy + mm + dd + hh + nn + ss + mi + ".jpg";
+					
+						var img = plugin().Video_CreateImage(Video, 0, view().View_GetObject());
+						var bSave = plugin().Image_Save(img, Name, 0);
+						debugger
+						console.log(Video + '---' + view().View_GetObject());
+						if (bSave)
+						{
+							view().View_PlayCaptureEffect();
+							thumb().Thumbnail_Add(Name);
+						}
+						
+						// plugin().Image_Release(img);
+					}
+
+					this.$nextTick(function() {
+						Load();
+						document.getElementById('submitPhotograph').onclick = function() {
+							Scan();
+						}
+					});	
+				},
+				methods: {
+					// 显示弹窗
+					showDialog: function() {
+						this.showThis = true;
+					},
+					// 点击拍照
+					submit: function() {
+
+					}
+				}
+			});
+		}
+	</script>
+</head>
+<body>
+	<div id="app">
+		<!-- <el-button type="primary" @click="showDialog">拍照</el-button> -->
+		<el-dialog title="进件拍照" :visible.sync="showThis" width="70%">
+			<object id="view1" type="application/x-eloamplugin" width="600" height="400" name="view"></object>
+			<br />
+			<object id="thumb1" type="application/x-eloamplugin" width="1208" height="150" name="thumb"></object>
+			<br />
+			<span slot="footer" class="dialog-footer">
+				<el-button type="primary" @click="submit" id="submitPhotograph">确定拍照</el-button>
+			</span>
+		</el-dialog>
+	</div>
+</body>
+</html>

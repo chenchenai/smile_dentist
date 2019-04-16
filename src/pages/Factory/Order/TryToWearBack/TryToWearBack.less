@@ -1,0 +1,85 @@
+.TryToWearBack{
+	.el-dialog{
+		width: 1180px;
+		height: 630px;
+		.el-dialog__body{
+			padding-top: 0px;
+			.form{
+				height: 100px;
+				.el-form-item{
+					float: left;
+					width: 320px;
+					margin-right: 54px;
+					position: relative;
+					margin-bottom: 18px;
+					&:nth-child(1){
+						margin-right: 80px;
+					}
+					&:nth-child(3){
+						.el-input{
+							width: 642px;
+						}
+					}
+					.el-form-item__label{
+						height: 28px;
+						line-height: 28px;
+					}
+					.errorText{
+						height: 16px;
+						line-height: 16px;
+						font-size: 12px;
+						color: #f56c6c;
+					}
+					.el-input{
+						width: 240px;
+					}
+					.el-form-item__content, .el-input, .el-input__inner, .el-select__caret{
+						height: 28px;
+						line-height: 28px;
+					}
+					.el-input__prefix{
+						left: 210px!important;
+						width: 25px;
+						.el-icon-date{
+							line-height: 28px;
+						}
+					}
+					.el-date-editor{
+						.el-input__inner{
+							padding-left: 15px;
+						}
+					}
+				}
+			}			
+			.dialog-footer{
+				padding-top: 30px;
+				height: 40px;
+				width: 1120px;
+				position: relative;
+				p{
+					width: 173px;
+					height: 20px;
+					line-height: 20px;
+					position: absolute;
+				    left: 50%;
+				    margin-left: -87px;
+				    bottom: -23px;
+				    background: #fff;
+				}
+				button{
+					padding: 0;
+					width: 176px;
+					svg{
+						width: 174px;
+					}
+				}
+				.el-button--primary.is-disabled{
+					background: none;
+				}
+				.el-button--primary{
+					background: none;
+				}
+			}
+		}
+	}
+}

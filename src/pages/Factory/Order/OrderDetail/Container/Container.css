@@ -1,0 +1,140 @@
+.OrderDetail .el-dialog {
+  width: 1180px;
+  height: 630px;
+}
+.OrderDetail .el-dialog .el-dialog__header {
+  padding: 30px;
+  padding-bottom: 0;
+}
+.OrderDetail .el-dialog .el-dialog__body {
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+.OrderDetail .el-dialog .el-dialog__body .tabs {
+  height: 30px;
+  margin-bottom: 10px;
+}
+.OrderDetail .el-dialog .el-dialog__body .tabs div {
+  width: 80px;
+  height: 28px;
+  padding: 0;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid #e2e2e2;
+  margin-right: 10px;
+  float: left;
+  cursor: pointer;
+}
+.OrderDetail .el-dialog .el-dialog__body .tabs div.active {
+  background: #e2e2e2;
+  color: #303133;
+}
+.OrderDetail .el-dialog .el-dialog__body .tab-content {
+  height: 460px;
+}
+.OrderDetail .el-dialog .el-dialog__body .baseTable .has-gutter th {
+  background: #f5f5f5;
+  padding: 0;
+  height: 40px;
+  line-height: 40px;
+  border-color: #e2e2e2;
+}
+.OrderDetail .el-dialog .el-dialog__body .baseTable .el-table,
+.OrderDetail .el-dialog .el-dialog__body .baseTable .el-table--border,
+.OrderDetail .el-dialog .el-dialog__body .baseTable .el-table--group,
+.OrderDetail .el-dialog .el-dialog__body .baseTable .el-table td {
+  border-color: #e2e2e2;
+}
+.OrderDetail .el-dialog .el-dialog__body .baseTable > .el-table > .el-table__body-wrapper {
+  max-height: 398px;
+  overflow-y: auto;
+}
+.OrderDetail .el-dialog .el-dialog__body .baseTable .el-table td.is-center {
+  height: 40px;
+  padding: 0;
+}
+.OrderDetail .el-dialog .dialog-footer .el-button {
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid #fe8127;
+  border-radius: 4px;
+  color: #fe8127;
+}
+.OrderDetail .el-dialog .dialog-footer .el-button:nth-child(1) {
+  border-color: #cccccc;
+  color: #333;
+}
+.alertDialog .el-message-box__btns button {
+  padding: 0;
+  height: 30px;
+  width: 80px;
+  line-height: 30px;
+  background: none;
+  outline: none;
+}
+.alertDialog .el-message-box__btns button span {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+.alertDialog .el-message-box__btns button:first-child {
+  background-color: #FE8127;
+  color: #fff;
+}
+.alertDialog .el-message-box__btns button:first-child:hover {
+  background: #e6a23c;
+  border-color: #e77a2b;
+}
+.alertDialog .el-message-box__btns button:first-child:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.alertDialog .el-message-box__btns button:last-child {
+  background-color: #fff;
+  color: #FE8127;
+  border-color: #FE8127;
+}
+.alertDialog .el-message-box__btns button:last-child:hover {
+  border-color: #e77a2b;
+}
+.alertDialog .el-message-box__btns button:last-child:active {
+  background: #b65916;
+  color: #fff;
+}
+.operationOrderDialog .el-dialog {
+  height: 400px;
+}
+.operationOrderDialog .el-dialog .el-dialog__header {
+  padding-top: 20px;
+}
+.operationOrderDialog .el-dialog .el-dialog__body {
+  padding-bottom: 0;
+}
+.showFinishOrder .el-input__inner,
+.showFinishOrder .el-input {
+  width: 300px;
+  margin-right: 10px;
+}
+.showFinishOrder .el-textarea__inner {
+  width: 328px;
+}
+.showFinishOrder .el-dialog {
+  height: 304px;
+}
+.showFinishOrder .el-dialog .el-form-item:first-child {
+  margin-bottom: 5px;
+}
+.showFinishOrder .el-dialog .el-dialog__footer {
+  padding: 0;
+}
+.showVoidOrder .el-dialog {
+  height: 270px;
+}
+.showVoidOrder .el-dialog .el-dialog__footer {
+  padding: 0;
+}
+.showVoidOrder .el-dialog .el-textarea__inner {
+  width: 328px;
+}

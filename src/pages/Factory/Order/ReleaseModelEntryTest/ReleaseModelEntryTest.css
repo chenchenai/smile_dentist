@@ -1,0 +1,71 @@
+.ReleaseModelEntryTest .el-dialog {
+  width: 1180px;
+  height: 620px;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body {
+  padding-top: 0px;
+  height: calc(100% - 86px);
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .form {
+  height: 64px;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .form .el-form-item {
+  float: left;
+  width: 320px;
+  margin-right: 54px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .has-gutter th {
+  background: #f5f5f5;
+  color: #333;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .el-table--border,
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .el-table--group {
+  border-color: #e2e2e2;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .el-table--border td,
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .el-table--border th {
+  border-color: #e2e2e2;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .checkTable {
+  margin-top: 20px;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .el-table__empty-block {
+  height: 50px;
+  min-height: 50px;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .scrollBox {
+  max-height: 445px;
+  height: 445px;
+  overflow-y: auto;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .dialog-footer {
+  padding-top: 30px;
+  height: 40px;
+  width: 1120px;
+  position: relative;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .dialog-footer p {
+  width: 173px;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -87px;
+  bottom: -23px;
+  background: #fff;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .dialog-footer button {
+  padding: 0;
+  width: 176px;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .dialog-footer button svg {
+  width: 174px;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .dialog-footer .el-button--primary.is-disabled {
+  background: none;
+}
+.ReleaseModelEntryTest .el-dialog .el-dialog__body .dialog-footer .el-button--primary {
+  background: none;
+}

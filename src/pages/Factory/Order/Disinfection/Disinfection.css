@@ -1,0 +1,99 @@
+.EndProDisinfection .el-dialog {
+  width: 1180px;
+  height: 630px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body {
+  padding-top: 0px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form {
+  height: 100px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item {
+  float: left;
+  width: 320px;
+  margin-right: 54px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item:nth-child(3n) {
+  margin-right: 0;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-form-item__label {
+  height: 28px;
+  line-height: 28px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-input {
+  width: 240px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-form-item__content,
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-input,
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-input__inner,
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-input__prefix {
+  left: 210px!important;
+  width: 25px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-input__prefix i {
+  line-height: 28px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .el-form-item .el-date-editor .el-input__inner {
+  padding-left: 15px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .startDate .el-form-item__label {
+  width: 100px!important;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .startDate .el-form-item__content {
+  margin-left: 100px!important;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .timeLength .el-form-item__content {
+  width: 240px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .timeLength .el-form-item__content .el-input,
+.EndProDisinfection .el-dialog .el-dialog__body .form .timeLength .el-form-item__content .el-input__inner {
+  width: 130px;
+  margin-right: 8px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .date .el-form-item__label {
+  width: 100px!important;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .form .date .el-form-item__content {
+  margin-left: 100px!important;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .dialog-footer {
+  padding-top: 30px;
+  height: 40px;
+  width: 1120px;
+  position: relative;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .dialog-footer p {
+  width: 173px;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -87px;
+  bottom: -23px;
+  background: #fff;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .dialog-footer button {
+  padding: 0;
+  width: 176px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .dialog-footer button svg {
+  width: 174px;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .dialog-footer .el-button--primary.is-disabled {
+  background: none;
+}
+.EndProDisinfection .el-dialog .el-dialog__body .dialog-footer .el-button--primary {
+  background: none;
+}

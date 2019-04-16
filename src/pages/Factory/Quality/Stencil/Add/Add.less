@@ -1,0 +1,165 @@
+.addStencil{
+	.el-dialog{
+		width: 1180px;
+		height: 530px;
+		max-height: 530px;
+		overflow-y: auto;
+		.el-dialog__body{
+			padding-top: 0;
+		}
+		.slotDiv {
+      .addCont{
+        //height: 242px;
+        .el-form{
+          .baseInfon{
+            margin-right: 192px;
+            float: left;
+            .el-form-item{
+              float: left;
+              width: 320px;
+              margin-right: 54px;
+              position: relative;
+              &:nth-child(3n){
+                margin-right: 0;
+              }
+              .el-form-item__label{
+                height: 28px;
+                line-height: 28px;
+              }
+              .errorText{
+                height: 16px;
+                line-height: 16px;
+                font-size: 12px;
+                color: #f56c6c;
+              }
+              .el-input{
+                width: 240px;
+              }
+              .el-form-item__content, .el-input, .el-input__inner, .el-select__caret{
+                height: 28px;
+                line-height: 28px;
+              }
+            }
+            .isRequired{
+              .el-form-item__label::before{
+                content: "*";
+                color: #f56c6c;
+                position: absolute;
+                left: -6px;
+              }
+            }
+          }
+
+          .baseChose{
+            float: left;
+            position: relative;
+            .el-radio__inner{
+              width: 16px;
+              height: 16px;
+              border-radius: 50%;
+              border: 1px solid #CCCCCC;
+              background-color: #fff;
+            }
+            .el-radio__inner::after{
+              width: 8px;
+              height: 8px;
+              border-radius: 50%;
+              background-color: #3672C6;
+            }
+            .el-radio{
+              line-height: 40px;
+            }
+            .isRequired{
+              .el-form-item__label::before{
+                content: "*";
+                color: #f56c6c;
+                position: absolute;
+                left: -6px;
+              }
+            }
+          }
+        }
+        .tableDate{
+          .table{
+            .el-table{
+              th:first-child .cell{
+                font-weight: bolder;
+                font-size: 22px;
+                color: #3672C6;
+                cursor: pointer;
+              }
+              th{
+                padding: 8px 0;
+                color: #333;
+                background-color: #F5F5F5;
+
+              }
+              tr{
+                td:first-child .cell{
+                  cursor: pointer;
+                }
+                td{
+                  padding: 8px 0;
+                  color: #666;
+                  background-color: #fff;
+                  .el-input__inner{
+                    border:none
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+
+      .dialog-footer{
+        padding-top: 0;
+        padding-bottom: 0px;
+        height: 30px;
+        margin-top: 20px;
+        .submit{
+          background: #FE8127;
+          width: 80px;
+          height: 30px;
+          line-height: 30px;
+          padding: 0;
+          border-color: #FE8127;
+          margin-right: 30px;
+          &:hover{
+            background: #e77a2b;
+            border-color: #e77a2b;
+          }
+          &:active{
+            background: #b65916;
+            border-color: #b65916;
+          }
+        }
+        .cancel{
+          background: none;
+          border: 1px solid #FE8127;
+          height: 30px;
+          width: 80px;
+          padding: 0;
+          line-height: 30px;
+          color: #FE8127;
+          &:hover{
+            color: #e77a2b;
+            border-color: #e77a2b;
+          }
+          &:active{
+            color: #b65916;
+            border-color: #e77a2b;
+          }
+        }
+      }
+    }
+	}
+}
+
+.autoHeight {
+	.el-select-dropdown__list{
+		max-height: 178px;
+		overflow-y: auto;
+	}
+}

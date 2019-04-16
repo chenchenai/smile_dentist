@@ -1,0 +1,115 @@
+.specialRequirements {
+  margin-top: 20px;
+}
+.specialRequirements .title {
+  color: #3672C6;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.specialRequirements .title p {
+  float: left;
+  margin-right: 8px;
+  font-weight: bold;
+}
+.specialRequirements .occlusion label {
+  width: 50px;
+}
+.specialRequirements .occlusion label span {
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+}
+.specialRequirements .approximalSurface label,
+.specialRequirements .embrasuresDeep label {
+  width: 76px;
+}
+.specialRequirements .approximalSurface label span,
+.specialRequirements .embrasuresDeep label span {
+  width: 76px;
+}
+.specialRequirements .inPlace label,
+.specialRequirements .lipDesing label {
+  width: 66px;
+}
+.specialRequirements .inPlace label span,
+.specialRequirements .lipDesing label span {
+  width: 66px;
+}
+.specialRequirements .bridgeType label,
+.specialRequirements .cermetsDesign label {
+  width: 100px;
+}
+.specialRequirements .bridgeType label span,
+.specialRequirements .cermetsDesign label span {
+  width: 100px;
+}
+.specialRequirements .el-row {
+  margin-right: -17px !important;
+  margin-left: -17px !important;
+}
+.specialRequirements .el-col {
+  padding-left: 17px!important;
+  padding-right: 17px!important;
+}
+.specialRequirements .col {
+  float: left;
+  padding-right: 0!important;
+}
+.specialRequirements .col1 {
+  width: 300px;
+  margin-right: 63px;
+}
+.specialRequirements .col2 {
+  width: 300px;
+  margin-right: 63px;
+}
+.specialRequirements .col3 {
+  width: 520px;
+}
+.specialRequirements .attachment {
+  padding-left: 17px;
+}
+.specialRequirements .attachment .el-form-item__content {
+  width: 510px!important;
+}
+.specialRequirements .uploadImg {
+  padding-left: 17px;
+}
+.specialRequirements .upload p {
+  width: 36px;
+  height: 34px;
+  background: url('../../../../../../static/images/icon/img18.png') 100% 100%;
+}
+.specialRequirements .el-upload-list {
+  padding: 0;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.specialRequirements .el-upload-list .el-upload-list__item-name {
+  display: none;
+}
+.specialRequirements .el-upload-list .el-upload-list__item .el-icon-close {
+  display: block;
+  z-index: 99;
+  top: 2px;
+  right: 0px;
+}
+.specialRequirements .el-upload-list li {
+  padding: 0;
+  width: 77px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.specialRequirements .el-upload-list li:nth-child(13n) {
+  margin-right: 0;
+}
+.specialRequirements .el-upload-list li img {
+  width: 77px;
+  height: 36px;
+  margin-left: 0;
+  border-radius: 5px;
+}

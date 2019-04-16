@@ -1,0 +1,12 @@
+@media print {
+  .Packing .el-dialog {
+    width: 100%;
+    height: 100%;
+  }
+  .Packing .el-dialog .notPrint {
+    display: none;
+  }
+  .Packing .el-dialog .print {
+    display: block;
+  }
+}

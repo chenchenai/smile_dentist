@@ -1,0 +1,158 @@
+.FactoryInfo {
+  background-color: #fff;
+  border: 1px solid #d9dce1;
+  padding: 30px;
+  min-height: calc(100% - 64px);
+}
+.FactoryInfo h4 {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.FactoryInfo .el-item {
+  overflow: hidden;
+  margin-bottom: 18px;
+  min-height: 32px;
+}
+.FactoryInfo .el-item .el-label {
+  float: left;
+  width: 105px;
+  margin-right: 30px;
+  text-align: left;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+  min-height: 30px;
+  line-height: 30px;
+}
+.FactoryInfo .el-item .el-content {
+  float: left;
+  height: 31px;
+  width: 294px;
+}
+.FactoryInfo .el-item .el-content .el-input,
+.FactoryInfo .el-item .el-content .el-input__inner {
+  height: 30px;
+  line-height: 30px;
+}
+.FactoryInfo .el-item .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  border-color: #FE8127;
+  margin-right: 20px;
+  padding: 0;
+}
+.FactoryInfo .el-item .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.FactoryInfo .el-item .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.FactoryInfo .el-item .submit span {
+  width: 80px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+.FactoryInfo .el-item .cancel {
+  background: none;
+  margin-top: 30px;
+  border: 1px solid #FE8127;
+  height: 40px;
+  width: 80px;
+  padding: 0;
+  line-height: 40px;
+  color: #FE8127;
+}
+.FactoryInfo .el-item .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.FactoryInfo .el-item .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.FactoryInfo .el-item .cancel span {
+  width: 80px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+.FactoryInfo .btns .el-content {
+  height: auto;
+}
+.FactoryInfo .addressItem .el-select__caret {
+  line-height: 30px;
+}
+.FactoryInfo .addressItem .el-select {
+  float: left;
+  width: 90px;
+  margin-right: 12px;
+}
+.FactoryInfo .addressItem .el-content {
+  width: auto;
+}
+.FactoryInfo .longItem .el-label {
+  line-height: 15px;
+}
+.FactoryInfo .noMarginItem {
+  margin-bottom: 0;
+}
+.FactoryInfo .uploadItem {
+  min-height: 30px;
+  height: auto;
+}
+.FactoryInfo .uploadItem .el-content {
+  min-height: 30px;
+  height: auto;
+  width: 400px;
+}
+.FactoryInfo .uploadItem .el-content .el-button {
+  background: url('../../../../../static/images/icon/img18.png') 100% 100%;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.FactoryInfo .uploadItem .el-upload {
+  float: left;
+}
+.FactoryInfo .uploadItem .el-upload-list {
+  max-height: 36px;
+  float: left;
+  margin-left: 30px;
+}
+.FactoryInfo .uploadItem .el-upload-list li {
+  padding: 0;
+  margin-top: 10px;
+  width: 77px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.FactoryInfo .uploadItem .el-upload-list li .el-upload-list__item-name {
+  display: none;
+}
+.FactoryInfo .uploadItem .el-upload-list li .el-upload-list__item-thumbnail {
+  margin-left: 0;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+}
+.FactoryInfo .border {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 1px;
+  border-top: 1px solid #eeeeee;
+}

@@ -1,0 +1,72 @@
+.Packing .el-dialog {
+  width: 1162px;
+  height: 630px;
+}
+.Packing .el-dialog .print {
+  display: none;
+}
+.Packing .el-dialog .el-dialog__body {
+  padding-top: 0px;
+}
+.Packing .el-dialog .el-dialog__body .el-radio-group {
+  margin-bottom: 20px;
+}
+.Packing .el-dialog .el-dialog__body .el-checkbox {
+  margin-bottom: 14px;
+}
+.Packing .el-dialog .el-dialog__body .form {
+  height: 40px;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item {
+  float: left;
+  width: 320px;
+  margin-right: 54px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item:nth-child(3n) {
+  margin-right: 0;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-form-item__label {
+  height: 28px;
+  line-height: 28px;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-input {
+  width: 240px;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-form-item__content,
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-input,
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-input__inner,
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-input__prefix {
+  left: 210px!important;
+  width: 25px;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-input__prefix .el-icon-date {
+  line-height: 28px;
+}
+.Packing .el-dialog .el-dialog__body .form .el-form-item .el-date-editor .el-input__inner {
+  padding-left: 15px;
+}
+.Packing .el-dialog .dialog-footer {
+  margin-top: 20px;
+}
+.Packing .el-dialog .dialog-footer .left,
+.Packing .el-dialog .dialog-footer .el-checkbox {
+  float: right;
+  margin-top: 24px;
+  margin-right: 40px;
+}
+.Packing .el-dialog .dialog-footer button {
+  border-color: #d5d5d5;
+  float: right;
+}

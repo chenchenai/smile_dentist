@@ -1,0 +1,165 @@
+.detail {
+  width: 1120px;
+  height: 350px;
+  border: 1px solid #e2e2e2;
+  position: relative;
+}
+.detail .position {
+  height: 350px;
+  max-height: 350px;
+  overflow-y: auto;
+  display: flex;
+}
+.detail .border {
+  position: absolute;
+  width: 1px;
+  height: 352px;
+  border-right: 1px solid #e2e2e2;
+  top: -1px;
+  right: 396px;
+}
+.detail .left {
+  flex: 1;
+  float: left;
+  padding: 16px 20px;
+  height: 318px;
+}
+.detail .left .fromItem {
+  width: 206px;
+  margin-right: 30px;
+}
+.detail .left .fromItem:nth-child(3n) {
+  margin-right: 0;
+}
+.detail .left .el-form {
+  height: 134px;
+  font-size: 14px;
+  border-bottom: 1px dashed #e2e2e2;
+}
+.detail .left .el-form .el-form-item {
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 18px;
+  color: #777777;
+  float: left;
+}
+.detail .left .el-form .el-form-item:nth-child(3n) {
+  margin-right: 0;
+}
+.detail .left .el-form .el-form-item__label {
+  height: 14px;
+  line-height: 14px;
+  color: #777;
+}
+.detail .left .el-form .el-input {
+  width: 240px;
+}
+.detail .left .el-form .el-form-item__content,
+.detail .left .el-form .el-input,
+.detail .left .el-form .el-input__inner,
+.detail .left .el-form .el-select__caret {
+  height: 14px;
+  line-height: 14px;
+  color: #333;
+}
+.detail .left .bot .toothItem {
+  height: 58px;
+  margin-top: 20px;
+}
+.detail .left .bot .toothItem > div {
+  float: left;
+}
+.detail .left .bot .toothItem .label {
+  float: left;
+  margin-right: 8px;
+  line-height: 58px;
+  color: #777;
+}
+.detail .left .bot .toothItem .tooth {
+  margin-right: 42px;
+}
+.detail .left .bot .toothItem .tooth .text {
+  height: 58px;
+  width: 151px;
+  float: left;
+  color: #333;
+}
+.detail .left .bot .toothItem .tooth .text .topPos {
+  height: 28px;
+}
+.detail .left .bot .toothItem .tooth .text .topPos > p {
+  float: left;
+  width: 75px;
+  height: 28px;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.detail .left .bot .toothItem .tooth .text .topPos > p:last-child {
+  border-right: 0;
+}
+.detail .left .bot .toothItem .tooth .text .botPos {
+  height: 28px;
+}
+.detail .left .bot .toothItem .tooth .text .botPos > p {
+  float: left;
+  width: 75px;
+  height: 28px;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.detail .left .bot .toothItem .tooth .text .botPos > p:last-child {
+  border-right: 0;
+}
+.detail .left .bot .toothItem .item .text {
+  line-height: 58px;
+  color: #333;
+}
+.detail .left .bot .toothItem .product {
+  width: 212px;
+  margin-right: 30px;
+}
+.detail .left .bot .toothItem .colorImetric {
+  width: 100px;
+  margin-right: 24px;
+}
+.detail .left .bot .remark,
+.detail .left .bot .suggestion {
+  margin-top: 40px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.detail .left .bot .remark .label,
+.detail .left .bot .suggestion .label {
+  float: left;
+  margin-right: 16px;
+}
+.detail .left .bot .remark .text,
+.detail .left .bot .suggestion .text {
+  float: left;
+  width: 610px;
+  color: #333;
+}
+.detail .right {
+  width: 379px;
+  float: left;
+  height: 100%;
+}
+.detail .right .tab {
+  height: 40px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.detail .right .tab p {
+  width: 189px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.detail .right .tab p:first-child {
+  border-right: 1px solid #e2e2e2;
+}
+.detail .right .tab .cur {
+  background: #eeeeee;
+}

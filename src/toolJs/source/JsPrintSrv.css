@@ -1,0 +1,656 @@
+/*window frame*/
+.ZK-mask{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(0, 0, 0, 0.3);
+}
+.ZK-popup{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 200px;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+.ZK-popup .popupcontent{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+}
+.ZK-popup .imageloading{
+	width: 48px; 
+	height: 48px;
+	margin-right: 15px;
+	background-image: url("./loading.gif");
+	background-size: contain;
+}
+.ZK-popup .imagewarning{
+	width: 48px; 
+	height: 48px;
+	margin-right: 15px;
+	background-image: url("./warning.gif");
+	background-size: contain;
+}
+.ZK-popup .imageerror{
+	width: 48px; 
+	height: 48px;
+	margin-right: 15px;
+	background-image: url("./error.gif");
+	background-size: contain;
+}
+.ZK-popup .text{}
+.ZK-winframe{
+	visibility: hidden;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+}
+.ZK-wintitle{
+	display: block;
+	box-sizing: border-box;
+	height: 40px;
+	min-height: 40px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	background-color: #444;
+	color: #fff;
+	position: relative;
+}
+.ZK-contentwrapper{
+	display: flex;
+	flex-grow: 1;
+	width: 100%;
+	/*background-color: #666;*/
+}
+.ZK-winbtn{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	height: 40px;
+	min-height: 40px;
+	width: 100%;
+}
+.ZK-winbtn .disable{
+	color: #ccc;
+	cursor: auto;
+}
+.ZK-wintitle .title{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.ZK-wintitle .closebtn{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+}
+.ZK-wintitle .closebtn:before{
+	content: "X";
+	display:-webkit-box;
+	text-align: -webkit-center;
+	line-height: 30px;
+	font-size: 24px;
+}
+.ZK-winbtn .btn{
+	display: flex;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 27px;
+	line-height: 26px;
+	font-size: 14px;
+	margin-right: 15px;
+}
+.ZK-winbtn .btn span{
+	padding: 0 15px;
+}
+.ZK-winbtn .btn:last-child{
+	margin-right: 30px;
+}
+.ZK-winbtn .btn.hover,
+.ZK-wintitle .closebtn:hover{
+	background-color: #999;
+	cursor: pointer;
+}
+
+/*设置视图*/
+.setview{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 15px 15px 0 15px;
+}
+.setview .printerlist{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 20%;
+	min-width: 200px;
+	border: 1px solid #ccc;
+	margin-right: 15px;
+	overflow: auto;
+}
+.setview .printerparms{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	border:  1px solid #ccc;
+	overflow-y: scroll;
+	padding: 5px 10px;
+}
+.setview .printerlist .printeritem{
+	position: relative;
+	padding: 0 10px;
+	width: calc(100% - 20px);
+	height: 30px;
+	line-height: 30px;
+}
+.setview .printerlist .printeritem.selected{
+	background-color: #ccc;
+}
+.setview .printerlist .printeritem .hover{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.setview .printerlist .printeritem .hover:hover{
+	background-color: #333;
+	color: #fff;
+}
+.setview .printerlist .printeritem:hover{
+	background-color: #999;
+	cursor: pointer;
+}
+.setview .printerparms .previewblock,
+.setview .printerparms .paramblock{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.setview .printerparms .previewblock .blocktitle,
+.setview .printerparms .paramblock .blocktitle{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #999;
+	border-bottom: 1px dotted #ccc;
+}
+.setview .printerparms .previewblock .blockcontent,
+.setview .printerparms .paramblock .blockcontent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;   
+	padding-left: 10px;
+	margin-bottom: 5px;
+	font-size: 14px; 
+	color: #333;
+	align-items: center;
+	justify-content: flex-start;
+}
+.setview .printerparms .paramblock .paramitem{
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	min-width: 270px;
+	max-width: 350px;
+	margin-right: 20px;
+	height: 30px;
+	position: relative;
+}
+.setview .printerparms .paramitem .itemname{
+	display: flex;
+	min-width: 50px;
+	padding-right: 5px;
+	color: #999;
+	align-items: center;
+	justify-content: flex-start;
+}
+.setview .printerparms .paramitem .itemvalue{
+	color: #333;
+	font-size: 14px; padding: 2px;
+}
+.setview .printerparms .paramitem div.itemvalue{
+	outline: 0; border: 1px solid #ccc; 
+	/*border-color: rgba(82, 168, 236, 0.8); */
+	border-radius: 5px;
+	box-sizing: border-box;
+	width: calc(100% - 20px);
+	margin: 2px 0;
+	/*box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 4px rgba(82, 168, 236, 0.6);*/
+	word-wrap: break-word;
+	overflow-x: hidden; overflow-y: auto;
+}
+.setview .printerparms .paramitem div.itemvalue.editable{
+	border: 1px solid #a0b3d6;
+}
+.setview .printerparms .paramitem .combobtn{
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	background: url("./menu.png") -384px -24px;
+}
+.setview .printerparms .paramitem .spinbtn{
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+}
+.setview .printerparms .paramitem .spinbtn .spinup{
+	height: 12px;
+	width: 24px;
+	background: url("./menu.png") -384px 0;
+}
+.setview .printerparms .paramitem .spinbtn .spindown{
+	height: 12px;
+	width: 24px;
+	background: url("./menu.png") -384px -12px;
+}
+.setview .printerparms .paramitem .combobtn:hover,
+.setview .printerparms .paramitem .spinup:hover,
+.setview .printerparms .paramitem .spindown:hover,
+.setview .combopopup .popupitem:hover,
+.setview .combopopup .popupitem.hover{
+	background-color: #999;
+}
+.setview .combomask{
+	display: none;
+	position: fixed;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0);
+}
+.setview .combopopup{
+	position: fixed;
+	display: none;
+	width: 100%;
+	background-color: #fff;
+	z-index: 1000;
+	overflow-y: auto;
+	-webkit-box-shadow: 2px 2px 5px #d3d6da;
+	        box-shadow: 2px 2px 5px #d3d6da;
+}
+.setview .combopopup .popupitem{
+	width: calc(100% - 20px);
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+/*模板预览*/
+.templpreview{
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.templpreview .menu{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	box-sizing: border-box;
+	height: 40px;
+	min-height: 40px;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 0 2px;
+	position: relative;
+}
+.templpreview .menu:first-child{
+	border-bottom: none;
+}
+.templpreview .menu:last-child{
+	border-bottom: none;
+}
+.templpreview .menu .menugroup{
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+}
+.templpreview .menu .menuitem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+	height: 24px;
+	margin: 1px;
+	position: relative;
+}
+.templpreview .menu .menuinput {
+	width: 40px;
+	height: 24px;
+	outline: 0; border: 1px solid #ccc; 
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 2px 0 2px;
+	padding-left: 2px;
+	word-wrap: normal;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 24px;
+}
+.templpreview .menu .menualias{
+	width: 120px;
+	height: 24px;
+	outline: 0; border: 1px solid #ccc; 
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 2px 0 2px;
+	padding-left: 2px;
+	word-wrap: normal;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 24px;
+}
+.templpreview .menu .menutext{
+	width: 200px;
+	height: 24px;
+	outline: 0; border: 1px solid #ccc; 
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 2px 0 2px;
+	padding-left: 2px;
+	word-wrap: normal;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 24px;
+}
+.templpreview .menu .menufontsize{
+	width: 60px;
+	height: 24px;
+	outline: 0; border: 1px solid #ccc; 
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 2px 0 2px;
+	padding-left: 2px;
+	word-wrap: normal;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 24px;
+}
+.templpreview .menu .menuinput.editable,
+.templpreview .menu .menualias.editable,
+.templpreview .menu .menutext.editable{
+	border: 1px solid #a0b3d6;
+}
+.templpreview .validarea .image img,
+.templpreview .menu .menuitem img{
+	width: 100%;
+	height: 100%;
+}
+.templpreview .menu .menuitem.hover{
+	background-color: #d5e1f2;
+	border: 1px solid #a3bde3;
+	box-sizing: border-box;
+}
+.templpreview .menu .menuitem img.bgimage{
+	background: url("./menu.png") 0 0;
+}
+.templpreview .menu .menuitem input{
+ 	position: absolute;
+ 	font-size: 100px;
+ 	right: 0;
+ 	top: 0;
+ 	opacity: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+.templpreview .menu .menuitem img.bgimage.disable{
+	background: url("./menu.png") 0 -24px;
+}
+.templpreview .menu .menuitem img.text{
+	background: url("./menu.png") -24px 0;
+}
+.templpreview .menu .menuitem img.text.disable{
+	background: url("./menu.png") -24px -24px;
+}
+.templpreview .menu .menuitem img.rect{
+	background: url("./menu.png") -48px 0;
+}
+.templpreview .menu .menuitem img.rect.disable{
+	background: url("./menu.png") -48px -24px;
+}
+.templpreview .menu .menuitem img.ellipse{
+	background: url("./menu.png") -72px 0;
+}
+.templpreview .menu .menuitem img.ellipse.disable{
+	background: url("./menu.png") -72px -24px;
+}
+.templpreview .menu .menuitem img.line{
+	background: url("./menu.png") -96px 0;
+}
+.templpreview .menu .menuitem img.line.disable{
+	background: url("./menu.png") -96px -24px;
+}
+.templpreview .menu .menuitem img.barcode{
+	background: url("./menu.png") -120px 0;
+}
+.templpreview .menu .menuitem img.barcode.disable{
+	background: url("./menu.png") -120px -24px;
+}
+.templpreview .menu .menuitem img.qrcode{
+	background: url("./menu.png") -144px 0;
+}
+.templpreview .menu .menuitem img.qrcode.disable{
+	background: url("./menu.png") -144px -24px;
+}
+.templpreview .menu .menuitem img.alignleft{
+	background: url("./menu.png") -168px 0;
+}
+.templpreview .menu .menuitem img.alignleft.disable{
+	background: url("./menu.png") -168px -24px;
+}
+.templpreview .menu .menuitem img.alignmiddle{
+	background: url("./menu.png") -192px 0;
+}
+.templpreview .menu .menuitem img.alignmiddle.disable{
+	background: url("./menu.png") -192px -24px;
+}
+.templpreview .menu .menuitem img.alignright{
+	background: url("./menu.png") -216px 0;
+}
+.templpreview .menu .menuitem img.alignright.disable{
+	background: url("./menu.png") -216px -24px;
+}
+.templpreview .menu .menuitem img.bgremove{
+	background: url("./menu.png") -240px 0;
+}
+.templpreview .menu .menuitem img.bgremove.disable{
+	background: url("./menu.png") -240px -24px;
+}
+.templpreview .menu .menuitem img.delete{
+	background: url("./menu.png") -264px 0;
+}
+.templpreview .menu .menuitem img.delete.disable{
+	background: url("./menu.png") -264px -24px;
+}
+.templpreview .menu .menuitem img.image{
+	background: url("./menu.png") -288px 0;
+}
+.templpreview .menu .menuitem img.image.disable{
+	background: url("./menu.png") -288px -24px;
+}
+.templpreview .menu .menuitem img.repeat{
+	background: url("./menu.png") -312px 0;
+}
+.templpreview .menu .menuitem img.repeat.disable{
+	background: url("./menu.png") -312px -24px;
+}
+.templpreview .menu .menuitem img.header{
+	background: url("./menu.png") -360px 0;
+}
+.templpreview .menu .menuitem img.header.disable{
+	background: url("./menu.png") -360px -24px;
+}
+.templpreview .menu .menuitem img.footer{
+	background: url("./menu.png") -336px 0;
+}
+.templpreview .menu .menuitem img.footer.disable{
+	background: url("./menu.png") -336px -24px;
+}
+
+.templpreview .contentarea{
+	display: flex;
+	flex-direction: row;
+	background-color: #ccc;
+	padding: 10px;
+	/*height: 400px;*/
+}
+.templpreview .contentarea .left{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.templpreview .contentarea .right{
+	width: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.templpreview .contentarea .append{
+	display: flex;
+	flex-direction: row;
+	min-width: 0;
+	flex-grow: 1;
+}
+.templpreview .contentarea .left .paperframe{
+	display: -webkit-box;
+	background-color: #fff;
+	/*height: 100%;*/
+	width: 100%;
+}
+.templpreview .contentarea .left .measures{
+	box-sizing: border-box;
+	border-left: 1px dotted #999;
+	border-right: 1px dotted #999;
+	height: 15px;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;	
+}
+.templpreview .contentarea .right .measures span{
+	display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+.templpreview .contentarea .right .measures{
+	box-sizing: border-box;
+	border-top: 1px dotted #999;
+	border-bottom: 1px dotted #999;
+	width: 15px;
+	height: 100%;
+	font-size: 14px;
+	display: flex;
+	flex-grow: 1;
+	text-align: center;
+	position: relative;
+}
+.templpreview .contentarea .right .padding{
+	width: 15px;
+	height: 15px;
+}
+.paperframe .validarea{
+	box-sizing: border-box;
+	margin: 5px;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	border: 1px dotted #999;
+	position: relative;
+	overflow: hidden;
+}
+
+.paperframe .validarea .bgimage{
+	display: none;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0 !important;
+}
+.paperframe .validarea .bgimage img{
+	z-index: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+/*模板区域内自定义添加元素相关*/
+.paperframe .validarea .newelement{
+	position: absolute;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 25px;
+	background: rgba(0,0,0,0);
+	justify-content: flex-start;
+}
+.paperframe .validarea .rect{
+	border: 1px solid #000;
+}
+.paperframe .validarea .text span{
+	display: none;
+}
+.paperframe .validarea .header{
+	border: 1px dotted #0691cd;
+	z-index: 0 !important;
+}
+.paperframe .validarea .repeat{
+	border: 1px dotted #000;
+	z-index: 0 !important;
+}
+.paperframe .validarea .footer{
+	border: 1px dotted #de0669;
+	z-index: 0 !important;
+}
+.paperframe .validarea .barcode img,
+.paperframe .validarea .qrcode img{
+	width: 100%;
+	height: 100%;
+}
+.paperframe .validarea .repeat div{
+	position: absolute;
+}

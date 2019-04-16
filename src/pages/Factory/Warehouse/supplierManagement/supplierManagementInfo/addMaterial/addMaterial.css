@@ -1,0 +1,268 @@
+.addMaterial .el-dialog {
+  width: 1180px !important;
+  height: 530px;
+  max-height: 530px;
+  overflow-y: auto;
+  margin-top: 22vh !important;
+}
+.addMaterial .el-dialog .el-dialog__body {
+  padding-top: 0;
+}
+.addMaterial .el-dialog .el-form {
+  overflow: hidden;
+}
+.addMaterial .el-dialog .el-form-item {
+  position: relative;
+}
+.addMaterial .el-dialog .marginRightNone {
+  margin-right: 0;
+}
+.addMaterial .el-dialog .el-form-item {
+  float: left;
+  width: 320px;
+  margin-right: 54px;
+}
+.addMaterial .el-dialog .el-form-item .el-form-item__label {
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+  color: #888888;
+}
+.addMaterial .el-dialog .el-form-item .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.addMaterial .el-dialog .el-form-item .el-input {
+  width: 240px;
+}
+.addMaterial .el-dialog .el-form-item .el-form-item__content,
+.addMaterial .el-dialog .el-form-item .el-input,
+.addMaterial .el-dialog .el-form-item .el-input__inner,
+.addMaterial .el-dialog .el-form-item .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+}
+.addMaterial .el-dialog .materieNameBox .el-form-item__content {
+  position: relative;
+}
+.addMaterial .el-dialog .materieNameBox .materieNameList {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 240px;
+  height: 100px;
+  border: 1px solid #dcdfe6;
+  z-index: 9;
+  border-radius: 5px;
+  background: #ffffff;
+  overflow-y: scroll;
+}
+.addMaterial .el-dialog .materieNameBox .materieNameList li {
+  padding: 0 15px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 5px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.addMaterial .el-dialog .maxLabelWidth .el-form-item__label {
+  width: 135px !important;
+}
+.addMaterial .el-dialog .maxLabelWidth .el-form-item__content {
+  margin-left: 135px !important;
+}
+.addMaterial .el-dialog .maxLabelWidth .el-input {
+  width: 205px;
+}
+.addMaterial .el-dialog .fromItemMin .el-input {
+  width: 200px;
+}
+.addMaterial .el-dialog .fromItemMin .el-input input {
+  padding-right: 0;
+}
+.addMaterial .el-dialog .fromDate .el-input__prefix {
+  left: inherit;
+  right: 5px;
+  padding-left: 0;
+}
+.addMaterial .el-dialog .fromDate .el-input__prefix .el-icon-date {
+  line-height: 30px;
+}
+.addMaterial .el-dialog .fromDate .el-input__prefix .el-icon-date:before {
+  content: '' !important;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.addMaterial .el-dialog .fromDate .el-input__prefix .el-icon-date:after {
+  content: '\E608';
+  width: 28px;
+}
+.addMaterial .el-dialog .fromDate .el-input__suffix .el-input__suffix-inner .el-input__icon {
+  width: 10px;
+}
+.addMaterial .el-dialog .fromDate .fromDateInput {
+  width: 240px;
+}
+.addMaterial .el-dialog .validityPeriod {
+  width: 340px;
+}
+.addMaterial .el-dialog .validityPeriod .inputDate {
+  width: 160px;
+  margin-right: 10px;
+  float: left;
+}
+.addMaterial .el-dialog .validityPeriod .inputDate .el-input__inner {
+  padding-right: 0;
+}
+.addMaterial .el-dialog .validityPeriod .selectDate {
+  width: 70px;
+}
+.addMaterial .el-dialog .validityPeriod .selectDate .el-input {
+  width: 100%;
+}
+.addMaterial .el-dialog .marginRight {
+  margin-right: 300px;
+}
+.addMaterial .el-dialog .isRequired .el-form-item__label::before {
+  content: "";
+}
+.addMaterial .el-dialog .isRequired .el-form-item__label::after {
+  content: "*";
+  color: #f56c6c;
+}
+.addMaterial .el-dialog .remarks {
+  height: 100px;
+  width: 100%;
+  margin-right: 0;
+}
+.addMaterial .el-dialog .remarks .el-input,
+.addMaterial .el-dialog .remarks .el-input__inner,
+.addMaterial .el-dialog .remarks .el-form-item__content,
+.addMaterial .el-dialog .remarks .el-textarea,
+.addMaterial .el-dialog .remarks textarea {
+  height: 70px;
+}
+.addMaterial .el-dialog .miniInput .el-input {
+  margin-right: 12px;
+}
+.addMaterial .el-dialog .miniInput .el-input__inner {
+  text-align: left;
+  width: 204px;
+}
+.addMaterial .el-dialog .miniInput .el-input,
+.addMaterial .el-dialog .miniInput .el-input__inner,
+.addMaterial .el-dialog .miniInput .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+  width: 204px;
+}
+.addMaterial .el-dialog .inputCountingType .el-form-item__content {
+  margin-left: 0 !important;
+  width: 284px;
+}
+.addMaterial .el-dialog .inputCountingType .el-form-item__content .el-input,
+.addMaterial .el-dialog .inputCountingType .el-form-item__content .el-input__inner {
+  width: 284px;
+}
+.addMaterial .el-dialog .pro {
+  height: 60px;
+  padding-top: 30px;
+  border-bottom: 1px dashed #eeeeee;
+}
+.addMaterial .el-dialog .slotDiv .dialog-footer {
+  padding-top: 0;
+  padding-bottom: 0px;
+  height: 30px;
+}
+.addMaterial .el-dialog .slotDiv .dialog-footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+}
+.addMaterial .el-dialog .slotDiv .dialog-footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.addMaterial .el-dialog .slotDiv .dialog-footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.addMaterial .el-dialog .slotDiv .dialog-footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.addMaterial .el-dialog .slotDiv .dialog-footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.addMaterial .el-dialog .slotDiv .dialog-footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.addMaterial .el-dialog .materiel .title {
+  margin-top: 28px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+.addMaterial .el-dialog .materiel .content {
+  display: flex;
+}
+.addMaterial .el-dialog .materiel .content .left {
+  width: 88px;
+  height: 30px;
+  line-height: 30px;
+}
+.addMaterial .el-dialog .materiel .content .right .materielItem {
+  min-height: 30px;
+  margin-bottom: 10px;
+}
+.addMaterial .el-dialog .materiel .content .right .materielItem .el-form-item__content,
+.addMaterial .el-dialog .materiel .content .right .materielItem .el-input,
+.addMaterial .el-dialog .materiel .content .right .materielItem .el-input__inner,
+.addMaterial .el-dialog .materiel .content .right .materielItem .el-select__caret {
+  height: 30px;
+  line-height: 30px;
+}
+.addMaterial .el-dialog .materiel .content .right .materielItem .meterialId {
+  float: left;
+  width: 240px;
+  margin-right: 10px;
+}
+.addMaterial .el-dialog .materiel .content .right .materielItem .useAmount {
+  width: 204px;
+  float: left;
+}
+.addMaterial .el-dialog .materiel .content .right .materielItem .unit {
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  margin-left: 8px;
+}
+.addMaterial .el-dialog .materiel .content .right .materielItem .delete {
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  margin-left: 36px;
+  color: #3771c5;
+}
+.addMaterial .el-dialog .materiel .content .addMateriel {
+  padding: 0;
+  color: #3771c5;
+}
+.autoHeight .el-select-dropdown__list {
+  max-height: 178px;
+  overflow-y: auto;
+}

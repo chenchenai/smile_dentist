@@ -1,0 +1,253 @@
+.addSelfCustomer{
+  .el-dialog{
+    width: 1180px;
+    height: 540px;
+    max-height: 540px;
+    overflow-y: auto;
+    .el-dialog__body{
+      padding-top: 0;
+    }
+    .addressItem{
+      float: left;
+      margin-bottom: 22px;
+      .el-label{
+        float: left;
+        width: 90px;
+      }
+      .el-input{
+        input{
+          height: 28px;
+        }
+      }
+      .el-select__caret{
+        line-height: 30px;
+      }
+      .el-select{
+        float: left;
+        width: 83px;
+        margin-right: 12px;
+      }
+      .el-content{
+        width: auto;
+        overflow: hidden;
+      }
+    }
+    .el-form-item{
+      position: relative;
+    }
+    .el-form-item{
+      float: left;
+      width: 320px;
+      margin-right: 54px;
+      &:nth-child(3n){
+        margin-right: 0;
+      }
+      .el-form-item__label{
+        height: 28px;
+        line-height: 28px;
+      }
+      .errorText{
+        height: 16px;
+        line-height: 16px;
+        font-size: 12px;
+        color: #f56c6c;
+      }
+      .el-input{
+        width: 240px;
+      }
+      .el-form-item__content, .el-input, .el-input__inner, .el-select__caret{
+        height: 28px;
+        line-height: 28px;
+      }
+    }
+    .isRequired{
+      .el-form-item__label::before{
+        content: "*";
+        color: #f56c6c;
+        position: absolute;
+        left: -6px;
+      }
+    }
+    .baseInfo{
+      height: 342px;
+      border-bottom: 1px dashed rgba(238,238,238,1);
+      .remarks{
+        height: 100px;
+        width: 100%;
+        margin-right: 0;
+        .el-input, .el-input__inner, .el-form-item__content, .el-textarea, textarea{
+          height: 70px;
+        }
+      }
+    }
+    .miniInput{
+      .el-input{
+        margin-right: 12px;
+      }
+      .el-input__inner{
+        text-align: left;
+        width: 204px;
+      }
+      .el-input, .el-input__inner, .el-select__caret{
+        height: 28px;
+        line-height: 28px;
+        width: 204px;
+      }
+    }
+    .inputCountingType{
+      .el-form-item__content{
+        margin-left: 0!important;
+        width: 284px;
+        .el-input, .el-input__inner{
+          width: 284px;
+        }
+      }
+    }
+    .calcNumber{
+      height: 136px;
+      border-bottom: 1px dashed rgba(238,238,238,1);
+    }
+    .pro{
+      height: 60px;
+      padding-top: 30px;
+      border-bottom: 1px dashed rgba(238,238,238,1);
+    }
+    .slotDiv{
+      //.el-form{
+      //  overflow: hidden;
+      //}
+
+      .dialog-footer{
+        padding-top: 0;
+        padding-bottom: 0px;
+        height: 30px;
+        .submit{
+          background: #FE8127;
+          width: 80px;
+          height: 30px;
+          line-height: 30px;
+          padding: 0;
+          border-color: #FE8127;
+          margin-right: 30px;
+          &:hover{
+            background: #e77a2b;
+            border-color: #e77a2b;
+          }
+          &:active{
+            background: #b65916;
+            border-color: #b65916;
+          }
+        }
+        .cancel{
+          background: none;
+          border: 1px solid #FE8127;
+          height: 30px;
+          width: 80px;
+          padding: 0;
+          line-height: 30px;
+          color: #FE8127;
+          &:hover{
+            color: #e77a2b;
+            border-color: #e77a2b;
+          }
+          &:active{
+            color: #b65916;
+            border-color: #e77a2b;
+          }
+        }
+      }
+    }
+
+
+    .materiel{
+      .title{
+        margin-top: 28px;
+        height: 16px;
+        line-height: 16px;
+        font-size: 16px;
+        margin-bottom: 14px;
+      }
+      .content{
+        display: flex;
+        .left{
+          width: 88px;
+          height: 30px;
+          line-height: 30px;
+        }
+        .right{
+          .materielItem{
+            min-height: 30px;
+            margin-bottom: 10px;
+            .el-form-item__content, .el-input, .el-input__inner, .el-select__caret{
+              height: 30px;
+              line-height: 30px;
+            }
+            .meterialId{
+              float: left;
+              width: 240px;
+              margin-right: 10px;
+            }
+            .useAmount{
+              width: 204px;
+              float: left;
+            }
+            .unit{
+              height: 30px;
+              float: left;
+              line-height: 30px;
+              margin-left: 8px;
+            }
+            .delete{
+              height: 30px;
+              padding: 0;
+              line-height: 30px;
+              margin-left: 36px;
+              color: #3771c5;
+            }
+          }
+        }
+        .addMateriel{
+          padding: 0;
+          color: #3771c5;
+        }
+      }
+    }
+  }
+  .el-upload--picture-card{
+    width: auto;
+    height: 40px;
+    line-height: 28px;
+    border: none;
+  }
+  .uploadImg{
+    .el-upload{
+      margin-right: 10px;
+      float: left;
+    }
+    .el-upload-list--picture {
+      overflow: hidden;
+      .el-upload-list__item{
+        height:auto;
+        width: 59px;
+        padding: 10px 20px;
+        float: left;
+        margin-right: 5px;
+      }
+      .el-upload-list__item-thumbnail{
+        width: 30px;
+        height: auto;
+        margin-left: -10px;
+      }
+      .el-upload-list__item.is-success .el-upload-list__item-name{
+        line-height: 0px;
+      }
+    }
+  }
+}
+
+.autoHeight {
+  .el-select-dropdown__list{
+    max-height: 178px;
+    overflow-y: auto;
+  }
+}

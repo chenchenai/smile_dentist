@@ -1,0 +1,283 @@
+.BaseInfo {
+  display: flex;
+  border: 1px solid #e2e2e2;
+}
+.BaseInfo .leftInfo {
+  flex: 1;
+  float: left;
+  padding: 16px 20px;
+  height: 403px;
+  border-right: 1px solid #e2e2e2;
+  max-height: 403px;
+  overflow-y: auto;
+}
+.BaseInfo .leftInfo .fromItem {
+  width: 206px;
+  margin-right: 30px;
+}
+.BaseInfo .leftInfo .fromItem:nth-child(3n) {
+  margin-right: 0;
+}
+.BaseInfo .leftInfo .topForm {
+  height: 130px;
+  font-size: 14px;
+  border-bottom: 1px dashed #e2e2e2;
+}
+.BaseInfo .leftInfo .topForm .el-form-item {
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 18px;
+  color: #777777;
+  float: left;
+}
+.BaseInfo .leftInfo .topForm .el-form-item:nth-child(3n) {
+  margin-right: 0;
+}
+.BaseInfo .leftInfo .topForm .el-form-item__label {
+  height: 14px;
+  line-height: 14px;
+  color: #777;
+}
+.BaseInfo .leftInfo .topForm .el-input {
+  width: 240px;
+}
+.BaseInfo .leftInfo .topForm .el-form-item__content,
+.BaseInfo .leftInfo .topForm .el-input,
+.BaseInfo .leftInfo .topForm .el-input__inner,
+.BaseInfo .leftInfo .topForm .el-select__caret {
+  height: 14px;
+  line-height: 14px;
+  color: #666666;
+}
+.BaseInfo .leftInfo .bot .toothItem {
+  height: 58px;
+  margin-top: 20px;
+}
+.BaseInfo .leftInfo .bot .toothItem > div {
+  float: left;
+}
+.BaseInfo .leftInfo .bot .toothItem .label {
+  float: left;
+  margin-right: 16px;
+  line-height: 58px;
+  color: #777;
+}
+.BaseInfo .leftInfo .bot .toothItem .tooth {
+  margin-right: 42px;
+}
+.BaseInfo .leftInfo .bot .toothItem .tooth .text {
+  height: 58px;
+  width: 151px;
+  float: left;
+  color: #333;
+}
+.BaseInfo .leftInfo .bot .toothItem .tooth .text .topPos {
+  height: 28px;
+}
+.BaseInfo .leftInfo .bot .toothItem .tooth .text .topPos > p {
+  float: left;
+  width: 75px;
+  height: 28px;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.BaseInfo .leftInfo .bot .toothItem .tooth .text .topPos > p:last-child {
+  border-right: 0;
+}
+.BaseInfo .leftInfo .bot .toothItem .tooth .text .botPos {
+  height: 28px;
+}
+.BaseInfo .leftInfo .bot .toothItem .tooth .text .botPos > p {
+  float: left;
+  width: 75px;
+  height: 28px;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.BaseInfo .leftInfo .bot .toothItem .tooth .text .botPos > p:last-child {
+  border-right: 0;
+}
+.BaseInfo .leftInfo .bot .toothItem .item .text {
+  line-height: 58px;
+  color: #333;
+}
+.BaseInfo .leftInfo .bot .toothItem .product {
+  width: 212px;
+  margin-right: 30px;
+}
+.BaseInfo .leftInfo .bot .toothItem .colorImetric {
+  width: 100px;
+  margin-right: 24px;
+}
+.BaseInfo .leftInfo .bot .suggestion {
+  margin-bottom: 20px;
+}
+.BaseInfo .leftInfo .bot .remark,
+.BaseInfo .leftInfo .bot .suggestion {
+  margin-top: 20px;
+  overflow: hidden;
+  line-height: 30px;
+}
+.BaseInfo .leftInfo .bot .remark .label,
+.BaseInfo .leftInfo .bot .suggestion .label {
+  float: left;
+  margin-right: 16px;
+}
+.BaseInfo .leftInfo .bot .remark .text,
+.BaseInfo .leftInfo .bot .suggestion .text {
+  float: left;
+  width: 610px;
+  color: #333;
+  word-wrap: break-word;
+}
+.BaseInfo .leftInfo .botForm .el-form-item {
+  height: 24px;
+  margin-bottom: 18px;
+}
+.BaseInfo .leftInfo .botForm .el-form-item__label {
+  height: 24px;
+  line-height: 26px;
+  color: #777;
+}
+.BaseInfo .leftInfo .botForm .el-radio-button__inner,
+.BaseInfo .leftInfo .botForm .el-form-item__content,
+.BaseInfo .leftInfo .botForm .el-input__inner {
+  height: 24px;
+  line-height: 24px;
+  padding: 0;
+}
+.BaseInfo .leftInfo .botForm .el-input__inner {
+  width: 500px;
+  padding: 10px;
+  background: #fff;
+  cursor: default;
+  color: #666666;
+}
+.BaseInfo .leftInfo .botForm .is-disabled .el-radio-button__inner {
+  color: #666666;
+  cursor: default;
+}
+.BaseInfo .leftInfo .botForm .is-active .el-radio-button__inner {
+  background: #3672c6;
+  color: #fff;
+}
+.BaseInfo .leftInfo .botForm .occlusion .el-radio-button__inner {
+  width: 50px;
+}
+.BaseInfo .leftInfo .botForm .approximalSurface .el-radio-button:nth-child(1) .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/face1.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .approximalSurface .el-radio-button:nth-child(2) .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/point1.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .approximalSurface .el-radio-button__inner {
+  width: 100px;
+  padding-left: 30px;
+}
+.BaseInfo .leftInfo .botForm .approximalSurface .el-radio-button:nth-child(1).is-active .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/face2.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .approximalSurface .el-radio-button:nth-child(2).is-active .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/point2.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .lipDesing .el-radio-button__inner {
+  width: 66.66px;
+}
+.BaseInfo .leftInfo .botForm .inPlace .el-radio-button__inner {
+  width: 66.66px;
+}
+.BaseInfo .leftInfo .botForm .embrasuresDeep .el-radio-button__inner {
+  width: 100px;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button:nth-child(1) .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/weisheng1.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button:nth-child(2) .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/piance1.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button:nth-child(3) .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/dama1.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button:nth-child(4) .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/xiaoma1.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button__inner {
+  padding-left: 30px;
+  width: 100px;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button:nth-child(1).is-active .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/weisheng2.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button:nth-child(2).is-active .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/piance2.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button:nth-child(3).is-active .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/dama2.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .bridgeType .el-radio-button:nth-child(4).is-active .el-radio-button__inner {
+  background-image: url('../../../../../../static/images/icon/xiaoma2.png');
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.BaseInfo .leftInfo .botForm .cermetsDesign .el-radio-button__inner {
+  width: 100px;
+}
+.BaseInfo .leftInfo .botForm .pathListBox {
+  height: 40px;
+  width: 500px;
+}
+.BaseInfo .leftInfo .botForm .pathListBox img {
+  width: 40px;
+  height: 40px;
+  margin-right: 11px;
+  margin-bottom: 10px;
+  background: #ccc;
+  float: left;
+}
+.BaseInfo .leftInfo .botForm .pathListBox img:nth-child(10n) {
+  margin-right: 0;
+}
+.BaseInfo .rightInfo {
+  width: 376px;
+  float: left;
+  height: 100%;
+}
+.BaseInfo .rightInfo .tab {
+  height: 40px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.BaseInfo .rightInfo .tab p {
+  height: 40px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  background: #eeeeee;
+}
+.BaseInfo .rightInfo .tab .cur {
+  background: #eeeeee;
+}

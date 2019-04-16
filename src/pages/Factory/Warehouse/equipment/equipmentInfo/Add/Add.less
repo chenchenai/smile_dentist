@@ -1,0 +1,110 @@
+.AddEquipment {
+    .el-dialog {
+        width: 1180px !important;
+        .el-dialog__body {
+            padding-top: 0;
+            .el-form {
+                margin-top: 10px;
+                .el-row {
+                    .el-col {
+                        .el-form-item {
+                            .el-form-item__label {
+                                font-size: 16px;
+                                color: #888888;
+                            }
+                        }
+                    }
+                    .smallLeft {
+                        .el-form-item__label {
+                            width: 80px !important;
+                        }
+                        .el-form-item__content {
+                            margin-left: 80px !important;
+                        }
+                    }
+                    .el-select,
+                    .el-date-editor {
+                        width: 100%;
+                    }
+                    .required {
+                        .el-form-item {
+                            .el-form-item__label {
+                                position: relative;
+                            }
+                            .el-form-item__label:before {
+                                content: '';
+                            }
+                            .el-form-item__label:after {
+                                content: '*';
+                                color: #f56c6c;
+                                position: absolute;
+                                top: 0;
+                                right: 7px;
+                            }
+                        }
+                    }
+                    .alignRight {
+                        .el-form-item {
+                            text-align: right;
+                            .el-button--primary {
+                                background: #FE8127;
+                                border-color: #FE8127;
+                            }
+                            .el-button--default {
+                                color: #FE8127;
+                                border-color: #FE8127;
+                            }
+                        }
+                    }
+                    .middleLabel {
+                        .el-form-item__label {
+                            width: 140px !important;
+                        }
+                        .el-form-item__content {
+                            margin-left: 140px !important;
+                        }
+                    }
+                }
+                .uploadImg {
+                    width: auto !important;
+                    .upload {
+                        display: flex;
+                        flex-direction: row-reverse;
+                        justify-content: flex-end;
+                    }
+                    .el-upload-list {
+                        padding: 0;
+                        overflow: hidden;
+                        .el-upload-list__item-name {
+                            display: none;
+                        }
+                        .el-upload-list__item .el-icon-close {
+                            display: block;
+                            z-index: 99;
+                            top: 2px;
+                            right: 0px;
+                        }
+                        li {
+                            padding: 0;
+                            width: 36px;
+                            height: 36px;
+                            float: left;
+                            margin-right: 10px;
+                            margin-top: 0;
+                            margin-bottom: 10px;
+                            &:nth-child(13n) {
+                                margin-right: 0;
+                            }
+                            img {
+                                width: 36px;
+                                height: 36px;
+                                margin-left: 0;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

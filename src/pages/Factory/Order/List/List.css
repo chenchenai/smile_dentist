@@ -1,0 +1,226 @@
+#order {
+  height: 100%;
+  background: #eaeef7;
+  padding: 15px;
+  position: relative;
+}
+#order .operationBtns {
+  height: 78px;
+  width: 100%;
+  border: 1px solid #d9dce1;
+  background: #fff;
+}
+#order .operationBtns .left {
+  float: left;
+}
+#order .operationBtns .left button {
+  padding: 0;
+  text-align: center;
+  height: 78px;
+  line-height: 100px;
+  border: 0;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center 16px;
+  margin: 0;
+}
+#order .operationBtns .left button:hover {
+  background-color: #d2e2f9;
+  color: #fff;
+}
+#order .operationBtns .one {
+  width: 7.82%;
+  background: #fff;
+}
+#order .operationBtns .one button {
+  width: 100%;
+  background-image: url('../../../../../static/images/order/xinjiandingdan.png');
+}
+#order .operationBtns .two {
+  width: 16.84%;
+  background: #fff2e9;
+}
+#order .operationBtns .two button {
+  width: 33.333%;
+}
+#order .operationBtns .two button:nth-child(1) {
+  background-image: url('../../../../../static/images/order/hehao.png');
+}
+#order .operationBtns .two button:nth-child(2) {
+  background-image: url('../../../../../static/images/order/tiaoma.png');
+}
+#order .operationBtns .two button:nth-child(3) {
+  background-image: url('../../../../../static/images/order/dingdan.png');
+}
+#order .operationBtns .three {
+  width: 16.84%;
+  background: #ebf1f9;
+}
+#order .operationBtns .three button {
+  width: 33.333%;
+}
+#order .operationBtns .three button:nth-child(1) {
+  background-image: url('../../../../../static/images/order/xiaodu.png');
+}
+#order .operationBtns .three button:nth-child(2) {
+  background-image: url('../../../../../static/images/order/moxingrujian.png');
+}
+#order .operationBtns .three button:nth-child(3) {
+  background-image: url('../../../../../static/images/order/huijian.png');
+}
+#order .operationBtns .four {
+  width: 6%;
+  background: #fff;
+}
+#order .operationBtns .four button {
+  width: 100%;
+  background-image: url('../../../../../static/images/order/paizhao.png');
+}
+#order .operationBtns .five {
+  width: 23%;
+  background: #ebf1f9;
+}
+#order .operationBtns .five button {
+  width: 25%;
+}
+#order .operationBtns .five button:nth-child(1) {
+  background-image: url('../../../../../static/images/order/chengpingxiaodu.png');
+}
+#order .operationBtns .five button:nth-child(2) {
+  background-image: url('../../../../../static/images/order/baozhuang.png');
+}
+#order .operationBtns .five button:nth-child(3) {
+  background-image: url('../../../../../static/images/order/fangxing.png');
+}
+#order .operationBtns .five button:nth-child(4) {
+  background-image: url('../../../../../static/images/order/fahuo.png');
+}
+#order .operationBtns .six {
+  width: 29.5%;
+  background: #fff2e9;
+}
+#order .operationBtns .six button {
+  width: 20%;
+}
+#order .operationBtns .six button:nth-child(1) {
+  background-image: url('../../../../../static/images/order/biaoqian.png');
+}
+#order .operationBtns .six button:nth-child(2) {
+  background-image: url('../../../../../static/images/order/zhibaoka.png');
+}
+#order .operationBtns .six button:nth-child(3) {
+  background-image: url('../../../../../static/images/order/hegezheng.png');
+}
+#order .operationBtns .six button:nth-child(4) {
+  background-image: url('../../../../../static/images/order/jianyanbaogao.png');
+}
+#order .operationBtns .six button:nth-child(5) {
+  background-image: url('../../../../../static/images/order/zhuisu.png');
+}
+#order .statusAndSearch {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+}
+#order .statusAndSearch .status {
+  height: 30px;
+  float: left;
+  width: 928px;
+  width: auto;
+  background: #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+#order .statusAndSearch .status button {
+  border: 0;
+  height: 30px;
+  line-height: 30px;
+  width: 110px;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+#order .statusAndSearch .status .isActive {
+  background-color: #3672C6;
+  color: #fff;
+}
+#order .statusAndSearch .search {
+  float: right;
+  width: 326px;
+  height: 30px;
+}
+#order .statusAndSearch .search .inputSearch {
+  width: 190px;
+  float: left;
+  height: 30px;
+}
+#order .statusAndSearch .search .inputSearch .el-input-group__append {
+  width: 50px;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  background: #597398;
+}
+#order .statusAndSearch .search .inputSearch .el-input-group__append button {
+  background: none;
+  width: 50px;
+  padding: 0;
+}
+#order .statusAndSearch .search .seniorSearch {
+  width: 90px;
+  float: left;
+  margin-left: 30px;
+  height: 30px;
+}
+#order .statusAndSearch .search .seniorSearch .el-button--text {
+  color: #333;
+  height: 30px;
+  padding: 0;
+}
+#order .statusAndSearch .search .seniorSearch .el-icon-search:before {
+  color: #597398;
+}
+#order .orderTable .tableIcon {
+  font-style: initial;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  line-height: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 4px;
+}
+#order .orderTable .hasRequireType {
+  background: #3672c6;
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  font-style: normal;
+}
+#order .orderTable .hasAddEdService {
+  background: #fe8127;
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  font-style: normal;
+}
+#order .orderTable .isReturn {
+  background: #ff5447;
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  font-style: normal;
+  border-radius: 4px;
+}

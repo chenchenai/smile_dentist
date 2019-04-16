@@ -1,0 +1,16 @@
+.printCode .tips {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-indent: 2em;
+}
+.printCode .alignRight {
+  text-align: right;
+}
+.printCode .alignRight .el-button--primary {
+  background: #FE8127;
+  border-color: #FE8127;
+}
+.printCode .alignRight .el-button--default {
+  color: #FE8127;
+  border-color: #FE8127;
+}

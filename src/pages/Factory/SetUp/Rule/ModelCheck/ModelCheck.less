@@ -1,0 +1,93 @@
+.ModelCheck{
+	.el-dialog{
+		width: 1180px;
+		max-height: 585px;
+		position: relative;
+		.el-dialog__body{
+			padding: 12px 30px 30px 30px;
+			.el-table__body-wrapper{
+				max-height: 328px;
+				overflow-y: auto;
+			}
+			.submit{
+				background: #FE8127;
+				width: 80px;
+				height: 40px;
+				line-height: 40px;
+				border-color: #FE8127;
+				margin-right: 20px;
+				padding: 0;
+				&:hover{
+					background: #e77a2b;
+					border-color: #e77a2b;
+				}
+				&:active{
+					background: #b65916;
+					border-color: #b65916;
+				}
+				span{
+					width: 80px;
+					height: 40px;
+					display: block;
+					text-align: center;
+					line-height: 40px;
+				}
+			}
+			.cancel{
+				background: none;
+				margin-top: 30px;
+				border: 1px solid #FE8127;
+				height: 40px;
+				width: 80px;
+				padding: 0;
+				line-height: 40px;
+				color: #FE8127;
+				&:hover{
+					color: #e77a2b;
+					border-color: #e77a2b;
+				}
+				&:active{
+					color: #b65916;
+					border-color: #e77a2b;
+				}
+				span{
+					width: 80px;
+					height: 40px;
+					display: block;
+					text-align: center;
+					line-height: 40px;
+				}
+			}
+			.el-table th{
+				padding: 0;
+				height: 30px;
+				.cell{
+					height: 30px;
+					line-height: 30px;
+				}
+			}
+			.el-table--enable-row-transition .el-table__body td{
+				padding: 0;
+				.cell{
+					padding: 0;
+				}
+				input{
+					border: none;
+					text-align: center;
+					&::-webkit-input-placeholder {
+						text-align: center;
+					}
+					&::-moz-placeholder {
+						text-align: center;
+					}
+					&::-ms-input-placeholder {
+						text-align: center;
+					}
+				}
+			}
+		}
+		.el-dialog__header{
+			padding: 20px 30px 10px;
+		}
+	}
+}

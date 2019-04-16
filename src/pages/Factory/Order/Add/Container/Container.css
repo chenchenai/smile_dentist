@@ -1,0 +1,50 @@
+.addDialog .el-dialog {
+  width: 1288px!important;
+  padding: 10px;
+}
+.addDialog .el-dialog .isRequired .el-form-item__label:before {
+  content: '*';
+  color: #f56c6c;
+  position: absolute;
+  left: -5px;
+}
+.addDialog .el-dialog .requiredThis .el-form-item__label:before {
+  content: '*';
+  color: #f56c6c;
+}
+.addDialog .dialog-footer {
+  padding-left: 30px;
+}
+.addDialog .dialog-footer button {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  background: none;
+  padding: 0;
+  border-color: #FE8127;
+}
+.addDialog .dialog-footer button span {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+.addDialog .dialog-footer button:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.addDialog .dialog-footer button:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.addDialog .dialog-footer button:first-child {
+  background: #FE8127;
+  margin-right: 20px;
+}
+.addDialog .dialog-footer button:last-child {
+  background: none;
+  border: 1px solid #FE8127;
+  color: #FE8127;
+}
+.el-scrollbar__wrap {
+  max-height: 200px!important;
+}

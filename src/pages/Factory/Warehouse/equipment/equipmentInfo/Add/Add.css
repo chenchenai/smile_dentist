@@ -1,0 +1,92 @@
+.AddEquipment .el-dialog {
+  width: 1180px !important;
+}
+.AddEquipment .el-dialog .el-dialog__body {
+  padding-top: 0;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form {
+  margin-top: 10px;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .el-col .el-form-item .el-form-item__label {
+  font-size: 16px;
+  color: #888888;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .smallLeft .el-form-item__label {
+  width: 80px !important;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .smallLeft .el-form-item__content {
+  margin-left: 80px !important;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .el-select,
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .el-date-editor {
+  width: 100%;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .required .el-form-item .el-form-item__label {
+  position: relative;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .required .el-form-item .el-form-item__label:before {
+  content: '';
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .required .el-form-item .el-form-item__label:after {
+  content: '*';
+  color: #f56c6c;
+  position: absolute;
+  top: 0;
+  right: 7px;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .alignRight .el-form-item {
+  text-align: right;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .alignRight .el-form-item .el-button--primary {
+  background: #FE8127;
+  border-color: #FE8127;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .alignRight .el-form-item .el-button--default {
+  color: #FE8127;
+  border-color: #FE8127;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .middleLabel .el-form-item__label {
+  width: 140px !important;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .el-row .middleLabel .el-form-item__content {
+  margin-left: 140px !important;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .uploadImg {
+  width: auto !important;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .uploadImg .upload {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .uploadImg .el-upload-list {
+  padding: 0;
+  overflow: hidden;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .uploadImg .el-upload-list .el-upload-list__item-name {
+  display: none;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .uploadImg .el-upload-list .el-upload-list__item .el-icon-close {
+  display: block;
+  z-index: 99;
+  top: 2px;
+  right: 0px;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .uploadImg .el-upload-list li {
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .uploadImg .el-upload-list li:nth-child(13n) {
+  margin-right: 0;
+}
+.AddEquipment .el-dialog .el-dialog__body .el-form .uploadImg .el-upload-list li img {
+  width: 36px;
+  height: 36px;
+  margin-left: 0;
+  border-radius: 5px;
+}

@@ -1,0 +1,146 @@
+.processingProject .el-table:before {
+  height: 0;
+}
+.processingProject .title {
+  height: 14px;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+}
+.processingProject .content {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding: 30px 28px;
+  min-height: 58px;
+}
+.processingProject .content .left {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  width: 200px;
+}
+.processingProject .content .el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #f7f7f7 !important;
+}
+.processingProject .content .projectTable tr {
+  height: 88px;
+  padding: 6px 0;
+}
+.processingProject .content .projectTable tr:hover {
+  background: #f7f7f7 !important;
+}
+.processingProject .content .projectTable tr td {
+  padding: 0;
+  padding-bottom: 18px;
+  background: #f7f7f7 !important;
+  border: 0!important;
+}
+.processingProject .content .projectTable tr td .cell {
+  height: 60px;
+  line-height: 60px;
+  overflow: inherit;
+  padding: 0;
+}
+.processingProject .content .projectTable tr td:nth-child(1) .el-form-item__label {
+  width: 54px!important;
+  height: 60px!important;
+  line-height: 60px!important;
+  padding-right: 0!important;
+}
+.processingProject .content .projectTable tr td:nth-child(1) .el-form-item__content {
+  margin-left: 54px!important;
+  width: 200px;
+}
+.processingProject .content .projectTable tr td:nth-child(2) .el-form-item__label {
+  height: 60px!important;
+  line-height: 60px!important;
+  padding-right: 0!important;
+}
+.processingProject .content .projectTable tr td:nth-child(2) .el-form-item__content {
+  padding-top: 10px;
+  width: 200px;
+}
+.processingProject .content .projectTable tr td:nth-child(3) .el-form-item__label {
+  width: 54px!important;
+  height: 60px!important;
+  line-height: 60px!important;
+  padding-right: 0!important;
+}
+.processingProject .content .projectTable tr td:nth-child(3) .el-form-item__content {
+  padding-top: 10px;
+  margin-left: 54px!important;
+  width: 200px;
+}
+.processingProject .content .projectTable tr td:nth-child(4) .el-form-item__label {
+  width: 48px!important;
+  height: 60px!important;
+  line-height: 60px!important;
+  padding-right: 0!important;
+}
+.processingProject .content .projectTable tr td:nth-child(4) .el-form-item__content {
+  padding-top: 10px;
+  margin-left: 48px!important;
+  width: 88px;
+}
+.processingProject .content .projectTable tr .el-form-item {
+  margin-bottom: 0;
+}
+.processingProject .positem {
+  float: left;
+  position: relative;
+  height: 30px;
+}
+.processingProject .positem .el-input {
+  width: 88px;
+  height: 24px;
+  line-height: 24px;
+  position: absolute;
+}
+.processingProject .positem .el-input .el-input__inner {
+  width: 88px;
+  height: 24px;
+}
+.processingProject .top {
+  height: 30px;
+}
+.processingProject .top .pos1 {
+  width: 100px;
+  border-right: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+}
+.processingProject .top .pos1 .el-input {
+  top: 0;
+  left: 6px;
+}
+.processingProject .top .pos2 {
+  width: 100px;
+  border-bottom: 1px solid #E2E2E2;
+}
+.processingProject .top .pos2 .el-input {
+  top: 0;
+  left: 6px;
+}
+.processingProject .bot {
+  height: 30px;
+}
+.processingProject .bot .pos3 {
+  width: 100px;
+  border-right: 1px solid #E2E2E2;
+}
+.processingProject .bot .pos3 .el-input {
+  top: 4px;
+  left: 6px;
+}
+.processingProject .bot .pos4 {
+  width: 100px;
+}
+.processingProject .bot .pos4 .el-input {
+  top: 4px;
+  left: 6px;
+}
+.processingProject #posErrorText {
+  margin-left: 8px;
+}

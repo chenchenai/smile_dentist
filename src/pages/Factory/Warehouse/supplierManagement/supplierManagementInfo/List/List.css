@@ -1,0 +1,528 @@
+/*删除弹框，新建物料类别弹框，重命名物料弹框公共样式*/
+.supplierManagement {
+  width: 100%;
+  overflow: hidden;
+}
+.supplierManagement .addDialogVisible .el-dialog__body {
+  padding: 15px 20px 5px;
+}
+.supplierManagement .addDialogVisible .el-dialog__body .el-form .el-form-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supplierManagement .addDialogVisible .el-dialog__body .el-form .el-form-item__label {
+  font-size: 16px;
+  width: auto !important;
+  color: #888888;
+  position: relative;
+}
+.supplierManagement .addDialogVisible .el-dialog__body .el-form .el-form-item__label:after {
+  content: "*";
+  color: #f56c6c;
+}
+.supplierManagement .addDialogVisible .el-dialog__body .el-form .el-form-item__content {
+  flex-grow: 1;
+  margin-left: 15px !important;
+}
+.supplierManagement .addDialogVisible .el-dialog__body .el-form .el-input input {
+  outline: none;
+  border: 1px solid #e2e2e2 !important;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+}
+.supplierManagement .addDialogVisible .el-dialog__footer {
+  padding: 0 20px 20px;
+}
+.supplierManagement .addDialogVisible .el-dialog__footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+  margin-right: 30px;
+}
+.supplierManagement .addDialogVisible .el-dialog__footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.supplierManagement .addDialogVisible .el-dialog__footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.supplierManagement .addDialogVisible .el-dialog__footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.supplierManagement .addDialogVisible .el-dialog__footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.supplierManagement .addDialogVisible .el-dialog__footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.supplierManagement .editDialogVisible .el-dialog__body {
+  padding: 15px 20px 5px;
+}
+.supplierManagement .editDialogVisible .el-dialog__body .el-form .el-form-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supplierManagement .editDialogVisible .el-dialog__body .el-form .el-form-item__label {
+  font-size: 16px;
+  width: auto !important;
+  color: #888888;
+  position: relative;
+}
+.supplierManagement .editDialogVisible .el-dialog__body .el-form .el-form-item__label:after {
+  content: "*";
+  color: #f56c6c;
+}
+.supplierManagement .editDialogVisible .el-dialog__body .el-form .el-form-item__content {
+  flex-grow: 1;
+  margin-left: 15px !important;
+}
+.supplierManagement .editDialogVisible .el-dialog__body .el-form .el-input input {
+  outline: none;
+  border: 1px solid #e2e2e2 !important;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+}
+.supplierManagement .editDialogVisible .el-dialog__footer {
+  padding: 0 20px 20px;
+}
+.supplierManagement .editDialogVisible .el-dialog__footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+  margin-right: 30px;
+}
+.supplierManagement .editDialogVisible .el-dialog__footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.supplierManagement .editDialogVisible .el-dialog__footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.supplierManagement .editDialogVisible .el-dialog__footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.supplierManagement .editDialogVisible .el-dialog__footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.supplierManagement .editDialogVisible .el-dialog__footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.supplierManagement .delDialogVisible .el-dialog__body {
+  padding: 15px 20px 5px;
+}
+.supplierManagement .delDialogVisible .el-dialog__body .el-form .el-form-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supplierManagement .delDialogVisible .el-dialog__body .el-form .el-form-item__label {
+  font-size: 16px;
+  width: auto !important;
+  color: #888888;
+  position: relative;
+}
+.supplierManagement .delDialogVisible .el-dialog__body .el-form .el-form-item__label:after {
+  content: "*";
+  color: #f56c6c;
+}
+.supplierManagement .delDialogVisible .el-dialog__body .el-form .el-form-item__content {
+  flex-grow: 1;
+  margin-left: 15px !important;
+}
+.supplierManagement .delDialogVisible .el-dialog__body .el-form .el-input input {
+  outline: none;
+  border: 1px solid #e2e2e2 !important;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+}
+.supplierManagement .delDialogVisible .el-dialog__footer {
+  padding: 0 20px 20px;
+}
+.supplierManagement .delDialogVisible .el-dialog__footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+  margin-right: 30px;
+}
+.supplierManagement .delDialogVisible .el-dialog__footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.supplierManagement .delDialogVisible .el-dialog__footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.supplierManagement .delDialogVisible .el-dialog__footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.supplierManagement .delDialogVisible .el-dialog__footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.supplierManagement .delDialogVisible .el-dialog__footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.supplierManagement .delDialogVisible .delDialogVisible_tip {
+  margin-bottom: 15px;
+}
+.supplierManagement .row-left {
+  float: left;
+  width: 200px;
+  height: calc(100vh - 54px);
+  background: #fff;
+  margin-left: 14px;
+  font-weight: 400;
+  color: #333;
+}
+.supplierManagement .row-left .row-left_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-right: 22px;
+}
+.supplierManagement .row-left .row-left_title h3 {
+  margin: 20px 20px 14px;
+}
+.supplierManagement .row-left .row-left_title .row-left_icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+.supplierManagement .row-left .el-tree .el-tree-node__content {
+  position: relative;
+}
+.supplierManagement .row-left .el-tree .el-tree-node__content .custom-tree-btn .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background: url("../../../../../../../static/images/icon/menu.png") no-repeat center center;
+  padding-left: 30px;
+  z-index: 888;
+}
+.supplierManagement .row-left .el-tree .el-tree-node__content .el-tree-node__expand-icon {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+.supplierManagement .row-left .el-tree .el-tree-node__content .el-tree-node__expand-icon.expanded {
+  background: url("../../../../../../../static/images/icon/jian.png") no-repeat center center;
+  background-size: 90%;
+  margin: 0 5px 0 15px;
+}
+.supplierManagement .row-left .el-tree .el-tree-node__content .el-tree-node__expand-icon {
+  background: url("../../../../../../../static/images/icon/add.png") no-repeat center center;
+  background-size: 90%;
+  margin: 0 5px 0 15px;
+}
+.supplierManagement .row-left .el-tree .el-tree-node__content .el-tree-node__expand-icon.is-leaf {
+  background: none;
+}
+.supplierManagement .row-left .el-tree .el-tree-node__content .el-icon-caret-right:before {
+  content: '';
+}
+.supplierManagement .row-left .el-tree .el-tree-node__content .el-tree-node__expand-icon.expanded {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.supplierManagement .row-right {
+  float: left;
+  width: 100% !important;
+  height: calc(100vh - 54px);
+  padding: 7px;
+}
+.supplierManagement .row-right .right_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  margin-bottom: 14px;
+}
+.supplierManagement .row-right .top-btns {
+  background-color: #fff;
+  margin-bottom: 14px;
+  padding: 16px 40px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supplierManagement .row-right .top-btns .el-button {
+  border: none;
+  margin-right: 50px;
+  margin-left: 0;
+  padding: 0;
+  color: #333333;
+}
+.supplierManagement .row-right .top-btns .el-button img {
+  display: block;
+  height: 27px;
+  width: auto;
+  margin: 0 auto 10px;
+}
+.supplierManagement .row-right .top_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 60px;
+}
+.supplierManagement .row-right .top_right .searchInput {
+  max-width: 250px;
+}
+.supplierManagement .row-right .top_right .searchInput .el-input-group__append {
+  background-color: transparent;
+  border: none;
+}
+.supplierManagement .row-right .top_right .searchInput .el-input-group__append .searchBtn {
+  background-color: #597398;
+  border: 1px solid #597398;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 40px;
+  box-sizing: border-box;
+}
+.supplierManagement .row-right .top_right .searchInput .el-input-group__append .searchBtn span {
+  color: #ffffff;
+}
+.supplierManagement .row-right .top_right .searchInput .el-input-group__append .searchBtn:active {
+  background-color: #405d87;
+  border: 1px solid #405d87;
+}
+.supplierManagement .row-right .top_right .searchInput .el-input-group__append .searchBtn:hover {
+  background-color: #405d87;
+  border: 1px solid #405d87;
+}
+.supplierManagement .row-right .top_right .searchInput .el-input-group__append .is-disabled {
+  background-color: #abb6c5;
+  border: 1px solid #abb6c5;
+}
+.supplierManagement .row-right .top_right .searchInput .el-input-group__append .is-disabled:active {
+  background-color: #98a3b3;
+  border: 1px solid #98a3b3;
+}
+.supplierManagement .row-right .top_right .searchInput .el-input-group__append .is-disabled:hover {
+  background-color: #98a3b3;
+  border: 1px solid #98a3b3;
+}
+.supplierManagement .Table {
+  width: 100%;
+  background: #ddd;
+}
+.supplierManagement .Table .el-table {
+  color: #777;
+}
+.supplierManagement .Table .el-table .el-table-column--selection .cell {
+  padding-left: 30px;
+}
+.supplierManagement .Table .el-table thead {
+  color: #333;
+}
+.supplierManagement .Table .el-table thead tr {
+  background-color: #F5F5F5 !important;
+}
+.supplierManagement .Table .el-table thead tr th {
+  background-color: #F5F5F5 !important;
+  padding: 19px 0;
+}
+.supplierManagement .Table .el-table tbody th {
+  padding: 15px 0;
+}
+.supplierManagement .Table .el-table tbody tr td .cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.supplierManagement .Table .el-table tbody .tdLeft {
+  text-align: left;
+  margin-left: 100px;
+}
+.supplierManagement .Table .el-checkbox__input .el-checkbox__inner {
+  border: 1px solid #999999;
+}
+.supplierManagement .Table .is-checked .el-checkbox__inner {
+  background-color: #fff;
+  border: 1px solid #3672C6;
+}
+.supplierManagement .Table .el-checkbox__inner::after {
+  border-right: 1px solid #3672C6;
+  border-bottom: 1px solid #3672C6;
+}
+.supplierManagement .addProceduce .el-dialog {
+  width: 680px;
+  height: 362px;
+}
+.supplierManagement .addProceduce .el-dialog .el-dialog__body {
+  height: 276px;
+  overflow-y: auto;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.supplierManagement .addProceduce .el-dialog .el-dialog__title {
+  font-weight: bold;
+}
+.supplierManagement .addProceduce .el-dialog .el-row {
+  margin-bottom: 16px;
+  height: 24px;
+  line-height: 24px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .rowLabel {
+  float: left;
+  display: block;
+  width: 56px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 16px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .isRequired::before {
+  content: "*";
+  color: #f56c6c;
+  position: absolute;
+  left: -6px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .rowContent {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .rowContent .el-input {
+  width: 180px;
+  height: 24px;
+  line-height: 24px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .rowContent .el-input .el-input__inner {
+  height: 24px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .rowContent .el-checkbox__label {
+  padding-left: 3px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .rowContent .disabledInput .el-input__inner {
+  cursor: pointer;
+  background: none;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .rowContent .el-input__icon {
+  line-height: 24px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .users {
+  width: 347px;
+  height: 150px;
+  float: left;
+  margin-left: 22px;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .users .header {
+  height: 24px;
+  background: #f5f5f5;
+  padding-left: 14px;
+  line-height: 24px;
+  vertical-align: middle;
+  width: 333px;
+  display: block;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .users .header .el-checkbox__input,
+.supplierManagement .addProceduce .el-dialog .el-row .users .header .el-checkbox__label {
+  margin-bottom: 4px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .users .header + div {
+  margin: 10px !important;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .users .el-checkbox-group .el-checkbox {
+  margin-left: 0px !important;
+  width: 110px;
+}
+.supplierManagement .addProceduce .el-dialog .el-row .users .el-checkbox-group .el-checkbox:nth-child(3n+1) {
+  margin-left: 14px !important;
+}
+.supplierManagement .addProceduce .el-dialog .productDept,
+.supplierManagement .addProceduce .el-dialog .checkDept {
+  height: 150px;
+}
+.supplierManagement .addProceduce .el-dialog .dialog-footer button {
+  width: 80px;
+  height: 30px;
+  margin-left: 30px;
+  padding: 0;
+  text-align: center;
+  line-height: 30px;
+  background: none;
+  border-radius: 4px;
+  border-color: #fe8127;
+  color: #fe8127;
+}
+.supplierManagement .addProceduce .el-dialog .dialog-footer button:first-child {
+  background: #fe8127;
+  color: #fff;
+}
+.supplierManagement .addProceduce .el-dialog .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.supplierManagement .el-dialog {
+  width: 400px;
+}
+.supplierManagement .el-dialog .isRequired .el-form-item__label::before {
+  content: "*";
+  color: #f56c6c;
+  position: absolute;
+  left: 14px;
+}
+.supplierManagement .el-dialog .isRequired .el-input {
+  width: 90%;
+}
+.deptPopover {
+  padding: 0px;
+  min-height: 120px;
+  max-height: 120px;
+  overflow-y: auto;
+  margin-top: 5px;
+}
+.product-tree-right-btn {
+  padding: 10px !important;
+  min-width: 65px;
+}
+.product-tree-right-btn .el-button {
+  display: block !important;
+  color: #333333 !important;
+}
+.product-tree-right-btn .el-button + .el-button {
+  margin-left: 0;
+}
+.product-tree-right-btn[x-placement^=bottom] {
+  margin-top: 0;
+}

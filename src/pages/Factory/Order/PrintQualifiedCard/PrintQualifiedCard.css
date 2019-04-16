@@ -1,0 +1,116 @@
+.PrintQualifiedCard .el-dialog {
+  width: 1180px;
+  height: 730px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body {
+  padding-top: 0px;
+  height: calc(100% - 86px);
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .form {
+  height: 64px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .form .el-form-item {
+  float: left;
+  width: 260px;
+  margin-right: 54px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .form .el-form-item:last-child {
+  width: 100px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .has-gutter th {
+  background: #f5f5f5;
+  color: #333;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .el-table--border,
+.PrintQualifiedCard .el-dialog .el-dialog__body .el-table--group {
+  border-color: #e2e2e2;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .el-table--border td,
+.PrintQualifiedCard .el-dialog .el-dialog__body .el-table--border th {
+  border-color: #e2e2e2;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .checkTable {
+  margin-top: 20px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .el-table__empty-block {
+  height: 50px;
+  min-height: 50px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .scrollBox {
+  max-height: 545px;
+  height: 545px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .showModel {
+  width: 540px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .showModel h3 {
+  text-align: center;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .showModel h4 {
+  height: 25px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .dialog-footer {
+  padding-top: 30px;
+  width: 1120px;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .dialog-footer button {
+  padding: 0;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .dialog-footer .el-button--primary.is-disabled {
+  background: none;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .dialog-footer .el-button--primary {
+  background: none;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .dialog-footer .print-go {
+  border-radius: 4px;
+  border: 1px solid #fe8127;
+  color: #fe8127;
+  padding: 5px 10px;
+  margin: 20px 0px 20px 200px;
+  display: block;
+  float: left;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .dialog-footer .showPrint {
+  color: #fe8127;
+  display: block;
+  float: right;
+}
+.PrintQualifiedCard .el-dialog .el-dialog__body .dialog-footer .showPrint img {
+  margin-right: 10px;
+}
+.show-printQuelified-code {
+  width: 380px;
+  background-color: #E2E2E2;
+  line-height: inherit;
+  padding: 0;
+}
+.show-printQuelified-code .popper__arrow::after {
+  border-top-color: #E2E2E2 !important;
+}
+.show-printQuelified-code h3 {
+  text-align: center;
+}
+.show-printQuelified-code h4 {
+  height: 25px;
+}
+.showModel {
+  width: 350px;
+  background-color: #E2E2E2;
+  margin: 0px auto;
+  padding: 15px;
+}
+.showModel .show-cont {
+  overflow: hidden;
+  padding: 10px;
+  background-color: #fff;
+}
+.showModel .show-cont .nav-left {
+  float: left;
+  width: 50%;
+}
+.showModel .show-cont .nav-right {
+  float: left;
+}

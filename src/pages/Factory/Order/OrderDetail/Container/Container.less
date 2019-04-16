@@ -1,0 +1,160 @@
+.OrderDetail{
+	.el-dialog{
+		width: 1180px;
+		height: 630px;
+		.el-dialog__header{
+			padding: 30px;
+			padding-bottom: 0;
+		}
+		.el-dialog__body{
+			padding: 30px;
+			padding-top: 20px;
+			padding-bottom: 24px;
+			.tabs{
+				height: 30px;
+				margin-bottom: 10px;
+				div{
+					width: 80px;
+					height: 28px;
+					padding: 0;
+					text-align: center;
+					line-height: 28px;
+					border: 1px solid rgba(226,226,226,1);
+					margin-right: 10px;
+					float: left;
+					cursor: pointer;
+				}
+				div.active{
+					background: rgba(226,226,226,1);
+					color: #303133;
+				}
+				
+			}
+			.tab-content{
+				height: 460px;
+			}
+			.baseTable{
+				.has-gutter{
+					th{
+						background: rgba(245,245,245,1);
+						padding: 0;
+						height: 40px;
+						line-height: 40px;
+						border-color: rgba(226,226,226,1);
+					}
+				}
+				.el-table, .el-table--border, .el-table--group, .el-table td{
+					border-color: rgba(226,226,226,1);
+				}
+				> .el-table {
+					> .el-table__body-wrapper{
+						max-height: 398px;
+						overflow-y: auto;
+					}					
+				}
+				.el-table td.is-center{
+					height: 40px;
+					padding: 0;
+				}
+			}
+		}
+		.dialog-footer{
+			.el-button{
+				width: 80px;
+				height: 30px;
+				padding: 0;
+				border: 1px solid rgba(254,129,39,1);
+				border-radius: 4px;
+				color: rgba(254,129,39,1);
+				&:nth-child(1){
+					border-color: rgba(204,204,204,1);
+					color: #333;
+				}
+			}
+		}		
+	}
+}
+.alertDialog{
+	.el-message-box__btns{
+		button{
+			padding: 0;
+			height: 30px;
+			width: 80px;
+			line-height: 30px;
+			background: none;
+			outline: none;
+			span{
+				display: block;
+				height: 30px;
+				// width: 80px;
+				line-height: 30px;
+			}
+			&:first-child{
+				background-color: #FE8127;
+				color: #fff;
+				&:hover{
+					background: #e6a23c;
+					border-color: #e77a2b;
+				}
+				&:active{
+					background: #b65916;
+					border-color: #b65916;
+				}
+			}
+			&:last-child{
+				background-color: #fff;
+				color: #FE8127;
+				border-color: #FE8127;
+				&:hover{
+					border-color: #e77a2b;
+				}
+				&:active{
+					background: #b65916;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+.operationOrderDialog{
+	.el-dialog{
+		height: 400px;
+		.el-dialog__header{
+			padding-top: 20px;
+		}
+		.el-dialog__body{
+			padding-bottom: 0;
+		}
+	}
+}
+.showFinishOrder{
+	.el-input__inner, .el-input{
+		width: 300px;
+		margin-right: 10px;
+	}
+	.el-textarea__inner{
+		width: 328px;
+	}
+	.el-dialog{
+		height: 304px;
+		.el-form-item{
+			&:first-child{
+				margin-bottom: 5px;
+			}
+		}
+		.el-dialog__footer{
+			padding: 0;
+		}
+	}
+}
+.showVoidOrder{
+	.el-dialog{
+		height: 270px;
+		.el-dialog__footer{
+			padding: 0;
+		}
+		.el-textarea__inner{
+			width: 328px;
+		}
+	}
+}

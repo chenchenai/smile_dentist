@@ -1,0 +1,265 @@
+.Modify .happyScroll_box {
+  position: relative;
+}
+.Modify .happy-scroll-strip {
+  background: #c7c7c7;
+}
+.Modify .happy-scroll-strip--horizontal {
+  display: none;
+}
+.Modify .happy-scroll-content {
+  border-bottom: 20px solid transparent !important;
+}
+.Modify .happy-scroll-bar {
+  border: 1px solid #c7c7c7;
+}
+.Modify .material_tab {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 220px;
+}
+.Modify .material_tab .material_tab_th {
+  background: #f5f5f5;
+  display: table;
+  width: calc(100%);
+  overflow: hidden;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: flex-start;
+}
+.Modify .material_tab .material_tab_th li {
+  border-right: 1px solid #e2e2e2;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: #333333;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.Modify .material_tab .material_tab_th .el-input:first-child {
+  width: 141px !important;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(2) {
+  width: 101px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(3) {
+  width: 122px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(4) {
+  width: 140px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(5) {
+  width: 69px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(6) {
+  width: 46px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(7) {
+  width: 146px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(8) {
+  width: 114px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(9) {
+  width: 61px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(10) {
+  width: 77px;
+}
+.Modify .material_tab .material_tab_th .el-input:nth-child(11) {
+  color: #fe8127;
+  flex: 1;
+  border-right: none;
+}
+.Modify .material_tab .material_tab_td {
+  width: calc(100%);
+}
+.Modify .material_tab .material_tab_td li {
+  width: calc(100%);
+  border-bottom: 1px solid #e2e2e2;
+  border-top: none;
+  border-left: none;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.Modify .material_tab .material_tab_td li p {
+  word-break: break-all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.Modify .material_tab .material_tab_td li .el-input {
+  min-height: 40px;
+  text-align: center;
+  border-right: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  color: #666666;
+  -moz-box-sizing: border-box;
+}
+.Modify .material_tab .material_tab_td li .el-input input {
+  border: 0;
+  text-align: center;
+  padding: 0;
+}
+.Modify .material_tab .material_tab_td li .el-input__icon:before {
+  content: '';
+}
+.Modify .material_tab .material_tab_td li .el-input:first-child {
+  width: 141px !important;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(2) {
+  width: 101px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(3) {
+  width: 122px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(4) {
+  width: 140px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(5) {
+  width: 69px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(6) {
+  width: 46px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(7) {
+  width: 146px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(8) {
+  width: 114px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(9) {
+  width: 61px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(10) {
+  width: 77px;
+}
+.Modify .material_tab .material_tab_td li .el-input:nth-child(11) {
+  flex: 1;
+  border: none;
+}
+.Modify .material_tab .material_tab_td .wangingTip::-webkit-input-placeholder {
+  color: #f56c6c;
+}
+.Modify .material_tab .material_tab_td .wangingTip:-moz-placeholder {
+  color: #f56c6c;
+}
+.Modify .material_tab .material_tab_td .wangingTip::-moz-placeholder {
+  color: #f56c6c;
+}
+.Modify .material_tab .material_tab_td .wangingTip:-ms-input-placeholder {
+  color: #f56c6c;
+}
+.Modify .material_tab .material_tab_td .total {
+  background: #eef1f4;
+}
+.Modify .el-dialog {
+  width: 1180px !important;
+  overflow-y: auto;
+}
+.Modify .el-dialog .el-form {
+  margin-bottom: 22px;
+}
+.Modify .el-dialog .el-form .el-row {
+  padding-bottom: 32px;
+}
+.Modify .el-dialog .el-form .tips {
+  color: #777777;
+  margin-bottom: 10px;
+}
+.Modify .el-dialog .el-dialog__body {
+  padding-top: 0;
+  color: #333;
+  margin-top: 10px;
+}
+.Modify .el-dialog .el-form-item {
+  position: relative;
+}
+.Modify .el-dialog .marginLeft .el-form-item__label {
+  width: 70px !important;
+}
+.Modify .el-dialog .marginLeft .el-form-item__content {
+  margin-left: 70px !important;
+}
+.Modify .el-dialog .el-form-item {
+  float: left;
+  margin-bottom: 0;
+}
+.Modify .el-dialog .el-form-item .el-form-item__label {
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+  color: #888888;
+}
+.Modify .el-dialog .el-form-item .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.Modify .el-dialog .el-form-item .el-input {
+  width: 100%;
+}
+.Modify .el-dialog .el-form-item .el-form-item__content,
+.Modify .el-dialog .el-form-item .el-input,
+.Modify .el-dialog .el-form-item .el-input__inner,
+.Modify .el-dialog .el-form-item .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+}
+.Modify .el-dialog .remaks {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.Modify .el-dialog .remaks .remaksTip {
+  margin-right: 20px;
+}
+.Modify .el-dialog .remaks textarea {
+  flex: 1;
+  border-radius: 5px;
+  border-color: #e2e2e2;
+  padding: 10px;
+}
+.Modify .el-dialog .dialog-footer {
+  padding-top: 0;
+  padding-bottom: 0px;
+  height: 30px;
+  margin-top: 30px;
+}
+.Modify .el-dialog .dialog-footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+}
+.Modify .el-dialog .dialog-footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.Modify .el-dialog .dialog-footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.Modify .el-dialog .dialog-footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  color: #FE8127;
+}
+.Modify .el-dialog .dialog-footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.Modify .el-dialog .dialog-footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}

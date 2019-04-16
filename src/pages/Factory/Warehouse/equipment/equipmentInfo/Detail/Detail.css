@@ -1,0 +1,98 @@
+.equipmentDetail .el-dialog {
+  width: 1180px !important;
+  min-height: 585px;
+  position: relative;
+}
+.equipmentDetail .el-dialog .el-dialog__body {
+  padding: 12px 30px 20px 30px;
+}
+.equipmentDetail .el-dialog .el-dialog__header {
+  padding: 20px 30px 10px;
+}
+.equipmentDetail .el-dialog .postionBtns {
+  position: absolute;
+  right: 60px;
+  top: 7px;
+}
+.equipmentDetail .el-dialog .postionBtns button {
+  height: 14px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #3672c6;
+  line-height: 14px;
+  margin-right: 30px;
+  margin-left: 0;
+}
+.equipmentDetail .el-dialog .postionBtns button:last-child {
+  margin-right: 0;
+}
+.equipmentDetail .el-dialog .topTitle {
+  height: 17px;
+  font-size: 16px;
+  line-height: 17px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.equipmentDetail .el-dialog .el-form {
+  color: #333333;
+  overflow-y: hidden;
+}
+.equipmentDetail .el-dialog .el-form .el-form-item {
+  width: 100%;
+  margin-right: 90px;
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 22px;
+  color: #777777;
+  float: left;
+}
+.equipmentDetail .el-dialog .el-form .el-form-item__label {
+  line-height: 14px;
+  color: #777;
+  font-size: 16px !important;
+}
+.equipmentDetail .el-dialog .el-form .el-input {
+  width: 240px;
+}
+.equipmentDetail .el-dialog .el-form .el-col-3 {
+  width: auto;
+}
+.equipmentDetail .el-dialog .el-form .el-form-item__content,
+.equipmentDetail .el-dialog .el-form .el-input,
+.equipmentDetail .el-dialog .el-form .el-input__inner,
+.equipmentDetail .el-dialog .el-form .el-select__caret {
+  height: 14px;
+  line-height: 14px;
+  color: #333;
+  font-size: 16px !important;
+}
+.equipmentDetail .el-dialog .el-form .remarks {
+  width: 860px;
+  height: auto;
+}
+.equipmentDetail .el-dialog .el-form .remarks .el-form-item__content {
+  height: auto;
+}
+.equipmentDetail .el-dialog .el-form .fromItemLast {
+  width: 100%;
+  margin-right: 0;
+}
+.equipmentDetail .el-dialog .el-form .el-row {
+  margin: 0 0 10px 0 !important;
+}
+.equipmentDetail .el-dialog .el-form .el-row .paddingNone {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.equipmentDetail .el-dialog .el-form .el-row .paddingNone label {
+  width: 80px !important;
+}
+.equipmentDetail .el-dialog .el-form .el-row .paddingNone .el-form-item__content {
+  margin-left: 60px !important;
+}

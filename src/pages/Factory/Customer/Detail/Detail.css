@@ -1,0 +1,123 @@
+.customerDetail .el-dialog {
+  width: 1180px;
+  position: relative;
+}
+.customerDetail .el-dialog .el-dialog__body {
+  padding: 12px 30px 20px 30px;
+}
+.customerDetail .el-dialog .el-dialog__header {
+  padding: 20px 30px 10px;
+}
+.customerDetail .el-dialog .postionBtns {
+  position: absolute;
+  right: 60px;
+  top: 7px;
+}
+.customerDetail .el-dialog .postionBtns button {
+  height: 14px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #3672c6;
+  line-height: 14px;
+  margin-right: 30px;
+  margin-left: 0;
+}
+.customerDetail .el-dialog .postionBtns button:last-child {
+  margin-right: 0;
+}
+.customerDetail .el-dialog .tabs {
+  height: 30px;
+  margin-bottom: 10px;
+}
+.customerDetail .el-dialog .tabs p {
+  float: left;
+  width: 84px;
+  text-align: center;
+  line-height: 30px;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-right: 0;
+  cursor: pointer;
+}
+.customerDetail .el-dialog .tabs p.isActive {
+  background: #3672C6;
+  color: #fff;
+}
+.customerDetail .el-dialog .tabs p:last-child {
+  border-right: 1px solid #e2e2e2;
+}
+.customerDetail .el-dialog .el-form {
+  font-size: 14px;
+  overflow-y: hidden;
+}
+.customerDetail .el-dialog .el-form .el-form-item {
+  width: 310px;
+  margin-right: 90px;
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 34px;
+  color: #777777;
+  float: left;
+}
+.customerDetail .el-dialog .el-form .el-form-item:nth-child(3n) {
+  margin-right: 0;
+}
+.customerDetail .el-dialog .el-form .el-form-item__label {
+  height: 14px;
+  line-height: 14px;
+  color: #777;
+}
+.customerDetail .el-dialog .el-form .el-input {
+  width: 240px;
+}
+.customerDetail .el-dialog .el-form .el-form-item__content,
+.customerDetail .el-dialog .el-form .el-input,
+.customerDetail .el-dialog .el-form .el-input__inner,
+.customerDetail .el-dialog .el-form .el-select__caret {
+  height: 14px;
+  line-height: 14px;
+  color: #333;
+}
+.customerDetail .el-dialog .el-form .remarks {
+  height: auto;
+}
+.customerDetail .el-dialog .el-form .remarks .el-form-item__content {
+  height: auto;
+}
+.customerDetail .el-dialog .baseInfoContent {
+  padding-top: 20px;
+}
+.customerDetail .el-dialog .doctorInfoContent .el-table td,
+.customerDetail .el-dialog .doctorInfoContent .el-table th {
+  padding: 3px 0;
+}
+.customerDetail .el-dialog .doctorInfoContent .el-button--text {
+  padding: 0;
+}
+.customerDetail .el-dialog .doctorInfoContent .addDoctorBtn {
+  margin-left: 10px;
+  height: 50px;
+  line-height: 60px;
+  color: #666;
+  background: url('../../../../../static/images/icon/addDoctor.png') 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 18px 0px;
+}
+.customerDetail .doctorDialog .el-dialog {
+  width: 440px;
+}
+.customerDetail .doctorDialog .el-dialog .el-dialog__body {
+  padding-bottom: 0;
+}
+.customerDetail .doctorDialog .el-dialog .el-dialog__body .el-form .el-form-item {
+  margin-bottom: 24px;
+}
+.customerDetail .doctorDialog .el-dialog .el-dialog__body .el-form .el-form-item,
+.customerDetail .doctorDialog .el-dialog .el-dialog__body .el-form .el-form-item__label,
+.customerDetail .doctorDialog .el-dialog .el-dialog__body .el-form .el-form-item__content,
+.customerDetail .doctorDialog .el-dialog .el-dialog__body .el-form .el-input,
+.customerDetail .doctorDialog .el-dialog .el-dialog__body .el-form .el-input__inner {
+  height: 30px;
+  line-height: 30px;
+}

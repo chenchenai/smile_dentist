@@ -1,0 +1,56 @@
+.baseInfo{
+	border-bottom:1px dashed rgba(204,204,204,1);
+	height: 235px;
+	.title{
+		height: 14px;
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 20px;
+		font-weight: bold;
+		color: #000;
+	}	
+	.baseInfoForm{
+		overflow: hidden;
+		padding-left: 5px;
+		.el-form-item{
+			float: left;
+			width: 278px;
+			margin-right: 36px;
+			&:nth-child(4n){
+				margin-right: 0;
+			}
+			label{
+				height: 30px;
+				position: relative;
+				line-height: 30px;
+			}
+			.el-input, .el-input__inner, .el-form-item__content{
+				height: 30px;
+				line-height: 30px;
+			}
+			.el-form-item__content{
+				width: 196px;
+			}
+			.el-radio-button__inner{
+				height: 30px;
+				display: block;
+				float: left;
+				width: 74px;
+				line-height: 30px;
+				padding: 0;
+			}
+			.el-date-editor{
+				width: 196px;
+			}
+			.el-form-item__content{
+				width: 196px;
+			}
+			.el-input__prefix{
+				left: 168px;
+			}
+			.el-input--prefix .el-input__inner{
+				padding-left: 16px;
+			}
+		}
+	}	
+}

@@ -1,0 +1,202 @@
+.PrintQualityCard .el-dialog {
+  width: 1180px;
+  height: 680px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body {
+  padding-top: 0px;
+  height: calc(100% - 86px);
+}
+.PrintQualityCard .el-dialog .el-dialog__body .form {
+  height: 64px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .form .el-form-item {
+  float: left;
+  width: 260px;
+  margin-right: 54px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .form .el-form-item:last-child {
+  width: 100px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .has-gutter th {
+  background: #f5f5f5;
+  color: #333;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .el-table--border,
+.PrintQualityCard .el-dialog .el-dialog__body .el-table--group {
+  border-color: #e2e2e2;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .el-table--border td,
+.PrintQualityCard .el-dialog .el-dialog__body .el-table--border th {
+  border-color: #e2e2e2;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .checkTable {
+  margin-top: 20px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .el-table__empty-block {
+  height: 50px;
+  min-height: 50px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox {
+  max-height: 500px;
+  height: 500px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel {
+  width: 320px;
+  background-color: #E2E2E2;
+  margin: 0px auto;
+  padding: 30px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont {
+  overflow: hidden;
+  padding: 20px;
+  background-color: #fff;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-left {
+  float: left;
+  width: 60%;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right {
+  float: right;
+  width: 30%;
+  position: relative;
+  height: 187px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right .tooth {
+  position: absolute;
+  bottom: 0px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right .tooth .text {
+  height: 58px;
+  width: 85px;
+  float: left;
+  color: #333;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right .tooth .text .topPos {
+  height: 28px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right .tooth .text .topPos > p {
+  float: left;
+  width: 42px;
+  height: 28px;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right .tooth .text .topPos > p:last-child {
+  border-right: 0;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right .tooth .text .botPos {
+  height: 28px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right .tooth .text .botPos > p {
+  float: left;
+  width: 42px;
+  height: 28px;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .scrollBox .showModel .show-cont .nav-right .tooth .text .botPos > p:last-child {
+  border-right: 0;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .dialog-footer {
+  padding-top: 30px;
+  width: 1120px;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .dialog-footer button {
+  padding: 0;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .dialog-footer .el-button--primary.is-disabled {
+  background: none;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .dialog-footer .el-button--primary {
+  background: none;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .dialog-footer .print-go {
+  border-radius: 4px;
+  border: 1px solid #fe8127;
+  color: #fe8127;
+  padding: 5px 10px;
+  margin: 20px 0px 20px 200px;
+  display: block;
+  float: left;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .dialog-footer .showPrint {
+  color: #fe8127;
+  display: block;
+  float: right;
+}
+.PrintQualityCard .el-dialog .el-dialog__body .dialog-footer .showPrint img {
+  margin-right: 10px;
+}
+.show-printCard-code {
+  width: 380px;
+  padding: 0;
+  background-color: #E2E2E2;
+  line-height: inherit;
+}
+.show-printCard-code .popper__arrow::after {
+  border-top-color: #E2E2E2 !important;
+}
+.show-printCard-code h4 {
+  text-align: left;
+}
+.show-printCard-code .showModel {
+  width: 320px;
+  background-color: #E2E2E2;
+  margin: 0px auto;
+  padding: 30px;
+}
+.show-printCard-code .showModel .show-cont {
+  overflow: hidden;
+  padding: 20px;
+  background-color: #fff;
+}
+.show-printCard-code .showModel .show-cont .nav-left {
+  float: left;
+  width: 60%;
+}
+.show-printCard-code .showModel .show-cont .nav-right {
+  float: right;
+  width: 30%;
+  position: relative;
+  height: 187px;
+}
+.show-printCard-code .showModel .show-cont .nav-right .tooth {
+  position: absolute;
+  bottom: 0px;
+}
+.show-printCard-code .showModel .show-cont .nav-right .tooth .text {
+  height: 58px;
+  width: 85px;
+  float: left;
+  color: #333;
+}
+.show-printCard-code .showModel .show-cont .nav-right .tooth .text .topPos {
+  height: 28px;
+}
+.show-printCard-code .showModel .show-cont .nav-right .tooth .text .topPos > p {
+  float: left;
+  width: 42px;
+  height: 28px;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.show-printCard-code .showModel .show-cont .nav-right .tooth .text .topPos > p:last-child {
+  border-right: 0;
+}
+.show-printCard-code .showModel .show-cont .nav-right .tooth .text .botPos {
+  height: 28px;
+}
+.show-printCard-code .showModel .show-cont .nav-right .tooth .text .botPos > p {
+  float: left;
+  width: 42px;
+  height: 28px;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.show-printCard-code .showModel .show-cont .nav-right .tooth .text .botPos > p:last-child {
+  border-right: 0;
+}

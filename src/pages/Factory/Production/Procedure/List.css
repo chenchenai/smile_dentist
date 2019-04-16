@@ -1,0 +1,211 @@
+.proceduce {
+  margin: 14px;
+}
+.proceduce .top-btns {
+  background-color: #fff;
+  margin-bottom: 14px;
+  padding: 16px 40px 18px;
+}
+.proceduce .top-btns .el-button {
+  border: none;
+  margin-right: 16px;
+  margin-left: 0;
+  padding: 0;
+  color: #333333;
+}
+.proceduce .top-btns .el-button img {
+  display: block;
+  height: 27px;
+  width: auto;
+  margin: 0 auto 10px;
+}
+.proceduce .top-btns .search {
+  float: right;
+}
+.proceduce .top-btns .search .el-input-group {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #b8b8b8;
+  border-radius: 2px;
+}
+.proceduce .top-btns .search .el-input-group .el-input__inner {
+  border: none;
+  height: 30px;
+}
+.proceduce .top-btns .search .el-input-group .el-input-group__append {
+  width: 50px;
+  height: 30px;
+  background: #597398;
+  border: 0px;
+  border-radius: 0px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 0;
+}
+.proceduce .top-btns .search .el-input-group .el-input-group__append .el-button {
+  color: #fff;
+  margin: 0 11px;
+}
+.proceduce .Table {
+  width: 100%;
+  background: #ddd;
+}
+.proceduce .Table .el-table {
+  color: #777;
+}
+.proceduce .Table .el-table .el-table-column--selection .cell {
+  padding-left: 30px;
+}
+.proceduce .Table .el-table thead {
+  color: #333;
+}
+.proceduce .Table .el-table thead tr {
+  background-color: #F5F5F5 !important;
+}
+.proceduce .Table .el-table thead tr th {
+  background-color: #F5F5F5 !important;
+  padding: 19px 0;
+}
+.proceduce .Table .el-table tbody th {
+  padding: 15px 0;
+}
+.proceduce .Table .el-checkbox__inner {
+  border: 1px solid #999999;
+}
+.proceduce .Table .el-checkbox__input.is-checked .el-checkbox__inner,
+.proceduce .Table .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #fff;
+  border-color: #999999;
+}
+.proceduce .Table .el-checkbox__inner::after {
+  border: 1px solid #3672C6 !important;
+}
+.proceduce .addProceduce .el-dialog {
+  width: 680px;
+  height: 362px;
+}
+.proceduce .addProceduce .el-dialog .el-dialog__body {
+  height: 276px;
+  overflow-y: auto;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.proceduce .addProceduce .el-dialog .el-dialog__title {
+  font-weight: bold;
+}
+.proceduce .addProceduce .el-dialog .el-row {
+  margin-bottom: 16px;
+  height: 24px;
+  line-height: 24px;
+}
+.proceduce .addProceduce .el-dialog .el-row .rowLabel {
+  float: left;
+  display: block;
+  width: 56px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 16px;
+}
+.proceduce .addProceduce .el-dialog .el-row .isRequired::before {
+  content: "*";
+  color: #f56c6c;
+  position: absolute;
+  left: -6px;
+}
+.proceduce .addProceduce .el-dialog .el-row .rowContent {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+}
+.proceduce .addProceduce .el-dialog .el-row .rowContent .el-input {
+  width: 180px;
+  height: 24px;
+  line-height: 24px;
+}
+.proceduce .addProceduce .el-dialog .el-row .rowContent .el-input .el-input__inner {
+  height: 24px;
+}
+.proceduce .addProceduce .el-dialog .el-row .rowContent .el-checkbox__label {
+  padding-left: 3px;
+}
+.proceduce .addProceduce .el-dialog .el-row .rowContent .disabledInput .el-input__inner {
+  cursor: pointer;
+  background: none;
+}
+.proceduce .addProceduce .el-dialog .el-row .rowContent .el-input__icon {
+  line-height: 24px;
+}
+.proceduce .addProceduce .el-dialog .el-row .rowContent .popoverProDep {
+  position: absolute;
+  box-shadow: 0px 0px 3px #ccc;
+  width: 180px;
+  height: 90px;
+  max-height: 90px;
+  overflow-y: auto;
+  margin-top: 3px;
+}
+.proceduce .addProceduce .el-dialog .el-row .users {
+  width: 347px;
+  height: 150px;
+  float: left;
+  margin-left: 22px;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+}
+.proceduce .addProceduce .el-dialog .el-row .users .header {
+  height: 24px;
+  background: #f5f5f5;
+  padding-left: 14px;
+  line-height: 24px;
+  vertical-align: middle;
+  width: 333px;
+  display: block;
+}
+.proceduce .addProceduce .el-dialog .el-row .users .header .el-checkbox__input,
+.proceduce .addProceduce .el-dialog .el-row .users .header .el-checkbox__label {
+  margin-bottom: 4px;
+}
+.proceduce .addProceduce .el-dialog .el-row .users .header + div {
+  margin: 10px!important;
+}
+.proceduce .addProceduce .el-dialog .el-row .users .el-checkbox-group .el-checkbox {
+  margin-left: 0px!important;
+  width: 110px;
+}
+.proceduce .addProceduce .el-dialog .el-row .users .el-checkbox-group .el-checkbox:nth-child(3n+1) {
+  margin-left: 14px!important;
+}
+.proceduce .addProceduce .el-dialog .productDept,
+.proceduce .addProceduce .el-dialog .checkDept {
+  height: 150px;
+}
+.proceduce .addProceduce .el-dialog .dialog-footer button {
+  width: 80px;
+  height: 30px;
+  margin-left: 30px;
+  padding: 0;
+  text-align: center;
+  line-height: 30px;
+  background: none;
+  border-radius: 4px;
+  border-color: #fe8127;
+  color: #fe8127;
+}
+.proceduce .addProceduce .el-dialog .dialog-footer button:first-child {
+  background: #fe8127;
+  color: #fff;
+}
+.proceduce .addProceduce .el-dialog .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.deptPopover {
+  padding: 0px;
+  min-height: 120px;
+  max-height: 120px;
+  overflow-y: auto;
+  margin-top: 5px;
+}

@@ -1,0 +1,114 @@
+.stencil {
+  width: 100%;
+  .row-right{
+    .top-btns {
+      background-color: #fff;
+      margin-bottom: 14px;
+      padding: 16px 40px 18px;
+      .el-button{
+        border: none;
+        margin-right: 16px;
+        margin-left: 0;
+        padding: 0;
+        color: #333333;
+        img{
+          display: block;
+          height: 27px;
+          width: auto;
+          margin:0 auto 10px;
+        }
+      }
+      .search-btn{
+        float: right;
+        overflow: hidden;
+        .choose{
+          float: left;
+          margin-right: 10px;
+          .el-select{
+            .el-input{
+              width: 200px;
+              height: 30px;
+              border: 1px solid #b8b8b8;
+              border-radius: 2px;
+            }
+            .el-input--mini .el-input__inner{
+              border: none;
+            }
+
+          }
+
+
+        }
+        .search{
+          float: left;
+          .el-input-group{
+            width: 200px;
+            height: 30px;
+            border:1px solid rgb(184,184,184);
+            border-radius: 2px;
+            .el-input__inner{
+              border: none;
+              height:30px;
+            }
+            .el-input-group__append{
+              width:50px;
+              height:30px;
+              background:rgb(89,115,152);
+              border: 0px;
+              border-radius: 0px;
+              border-top-left-radius: 2px;
+              border-bottom-left-radius: 2px;
+              padding: 0;
+              .el-button{
+                color: #fff;
+                margin:0 11px
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+  //表格
+  .Table{
+    width: 100%;
+    background: #ddd;
+    .el-table{
+      color: #777;
+      .el-table-column--selection{
+        .cell{
+          padding-left:30px;
+        }
+      }
+      thead{
+        color: #333;
+        tr{
+          background-color: #F5F5F5!important;
+          th{
+            background-color: #F5F5F5!important;
+            padding:19px 0;
+          }
+        }
+      }
+      tbody{
+        th{
+          padding:15px 0;
+        }
+      }
+    }
+    .el-checkbox__inner{
+      border: 1px solid #999999;
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner,
+    .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+      background-color: #fff;
+      border-color: #999999;
+    }
+    .el-checkbox__inner::after{
+      border: 1px solid #3672C6!important;
+    }
+  }
+
+}
+

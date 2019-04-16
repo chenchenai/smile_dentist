@@ -1,0 +1,239 @@
+.addSelfCustomer .el-dialog {
+  width: 1180px;
+  height: 540px;
+  max-height: 540px;
+  overflow-y: auto;
+}
+.addSelfCustomer .el-dialog .el-dialog__body {
+  padding-top: 0;
+}
+.addSelfCustomer .el-dialog .addressItem {
+  float: left;
+  margin-bottom: 22px;
+}
+.addSelfCustomer .el-dialog .addressItem .el-label {
+  float: left;
+  width: 90px;
+}
+.addSelfCustomer .el-dialog .addressItem .el-input input {
+  height: 28px;
+}
+.addSelfCustomer .el-dialog .addressItem .el-select__caret {
+  line-height: 30px;
+}
+.addSelfCustomer .el-dialog .addressItem .el-select {
+  float: left;
+  width: 83px;
+  margin-right: 12px;
+}
+.addSelfCustomer .el-dialog .addressItem .el-content {
+  width: auto;
+  overflow: hidden;
+}
+.addSelfCustomer .el-dialog .el-form-item {
+  position: relative;
+}
+.addSelfCustomer .el-dialog .el-form-item {
+  float: left;
+  width: 320px;
+  margin-right: 54px;
+}
+.addSelfCustomer .el-dialog .el-form-item:nth-child(3n) {
+  margin-right: 0;
+}
+.addSelfCustomer .el-dialog .el-form-item .el-form-item__label {
+  height: 28px;
+  line-height: 28px;
+}
+.addSelfCustomer .el-dialog .el-form-item .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.addSelfCustomer .el-dialog .el-form-item .el-input {
+  width: 240px;
+}
+.addSelfCustomer .el-dialog .el-form-item .el-form-item__content,
+.addSelfCustomer .el-dialog .el-form-item .el-input,
+.addSelfCustomer .el-dialog .el-form-item .el-input__inner,
+.addSelfCustomer .el-dialog .el-form-item .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+}
+.addSelfCustomer .el-dialog .isRequired .el-form-item__label::before {
+  content: "*";
+  color: #f56c6c;
+  position: absolute;
+  left: -6px;
+}
+.addSelfCustomer .el-dialog .baseInfo {
+  height: 342px;
+  border-bottom: 1px dashed #eeeeee;
+}
+.addSelfCustomer .el-dialog .baseInfo .remarks {
+  height: 100px;
+  width: 100%;
+  margin-right: 0;
+}
+.addSelfCustomer .el-dialog .baseInfo .remarks .el-input,
+.addSelfCustomer .el-dialog .baseInfo .remarks .el-input__inner,
+.addSelfCustomer .el-dialog .baseInfo .remarks .el-form-item__content,
+.addSelfCustomer .el-dialog .baseInfo .remarks .el-textarea,
+.addSelfCustomer .el-dialog .baseInfo .remarks textarea {
+  height: 70px;
+}
+.addSelfCustomer .el-dialog .miniInput .el-input {
+  margin-right: 12px;
+}
+.addSelfCustomer .el-dialog .miniInput .el-input__inner {
+  text-align: left;
+  width: 204px;
+}
+.addSelfCustomer .el-dialog .miniInput .el-input,
+.addSelfCustomer .el-dialog .miniInput .el-input__inner,
+.addSelfCustomer .el-dialog .miniInput .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+  width: 204px;
+}
+.addSelfCustomer .el-dialog .inputCountingType .el-form-item__content {
+  margin-left: 0!important;
+  width: 284px;
+}
+.addSelfCustomer .el-dialog .inputCountingType .el-form-item__content .el-input,
+.addSelfCustomer .el-dialog .inputCountingType .el-form-item__content .el-input__inner {
+  width: 284px;
+}
+.addSelfCustomer .el-dialog .calcNumber {
+  height: 136px;
+  border-bottom: 1px dashed #eeeeee;
+}
+.addSelfCustomer .el-dialog .pro {
+  height: 60px;
+  padding-top: 30px;
+  border-bottom: 1px dashed #eeeeee;
+}
+.addSelfCustomer .el-dialog .slotDiv .dialog-footer {
+  padding-top: 0;
+  padding-bottom: 0px;
+  height: 30px;
+}
+.addSelfCustomer .el-dialog .slotDiv .dialog-footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+  margin-right: 30px;
+}
+.addSelfCustomer .el-dialog .slotDiv .dialog-footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.addSelfCustomer .el-dialog .slotDiv .dialog-footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.addSelfCustomer .el-dialog .slotDiv .dialog-footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  line-height: 30px;
+  color: #FE8127;
+}
+.addSelfCustomer .el-dialog .slotDiv .dialog-footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.addSelfCustomer .el-dialog .slotDiv .dialog-footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.addSelfCustomer .el-dialog .materiel .title {
+  margin-top: 28px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+.addSelfCustomer .el-dialog .materiel .content {
+  display: flex;
+}
+.addSelfCustomer .el-dialog .materiel .content .left {
+  width: 88px;
+  height: 30px;
+  line-height: 30px;
+}
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem {
+  min-height: 30px;
+  margin-bottom: 10px;
+}
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem .el-form-item__content,
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem .el-input,
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem .el-input__inner,
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem .el-select__caret {
+  height: 30px;
+  line-height: 30px;
+}
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem .meterialId {
+  float: left;
+  width: 240px;
+  margin-right: 10px;
+}
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem .useAmount {
+  width: 204px;
+  float: left;
+}
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem .unit {
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  margin-left: 8px;
+}
+.addSelfCustomer .el-dialog .materiel .content .right .materielItem .delete {
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  margin-left: 36px;
+  color: #3771c5;
+}
+.addSelfCustomer .el-dialog .materiel .content .addMateriel {
+  padding: 0;
+  color: #3771c5;
+}
+.addSelfCustomer .el-upload--picture-card {
+  width: auto;
+  height: 40px;
+  line-height: 28px;
+  border: none;
+}
+.addSelfCustomer .uploadImg .el-upload {
+  margin-right: 10px;
+  float: left;
+}
+.addSelfCustomer .uploadImg .el-upload-list--picture {
+  overflow: hidden;
+}
+.addSelfCustomer .uploadImg .el-upload-list--picture .el-upload-list__item {
+  height: auto;
+  width: 59px;
+  padding: 10px 20px;
+  float: left;
+  margin-right: 5px;
+}
+.addSelfCustomer .uploadImg .el-upload-list--picture .el-upload-list__item-thumbnail {
+  width: 30px;
+  height: auto;
+  margin-left: -10px;
+}
+.addSelfCustomer .uploadImg .el-upload-list--picture .el-upload-list__item.is-success .el-upload-list__item-name {
+  line-height: 0px;
+}
+.autoHeight .el-select-dropdown__list {
+  max-height: 178px;
+  overflow-y: auto;
+}

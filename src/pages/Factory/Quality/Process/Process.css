@@ -1,0 +1,172 @@
+.process .tab-top {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  width: calc(40% - 1px);
+  float: left;
+  height: 147px;
+  background-color: #fff;
+  border-right: 1px dashed #777;
+}
+.process .tab-top .el-row .el-col-12 {
+  padding: 5px 50px;
+  color: #333;
+}
+.process .tab-top .el-row .el-col-12 span {
+  color: #777;
+  margin-left: 20px;
+}
+.process .tab-top .el-row:first-child {
+  margin-top: 10px;
+}
+.process .title {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin: 20px auto 3px;
+  font-weight: bold;
+}
+.process .tab-top1 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.process .tab-top1 .el-row .el-col-6 {
+  padding: 12px 20px;
+  color: #333;
+}
+.process .tab-top1 .el-row .el-col-6 span {
+  color: #777;
+  margin-left: 20px;
+}
+.process .table1,
+.process .table2 {
+  margin-bottom: 14px;
+}
+.process .table1 thead,
+.process .table2 thead {
+  color: #333;
+}
+.process .table1 thead tr,
+.process .table2 thead tr,
+.process .table1 thead th,
+.process .table2 thead th {
+  background-color: #F5F5F5;
+}
+.process .table1 tbody,
+.process .table2 tbody {
+  color: #777;
+}
+.process .table1 .el-radio__inner,
+.process .table2 .el-radio__inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #CCCCCC;
+  background-color: #fff;
+}
+.process .table1 .el-radio__inner::after,
+.process .table2 .el-radio__inner::after {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #3672C6;
+}
+.process .table1 {
+  width: 60%!important;
+  margin-top: 14px;
+  float: right;
+}
+.process .table1 thead tr,
+.process .table1 thead th {
+  background-color: #fff;
+}
+.process .table1 td,
+.process .table1 th.is-leaf {
+  border-bottom: 1px solid #fff !important;
+}
+.process .bottom-sub {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.process .bottom-sub .left-input {
+  margin: 22px 0 0px 25px;
+}
+.process .bottom-sub .left-input form {
+  overflow: hidden;
+  width: 100%;
+}
+.process .bottom-sub .left-input form .isRequired {
+  position: relative;
+}
+.process .bottom-sub .left-input form .isRequired .el-input__inner {
+  font-size: 17px;
+  font-weight: bold;
+}
+.process .bottom-sub .left-input form .isRequired .el-form-item__label::before {
+  content: "*";
+  color: #f56c6c;
+  position: absolute;
+  left: 0px;
+}
+.process .bottom-sub .left-input form .el-form-item.is-error .el-input__inner {
+  border-color: #fe8127;
+}
+.process .bottom-sub .left-input form .el-form-item {
+  width: 410px;
+  float: left;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  height: 57px;
+}
+.process .bottom-sub .left-input form .el-form-item .el-textarea {
+  float: left;
+  width: 330px;
+  background: rgba(0, 0, 0, 0) !important;
+  color: #fff !important;
+  height: 40px;
+}
+.process .bottom-sub .left-input form .el-form-item .el-textarea .el-textarea__inner {
+  height: 100%;
+  resize: none;
+}
+.process .bottom-sub .left-input form .el-form-item .el-select .el-input {
+  width: 330px;
+}
+.process .bottom-sub .left-input form .el-form-item .el-input {
+  float: left;
+  width: 330px;
+  background: rgba(0, 0, 0, 0) !important;
+  color: #fff !important;
+}
+.process .bottom-sub .left-input form .el-form-item .errorText {
+  visibility: visible;
+  height: 16px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #f56c6c;
+  clear: both;
+  margin-left: 68px;
+}
+.process .bottom-sub .left-input form .el-autocomplete {
+  width: 330px;
+}
+.process .bottom-sub .left-input form .el-autocomplete .el-input {
+  width: 100%;
+}
+.process .bottom-sub .left-input form .remark {
+  width: 410px;
+}
+.process .bottom-sub .left-input form .remark .el-form-item__label {
+  padding-left: 26px;
+}
+.process .bottom-sub .right-btn {
+  float: right;
+  height: 73px;
+  margin-bottom: 16px;
+  margin-right: 60px;
+}
+.process .bottom-sub .right-btn .bar-code button {
+  background-color: #fff;
+  border-color: #CCCCCC;
+  padding: 0;
+}

@@ -1,0 +1,150 @@
+.advancedSearch {
+  width: 280px;
+  background: #fff;
+  position: absolute;
+  right: 14px;
+  top: 0;
+  z-index: 999;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 16px #ccc;
+}
+.advancedSearch .searchTitle {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 30px;
+  line-height: 30px;
+  background: #eeeeee;
+  position: relative;
+}
+.advancedSearch .searchTitle p {
+  font-size: 14px;
+  padding-left: 30px;
+}
+.advancedSearch .searchTitle button {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  padding: 0;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.advancedSearch .el-form {
+  padding: 14px 30px 0;
+}
+.advancedSearch .el-form .searchItem .title {
+  height: 24px;
+  line-height: 24px;
+  display: flex;
+  margin-bottom: 0px;
+}
+.advancedSearch .el-form .searchItem .title span:first-child {
+  font-size: 14px;
+  color: #333333;
+}
+.advancedSearch .el-form .searchItem .title span:last-child {
+  flex: 1;
+  margin-left: 20px;
+  height: 1px;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 10px;
+}
+.advancedSearch .el-form .searchItem .el-form-item {
+  margin-bottom: 0px;
+  height: 48px;
+}
+.advancedSearch .el-form .searchItem .el-form-item .el-form-item__error {
+  line-height: 12px;
+}
+.advancedSearch .el-form .searchItem .el-form-item .el-form-item__label {
+  float: left;
+  width: 88px;
+  height: 30px;
+  line-height: 30px;
+}
+.advancedSearch .el-form .searchItem .el-form-item .el-form-item__content {
+  float: left;
+  width: 220px;
+  min-height: 30px;
+  line-height: 30px;
+}
+.advancedSearch .el-form .searchItem .el-form-item .el-form-item__content .el-input,
+.advancedSearch .el-form .searchItem .el-form-item .el-form-item__content .el-input__inner {
+  height: 30px;
+  line-height: 30px;
+}
+.advancedSearch .el-form .searchItem .el-form-item .el-form-item__content .el-select .el-input .el-select__caret {
+  line-height: 30px;
+}
+.advancedSearch .el-form .searchItem .el-checkbox:nth-child(3n+1) {
+  margin-left: 0;
+}
+.advancedSearch .el-form .searchItem .el-checkbox .el-checkbox__label {
+  padding-left: 4px;
+}
+.advancedSearch .el-form .searchItem .datepicker .el-form-item__content {
+  width: 220px!important;
+}
+.advancedSearch .el-form .searchItem .datepicker .el-date-editor {
+  width: 220px;
+}
+.advancedSearch .el-form .searchItem .datepicker i,
+.advancedSearch .el-form .searchItem .datepicker span {
+  line-height: 22px;
+  color: #606266;
+}
+.advancedSearch .el-form .searchItem .datepicker .el-date-editor .el-range-input {
+  width: 42%;
+}
+.advancedSearch .el-form .orderType .el-form-item__content {
+  width: 270px!important;
+}
+.advancedSearch .el-form .orderType .el-form-item__content .el-checkbox {
+  width: 53px;
+}
+.advancedSearch .el-form .orderType .el-form-item__content .el-checkbox__label {
+  font-size: 12px;
+}
+.advancedSearch .el-form .orderStatus .el-form-item__content {
+  width: 270px!important;
+}
+.advancedSearch .el-form .orderStatus .el-form-item__content .el-checkbox {
+  width: 53px;
+}
+.advancedSearch .el-form .orderStatus .el-form-item__content .el-checkbox__label {
+  font-size: 12px;
+}
+.advancedSearch .dialog-footer {
+  padding-left: 30px;
+}
+.advancedSearch .dialog-footer button {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  background: none;
+  padding: 0;
+  border-color: #FE8127;
+}
+.advancedSearch .dialog-footer button span {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+.advancedSearch .dialog-footer button:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.advancedSearch .dialog-footer button:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.advancedSearch .dialog-footer button:first-child {
+  background: #FE8127;
+  margin-right: 20px;
+}
+.advancedSearch .dialog-footer button:last-child {
+  background: none;
+  border: 1px solid #FE8127;
+  color: #FE8127;
+}

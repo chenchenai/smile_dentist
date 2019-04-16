@@ -1,0 +1,111 @@
+@whiteSpace: {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+;
+.materialDetail {
+    .el-dialog {
+        width: 1180px !important;
+        min-height: 585px;
+        position: relative;
+        .el-dialog__body {
+            padding: 12px 30px 20px 30px;
+        }
+        .el-dialog__header {
+            padding: 20px 30px 10px;
+        }
+        .postionBtns {
+            position: absolute;
+            right: 60px;
+            top: 7px;
+            button {
+                height: 14px;
+                font-size: 14px;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(54, 114, 198, 1);
+                line-height: 14px;
+                margin-right: 30px;
+                margin-left: 0;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        .topTitle {
+            height: 17px;
+            font-size: 16px;
+            line-height: 17px;
+            font-family: MicrosoftYaHei;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 30px;
+            padding-left: 10px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        .el-form {
+            color: #333333;
+            overflow-y: hidden;
+            .el-form-item {
+                width: 100%;
+                margin-right: 90px;
+                height: 14px;
+                line-height: 14px;
+                margin-bottom: 22px;
+                color: rgba(119, 119, 119, 1);
+                float: left;
+            }
+            .noWrap {
+                .el-form-item__content {
+                    p {
+                        @whiteSpace();
+                    }
+                }
+            }
+            .el-form-item__label {
+                line-height: 14px;
+                color: #777;
+                font-size: 16px !important;
+            }
+            .el-input {
+                width: 240px;
+            }
+            .el-form-item__content,
+            .el-input,
+            .el-input__inner,
+            .el-select__caret {
+                height: 14px;
+                line-height: 14px;
+                color: #333;
+                font-size: 16px !important;
+            }
+            .remarks {
+                width: 860px;
+                height: auto;
+                .el-form-item__content {
+                    height: auto;
+                }
+            }
+            .fromItemLast {
+                width: 100%;
+                margin-right: 0;
+            }
+            .el-row {
+                margin: 0 0 10px 0 !important;
+                .paddingNone {
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    label {
+                        width: 80px !important;
+                    }
+                    .el-form-item__content {
+                        margin-left: 60px !important;
+                    }
+                }
+            }
+        }
+    }
+}

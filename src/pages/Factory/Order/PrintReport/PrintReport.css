@@ -1,0 +1,74 @@
+.PrintReport .el-dialog {
+  width: 1180px;
+  height: 630px;
+}
+.PrintReport .el-dialog .el-dialog__body {
+  padding-top: 0px;
+  height: calc(100% - 86px);
+}
+.PrintReport .el-dialog .el-dialog__body .form {
+  height: 64px;
+}
+.PrintReport .el-dialog .el-dialog__body .form .el-form-item {
+  float: left;
+  width: 260px;
+  margin-right: 54px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.PrintReport .el-dialog .el-dialog__body .form .el-form-item:last-child {
+  width: 100px;
+}
+.PrintReport .el-dialog .el-dialog__body .has-gutter th {
+  background: #f5f5f5;
+  color: #333;
+}
+.PrintReport .el-dialog .el-dialog__body .el-table--border,
+.PrintReport .el-dialog .el-dialog__body .el-table--group {
+  border-color: #e2e2e2;
+}
+.PrintReport .el-dialog .el-dialog__body .el-table--border td,
+.PrintReport .el-dialog .el-dialog__body .el-table--border th {
+  border-color: #e2e2e2;
+}
+.PrintReport .el-dialog .el-dialog__body .checkTable {
+  margin-top: 20px;
+}
+.PrintReport .el-dialog .el-dialog__body .el-table__empty-block {
+  height: 50px;
+  min-height: 50px;
+}
+.PrintReport .el-dialog .el-dialog__body .scrollBox {
+  max-height: 445px;
+  height: 445px;
+}
+.PrintReport .el-dialog .el-dialog__body .dialog-footer {
+  padding-top: 30px;
+  width: 1120px;
+}
+.PrintReport .el-dialog .el-dialog__body .dialog-footer button {
+  padding: 0;
+}
+.PrintReport .el-dialog .el-dialog__body .dialog-footer .el-button--primary.is-disabled {
+  background: none;
+}
+.PrintReport .el-dialog .el-dialog__body .dialog-footer .el-button--primary {
+  background: none;
+}
+.PrintReport .el-dialog .el-dialog__body .dialog-footer .print-go {
+  border-radius: 4px;
+  border: 1px solid #fe8127;
+  color: #fe8127;
+  padding: 5px 10px;
+  margin: 20px 0px 20px 200px;
+  display: block;
+  float: left;
+}
+.PrintReport .el-dialog .el-dialog__body .dialog-footer .showPrint {
+  color: #fe8127;
+  display: block;
+  float: right;
+}
+.PrintReport .el-dialog .el-dialog__body .dialog-footer .showPrint img {
+  margin-right: 10px;
+}

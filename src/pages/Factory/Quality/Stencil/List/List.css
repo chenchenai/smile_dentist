@@ -1,0 +1,99 @@
+.stencil {
+  width: 100%;
+}
+.stencil .row-right .top-btns {
+  background-color: #fff;
+  margin-bottom: 14px;
+  padding: 16px 40px 18px;
+}
+.stencil .row-right .top-btns .el-button {
+  border: none;
+  margin-right: 16px;
+  margin-left: 0;
+  padding: 0;
+  color: #333333;
+}
+.stencil .row-right .top-btns .el-button img {
+  display: block;
+  height: 27px;
+  width: auto;
+  margin: 0 auto 10px;
+}
+.stencil .row-right .top-btns .search-btn {
+  float: right;
+  overflow: hidden;
+}
+.stencil .row-right .top-btns .search-btn .choose {
+  float: left;
+  margin-right: 10px;
+}
+.stencil .row-right .top-btns .search-btn .choose .el-select .el-input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #b8b8b8;
+  border-radius: 2px;
+}
+.stencil .row-right .top-btns .search-btn .choose .el-select .el-input--mini .el-input__inner {
+  border: none;
+}
+.stencil .row-right .top-btns .search-btn .search {
+  float: left;
+}
+.stencil .row-right .top-btns .search-btn .search .el-input-group {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #b8b8b8;
+  border-radius: 2px;
+}
+.stencil .row-right .top-btns .search-btn .search .el-input-group .el-input__inner {
+  border: none;
+  height: 30px;
+}
+.stencil .row-right .top-btns .search-btn .search .el-input-group .el-input-group__append {
+  width: 50px;
+  height: 30px;
+  background: #597398;
+  border: 0px;
+  border-radius: 0px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 0;
+}
+.stencil .row-right .top-btns .search-btn .search .el-input-group .el-input-group__append .el-button {
+  color: #fff;
+  margin: 0 11px;
+}
+.stencil .Table {
+  width: 100%;
+  background: #ddd;
+}
+.stencil .Table .el-table {
+  color: #777;
+}
+.stencil .Table .el-table .el-table-column--selection .cell {
+  padding-left: 30px;
+}
+.stencil .Table .el-table thead {
+  color: #333;
+}
+.stencil .Table .el-table thead tr {
+  background-color: #F5F5F5 !important;
+}
+.stencil .Table .el-table thead tr th {
+  background-color: #F5F5F5 !important;
+  padding: 19px 0;
+}
+.stencil .Table .el-table tbody th {
+  padding: 15px 0;
+}
+.stencil .Table .el-checkbox__inner {
+  border: 1px solid #999999;
+}
+.stencil .Table .el-checkbox__input.is-checked .el-checkbox__inner,
+.stencil .Table .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #fff;
+  border-color: #999999;
+}
+.stencil .Table .el-checkbox__inner::after {
+  border: 1px solid #3672C6 !important;
+}

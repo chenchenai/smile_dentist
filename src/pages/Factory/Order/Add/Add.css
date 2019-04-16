@@ -1,0 +1,451 @@
+.addDialog .el-dialog {
+  width: 1288px!important;
+  padding: 10px;
+}
+.addDialog .el-dialog label {
+  height: 30px;
+  position: relative;
+  line-height: 30px;
+}
+.addDialog .el-dialog .el-form-item.is-required .el-form-item__label:before {
+  position: absolute;
+  left: -8px;
+}
+.addDialog .el-dialog .el-dialog__header {
+  padding: 14px 0 18px 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.addDialog .el-dialog .el-dialog__body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.addDialog .el-dialog .el-dialog__body .el-input__inner {
+  line-height: 28px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo {
+  border-bottom: 1px dashed #cccccc;
+  height: 235px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .title {
+  height: 14px;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .el-checkbox__input {
+  margin-bottom: 5px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .el-form-item__content {
+  width: 196px;
+  height: 30px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .feature label,
+.addDialog .el-dialog .el-dialog__body .baseInfo .requireType label {
+  width: 65px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .feature label span,
+.addDialog .el-dialog .el-dialog__body .baseInfo .requireType label span {
+  width: 65px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .datePicker .el-input__prefix {
+  color: #000;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .el-input__prefix {
+  left: 168px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .el-input--prefix .el-input__inner {
+  padding-left: 16px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .baseInfoForm .el-form-item {
+  float: left;
+  width: 278px;
+  margin-right: 36px;
+}
+.addDialog .el-dialog .el-dialog__body .baseInfo .baseInfoForm .el-form-item:nth-child(4n) {
+  margin-right: 0;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .el-table:before {
+  height: 0;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .title {
+  height: 14px;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding: 30px 28px;
+  min-height: 58px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .left {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  width: 200px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #f7f7f7 !important;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr {
+  height: 88px;
+  padding: 6px 0;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr:hover {
+  background: #f7f7f7 !important;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td {
+  padding: 0;
+  padding-bottom: 18px;
+  background: #f7f7f7 !important;
+  border: 0!important;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td .cell {
+  height: 60px;
+  line-height: 60px;
+  overflow: inherit;
+  padding: 0;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td:nth-child(1) .el-form-item__label {
+  width: 54px!important;
+  height: 60px!important;
+  line-height: 60px!important;
+  padding-right: 0!important;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td:nth-child(1) .el-form-item__content {
+  margin-left: 54px!important;
+  width: 200px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td:nth-child(2) .el-form-item__label {
+  height: 60px!important;
+  line-height: 60px!important;
+  padding-right: 0!important;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td:nth-child(2) .el-form-item__content {
+  padding-top: 15px;
+  width: 200px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td:nth-child(3) .el-form-item__label {
+  width: 54px!important;
+  height: 60px!important;
+  line-height: 60px!important;
+  padding-right: 0!important;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td:nth-child(3) .el-form-item__content {
+  padding-top: 15px;
+  margin-left: 54px!important;
+  width: 200px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td:nth-child(4) .el-form-item__label {
+  width: 48px!important;
+  height: 60px!important;
+  line-height: 60px!important;
+  padding-right: 0!important;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr td:nth-child(4) .el-form-item__content {
+  padding-top: 15px;
+  margin-left: 48px!important;
+  width: 88px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .content .projectTable tr .el-form-item {
+  margin-bottom: 0;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .positem {
+  float: left;
+  position: relative;
+  height: 30px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .positem .el-input {
+  width: 88px;
+  height: 24px;
+  line-height: 24px;
+  position: absolute;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .positem .el-input .el-input__inner {
+  width: 88px;
+  height: 24px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .top {
+  height: 30px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .top .pos1 {
+  width: 100px;
+  border-right: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .top .pos1 .el-input {
+  top: 0;
+  left: 6px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .top .pos2 {
+  width: 100px;
+  border-bottom: 1px solid #E2E2E2;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .top .pos2 .el-input {
+  top: 0;
+  left: 6px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .bot {
+  height: 30px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .bot .pos3 {
+  width: 100px;
+  border-right: 1px solid #E2E2E2;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .bot .pos3 .el-input {
+  top: 4px;
+  left: 6px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .bot .pos4 {
+  width: 100px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .bot .pos4 .el-input {
+  top: 4px;
+  left: 6px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .hideThis {
+  display: none;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject .requiredThis .el-form-item__label:before {
+  content: '*';
+  color: #f56c6c;
+  margin-right: 4px;
+}
+.addDialog .el-dialog .el-dialog__body .processingProject #posErrorText {
+  margin-left: 8px;
+}
+.addDialog .el-dialog .el-dialog__body .charge {
+  margin: 30px 0;
+}
+.addDialog .el-dialog .el-dialog__body .charge .el-form-item__content {
+  width: 510px!important;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements {
+  margin-top: 20px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .title {
+  color: #3672C6;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .title p {
+  float: left;
+  margin-right: 8px;
+  font-weight: bold;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .occlusion label {
+  width: 50px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .occlusion label span {
+  width: 50px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .approximalSurface label,
+.addDialog .el-dialog .el-dialog__body .specialRequirements .embrasuresDeep label {
+  width: 76px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .approximalSurface label span,
+.addDialog .el-dialog .el-dialog__body .specialRequirements .embrasuresDeep label span {
+  width: 76px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .inPlace label,
+.addDialog .el-dialog .el-dialog__body .specialRequirements .lipDesing label {
+  width: 66px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .inPlace label span,
+.addDialog .el-dialog .el-dialog__body .specialRequirements .lipDesing label span {
+  width: 66px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .bridgeType label,
+.addDialog .el-dialog .el-dialog__body .specialRequirements .cermetsDesign label {
+  width: 100px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .bridgeType label span,
+.addDialog .el-dialog .el-dialog__body .specialRequirements .cermetsDesign label span {
+  width: 100px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .el-row {
+  margin-right: -17px !important;
+  margin-left: -17px !important;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .el-col {
+  padding-left: 17px!important;
+  padding-right: 17px!important;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .col {
+  float: left;
+  padding-right: 0!important;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .col1 {
+  width: 300px;
+  margin-right: 63px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .col2 {
+  width: 300px;
+  margin-right: 63px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .col3 {
+  width: 520px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .attachment {
+  padding-left: 17px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .attachment .el-form-item__content {
+  width: 510px!important;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .uploadImg {
+  padding-left: 17px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .upload p {
+  width: 36px;
+  height: 34px;
+  background: url('../../../../../static/images/icon/img18.png') 100% 100%;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .el-upload-list {
+  padding: 0;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .el-upload-list .el-upload-list__item-name {
+  display: none;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .el-upload-list .el-upload-list__item .el-icon-close {
+  display: block;
+  z-index: 99;
+  top: 2px;
+  right: 0px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .el-upload-list li {
+  padding: 0;
+  width: 77px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .el-upload-list li:nth-child(13n) {
+  margin-right: 0;
+}
+.addDialog .el-dialog .el-dialog__body .specialRequirements .el-upload-list li img {
+  width: 77px;
+  height: 36px;
+  margin-left: 0;
+  border-radius: 5px;
+}
+.addDialog .el-dialog .el-dialog__body .wearingTeethDate .el-date-editor.el-input,
+.addDialog .el-dialog .el-dialog__body .entryDate .el-date-editor.el-input,
+.addDialog .el-dialog .el-dialog__body .expectedDate .el-date-editor.el-input {
+  width: 200px;
+}
+.addDialog .el-dialog .el-dialog__body .el-upload-list__item.is-success .el-upload-list__item-status-label {
+  display: none;
+}
+.addDialog .el-dialog .el-dialog__body .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background: #3672c6;
+  color: #fff;
+}
+.addDialog .el-dialog .el-dialog__body .el-radio-button__inner {
+  height: 30px;
+  display: block;
+  float: left;
+  width: 74px;
+  line-height: 30px;
+  padding: 0;
+}
+.addDialog .el-dialog .el-dialog__body .el-form-item__content {
+  line-height: 30px;
+}
+.addDialog .el-dialog .el-dialog__body .el-form-item {
+  margin-bottom: 20px;
+}
+.addDialog .el-dialog .el-dialog__body .el-input {
+  height: 30px;
+}
+.addDialog .el-dialog .el-dialog__body .el-input__inner {
+  height: 30px;
+}
+.addDialog .el-dialog .el-dialog__body .el-checkbox__inner {
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+}
+.addDialog .el-dialog .el-dialog__body .el-checkbox__inner::after {
+  top: 2px;
+  left: 5px;
+}
+.addDialog .el-dialog .el-dialog__body .el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #3672c6;
+  border-color: #3672c6;
+}
+.addDialog .el-dialog .el-dialog__body .el-input__icon {
+  line-height: 30px;
+}
+.addDialog .el-dialog .el-dialog__body .errorText {
+  display: none;
+  height: 16px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.addDialog .el-dialog .el-dialog__body .isRequired .el-form-item__label::before {
+  content: "*";
+  color: #f56c6c;
+  position: absolute;
+  left: -6px;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer {
+  padding-top: 0;
+  padding-bottom: 10px;
+  height: 40px;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer .el-checkbox {
+  margin: 0 20px 5px 0;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer .el-checkbox .el-checkbox__inner {
+  border-radius: 0;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  border-color: #FE8127;
+  margin-right: 30px;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer .cancel {
+  background: none;
+  border: 1px solid #FE8127;
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  line-height: 30px;
+  color: #FE8127;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.addDialog .el-dialog .slotDiv .dialog-footer .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.el-scrollbar__wrap {
+  max-height: 200px;
+  overflow-y: auto;
+}

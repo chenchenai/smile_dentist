@@ -1,0 +1,112 @@
+.Rule {
+  background-color: #fff;
+  border: 1px solid #d9dce1;
+  padding: 30px;
+  min-height: calc(100% - 64px);
+}
+.Rule h4 {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.Rule .el-item {
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+.Rule .el-item .el-label {
+  float: left;
+  width: 105px;
+  margin-right: 30px;
+  text-align: left;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+  min-height: 30px;
+  line-height: 14px;
+}
+.Rule .el-item .el-content {
+  float: left;
+}
+.Rule .el-item .el-content .input {
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 8px;
+}
+.Rule .el-item .el-content .input span {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+}
+.Rule .el-item .el-content .text {
+  height: 14px;
+  line-height: 14px;
+  color: #999999;
+  padding-left: 23px;
+}
+.Rule .el-item .el-content .submit {
+  background: #FE8127;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  border-color: #FE8127;
+  margin-right: 20px;
+  padding: 0;
+}
+.Rule .el-item .el-content .submit:hover {
+  background: #e77a2b;
+  border-color: #e77a2b;
+}
+.Rule .el-item .el-content .submit:active {
+  background: #b65916;
+  border-color: #b65916;
+}
+.Rule .el-item .el-content .submit span {
+  width: 80px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+.Rule .el-item .el-content .cancel {
+  background: none;
+  margin-top: 30px;
+  border: 1px solid #FE8127;
+  height: 40px;
+  width: 80px;
+  padding: 0;
+  line-height: 40px;
+  color: #FE8127;
+}
+.Rule .el-item .el-content .cancel:hover {
+  color: #e77a2b;
+  border-color: #e77a2b;
+}
+.Rule .el-item .el-content .cancel:active {
+  color: #b65916;
+  border-color: #e77a2b;
+}
+.Rule .el-item .el-content .cancel span {
+  width: 80px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+.Rule .setUpModelCheck .el-label,
+.Rule .setUpRelease .el-label {
+  height: 30px;
+  line-height: 30px;
+}
+.Rule .setUpModelCheck .el-button,
+.Rule .setUpRelease .el-button {
+  padding: 0 12px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.Rule .setUpRelease {
+  margin-bottom: 0;
+}

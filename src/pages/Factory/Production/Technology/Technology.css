@@ -1,0 +1,318 @@
+.technology {
+  margin: 14px;
+}
+.technology .top-btns {
+  background-color: #fff;
+  margin-bottom: 14px;
+  padding: 16px 40px 18px;
+}
+.technology .top-btns .el-button {
+  border: none;
+  margin-right: 16px;
+  margin-left: 0;
+  padding: 0;
+  color: #333333;
+}
+.technology .top-btns .el-button img {
+  display: block;
+  height: 27px;
+  width: auto;
+  margin: 0 auto 10px;
+}
+.technology .top-btns .search {
+  float: right;
+}
+.technology .top-btns .search .el-input-group {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #b8b8b8;
+  border-radius: 2px;
+}
+.technology .top-btns .search .el-input-group .el-input__inner {
+  border: none;
+  height: 30px;
+}
+.technology .top-btns .search .el-input-group .el-input-group__append {
+  width: 50px;
+  height: 30px;
+  background: #597398;
+  border: 0px;
+  border-radius: 0px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 0;
+}
+.technology .top-btns .search .el-input-group .el-input-group__append .el-button {
+  color: #fff;
+  margin: 0 11px;
+}
+.technology .Table {
+  width: 100%;
+  background: #ddd;
+}
+.technology .Table .el-table {
+  color: #777;
+}
+.technology .Table .el-table .el-table-column--selection .cell {
+  padding-left: 30px;
+}
+.technology .Table .el-table thead {
+  color: #333;
+}
+.technology .Table .el-table thead tr {
+  background-color: #F5F5F5 !important;
+}
+.technology .Table .el-table thead tr th {
+  background-color: #F5F5F5 !important;
+  padding: 19px 0;
+}
+.technology .Table .el-table tbody th {
+  padding: 15px 0;
+}
+.technology .Table .el-checkbox__inner {
+  border: 1px solid #999999;
+}
+.technology .Table .el-checkbox__input.is-checked .el-checkbox__inner,
+.technology .Table .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #fff;
+  border-color: #999999;
+}
+.technology .Table .el-checkbox__input.is-checked .el-checkbox__inner::after {
+  background: url(../../../../../static/images/technology/gouxuan.png) no-repeat center center;
+  background-size: 100% 100%;
+  transform: rotate(0deg) scaleY(1);
+  width: 10px;
+  height: 10px;
+  left: 0;
+}
+.technology .addTechnology .el-dialog {
+  width: 640px;
+  height: 536px;
+}
+.technology .addTechnology .el-dialog .el-dialog__body {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.technology .addTechnology .el-dialog .el-dialog__title {
+  font-weight: bold;
+}
+.technology .addTechnology .el-dialog .el-row {
+  margin-bottom: 16px;
+  height: 24px;
+  line-height: 24px;
+  float: left;
+}
+.technology .addTechnology .el-dialog .el-row .rowLabel {
+  float: left;
+  display: block;
+  width: 90px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 16px;
+}
+.technology .addTechnology .el-dialog .el-row .isRequired::before {
+  content: "*";
+  color: #f56c6c;
+  position: absolute;
+  left: -6px;
+}
+.technology .addTechnology .el-dialog .el-row .rowContent {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+}
+.technology .addTechnology .el-dialog .el-row .rowContent .el-input {
+  width: 180px;
+  height: 24px;
+  line-height: 24px;
+}
+.technology .addTechnology .el-dialog .el-row .rowContent .el-input .el-input__inner {
+  height: 24px;
+}
+.technology .addTechnology .el-dialog .el-row .rowContent .el-checkbox__label {
+  padding-left: 3px;
+}
+.technology .addTechnology .el-dialog .el-row .rowContent .disabledInput .el-input__inner {
+  cursor: pointer;
+  background: none;
+}
+.technology .addTechnology .el-dialog .el-row .rowContent .el-input__icon {
+  line-height: 24px;
+}
+.technology .addTechnology .el-dialog .el-row .users {
+  width: 347px;
+  height: 150px;
+  float: left;
+  margin-left: 22px;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+}
+.technology .addTechnology .el-dialog .el-row .users .header {
+  height: 24px;
+  background: #f5f5f5;
+  padding-left: 14px;
+  line-height: 24px;
+  vertical-align: middle;
+  width: 333px;
+  display: block;
+}
+.technology .addTechnology .el-dialog .el-row .users .header .el-checkbox__input,
+.technology .addTechnology .el-dialog .el-row .users .header .el-checkbox__label {
+  margin-bottom: 4px;
+}
+.technology .addTechnology .el-dialog .el-row .users .header + div {
+  margin: 10px!important;
+}
+.technology .addTechnology .el-dialog .el-row .users .el-checkbox-group .el-checkbox {
+  margin-left: 0px!important;
+  width: 110px;
+}
+.technology .addTechnology .el-dialog .el-row .users .el-checkbox-group .el-checkbox:nth-child(3n+1) {
+  margin-left: 14px!important;
+}
+.technology .addTechnology .el-dialog .checkTemplate {
+  float: right;
+}
+.technology .addTechnology .el-dialog .productDept,
+.technology .addTechnology .el-dialog .checkDept {
+  height: 150px;
+}
+.technology .addTechnology .el-dialog .dialog-footer {
+  position: absolute;
+  bottom: 20px;
+  right: 52px;
+}
+.technology .addTechnology .el-dialog .dialog-footer button {
+  width: 80px;
+  height: 30px;
+  margin-left: 30px;
+  padding: 0;
+  text-align: center;
+  line-height: 30px;
+  background: none;
+  border-radius: 4px;
+  border-color: #fe8127;
+  color: #fe8127;
+}
+.technology .addTechnology .el-dialog .dialog-footer button:last-child {
+  background: #fe8127;
+  color: #fff;
+}
+.technology .addTechnology .el-dialog .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+  margin-top: 5px;
+}
+.technology .addTechnology .transfer,
+.technology .addTechnology .row {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.technology .addTechnology .transfer .rowLabel,
+.technology .addTechnology .row .rowLabel {
+  float: left;
+  margin-top: 22px;
+}
+.technology .addTechnology .transfer .isRequired::before,
+.technology .addTechnology .row .isRequired::before {
+  content: "*";
+  color: #f56c6c;
+  position: absolute;
+  left: 14px;
+}
+.technology .addTechnology .transfer .col-md-5,
+.technology .addTechnology .row .col-md-5 {
+  width: 220px!important;
+  height: 360px;
+  margin-left: 22px;
+  float: left;
+  border: 1px solid #e0e0e0;
+}
+.technology .addTechnology .transfer .col-md-5 .panel-heading,
+.technology .addTechnology .row .col-md-5 .panel-heading {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 5px 16px;
+}
+.technology .addTechnology .transfer .col-md-5 .panel-heading input,
+.technology .addTechnology .row .col-md-5 .panel-heading input {
+  margin-right: 10px;
+  width: 12px;
+  height: 12px;
+}
+.technology .addTechnology .transfer .col-md-5:last-child,
+.technology .addTechnology .row .col-md-5:last-child {
+  float: right;
+  margin: 0;
+}
+.technology .addTechnology .transfer .col-md-2,
+.technology .addTechnology .row .col-md-2 {
+  float: left;
+  margin-left: 40px;
+}
+.technology .addTechnology .transfer .col-md-2 p:first-child,
+.technology .addTechnology .row .col-md-2 p:first-child {
+  margin-top: 131px;
+}
+.technology .addTechnology .transfer .col-md-2 .el-button,
+.technology .addTechnology .row .col-md-2 .el-button {
+  padding: 0;
+}
+.technology .addTechnology .transfer .col-md-2 .btn,
+.technology .addTechnology .row .col-md-2 .btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #e0e0e0;
+  background-image: url("../../../../../static/images/technology/left.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+.technology .addTechnology .transfer .col-md-2 p:last-child .btn,
+.technology .addTechnology .row .col-md-2 p:last-child .btn {
+  background-image: url("../../../../../static/images/technology/right.png");
+  margin-top: 30px;
+}
+.technology .addTechnology .transfer .panel-body ul,
+.technology .addTechnology .row .panel-body ul {
+  padding: 5px 0px;
+  height: 320px;
+  overflow: auto;
+}
+.technology .addTechnology .transfer .panel-body ul li,
+.technology .addTechnology .row .panel-body ul li {
+  margin: 10px 0;
+  font-size: 12px;
+}
+.technology .addTechnology .transfer .panel-body ul li input,
+.technology .addTechnology .row .panel-body ul li input {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  margin-left: 16px;
+}
+.technology .addTechnology .transfer .panel-body ul li .el-button,
+.technology .addTechnology .row .panel-body ul li .el-button {
+  padding: 0;
+  border: none;
+  float: right;
+  margin-right: 15px;
+  font-size: 12px;
+  margin-top: 6px;
+  color: #3672C6;
+  display: none;
+}
+.technology .addTechnology .transfer .panel-body ul li:first-child .el-button:last-child,
+.technology .addTechnology .row .panel-body ul li:first-child .el-button:last-child,
+.technology .addTechnology .transfer .panel-body ul li:last-child .el-button:nth-child(2),
+.technology .addTechnology .row .panel-body ul li:last-child .el-button:nth-child(2) {
+  color: #CCCCCC;
+  cursor: inherit;
+}
+.technology .addTechnology .transfer .col-md-5:last-child .panel-body ul li .el-button,
+.technology .addTechnology .row .col-md-5:last-child .panel-body ul li .el-button {
+  display: block!important;
+}

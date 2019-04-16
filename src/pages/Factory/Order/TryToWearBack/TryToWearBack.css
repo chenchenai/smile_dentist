@@ -1,0 +1,82 @@
+.TryToWearBack .el-dialog {
+  width: 1180px;
+  height: 630px;
+}
+.TryToWearBack .el-dialog .el-dialog__body {
+  padding-top: 0px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form {
+  height: 100px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item {
+  float: left;
+  width: 320px;
+  margin-right: 54px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item:nth-child(1) {
+  margin-right: 80px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item:nth-child(3) .el-input {
+  width: 642px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-form-item__label {
+  height: 28px;
+  line-height: 28px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .errorText {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #f56c6c;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-input {
+  width: 240px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-form-item__content,
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-input,
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-input__inner,
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-input__prefix {
+  left: 210px!important;
+  width: 25px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-input__prefix .el-icon-date {
+  line-height: 28px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .form .el-form-item .el-date-editor .el-input__inner {
+  padding-left: 15px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .dialog-footer {
+  padding-top: 30px;
+  height: 40px;
+  width: 1120px;
+  position: relative;
+}
+.TryToWearBack .el-dialog .el-dialog__body .dialog-footer p {
+  width: 173px;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -87px;
+  bottom: -23px;
+  background: #fff;
+}
+.TryToWearBack .el-dialog .el-dialog__body .dialog-footer button {
+  padding: 0;
+  width: 176px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .dialog-footer button svg {
+  width: 174px;
+}
+.TryToWearBack .el-dialog .el-dialog__body .dialog-footer .el-button--primary.is-disabled {
+  background: none;
+}
+.TryToWearBack .el-dialog .el-dialog__body .dialog-footer .el-button--primary {
+  background: none;
+}

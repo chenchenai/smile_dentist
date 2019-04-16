@@ -1,0 +1,158 @@
+.processingProject{	
+	.el-table:before{
+		height: 0;
+	}			
+	.title{
+		height: 14px;
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 20px;
+		font-weight: bold;
+		color: #000;
+		margin-top: 20px;
+	}
+	.content{
+		background: #f7f7f7;
+		border-radius: 4px;
+		padding: 30px 28px;
+		min-height: 58px;
+		.left{
+			float: left;
+			height: 58px;
+			line-height: 58px;
+			width: 200px;
+		}
+		.el-table--enable-row-hover .el-table__body tr:hover>td{
+			background-color: #f7f7f7 !important;
+		}
+		.projectTable{
+			tr{
+				height: 88px;
+				padding: 6px 0;
+				&:hover{
+					background: #f7f7f7!important;
+				}
+				td{
+					padding: 0;
+					padding-bottom: 18px;
+					background: #f7f7f7!important;
+					border: 0!important;
+					.cell{
+						height: 60px;
+						line-height: 60px;
+						overflow: inherit;
+						padding: 0;
+					}
+					&:nth-child(1),{
+						.el-form-item__label{
+							width: 54px!important;
+							height: 60px!important;
+							line-height: 60px!important;
+							padding-right: 0!important;
+						}
+						.el-form-item__content{
+							margin-left: 54px!important;
+							width: 200px;
+						}
+					}
+					&:nth-child(2){
+						.el-form-item__label{
+							height: 60px!important;
+							line-height: 60px!important;
+							padding-right: 0!important;
+						}
+						.el-form-item__content{
+							padding-top: 10px;
+							width: 200px;
+						}
+					}
+					&:nth-child(3) {
+						.el-form-item__label{
+							width: 54px!important;
+							height: 60px!important;
+							line-height: 60px!important;
+							padding-right: 0!important;
+						}
+						.el-form-item__content{
+							padding-top: 10px;
+							margin-left: 54px!important;
+							width: 200px;
+						}
+					}
+					&:nth-child(4){
+						.el-form-item__label{
+							width: 48px!important;
+							height: 60px!important;
+							line-height: 60px!important;
+							padding-right: 0!important;
+						}
+						.el-form-item__content{
+							padding-top: 10px;
+							margin-left: 48px!important;
+							width: 88px;
+						}
+					}
+				}
+				.el-form-item{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.positem{					
+		float: left;
+		position: relative;
+		height: 30px;
+		.el-input{
+			width: 88px;
+			height: 24px;
+			line-height: 24px;
+			position: absolute;
+			.el-input__inner{
+				width: 88px;
+				height: 24px;
+			}
+		}
+	}
+	.top{
+		height: 30px;
+		.pos1{
+			width: 100px;
+			border-right: 1px solid #E2E2E2;
+			border-bottom: 1px solid #E2E2E2;
+			.el-input{
+				top: 0;
+				left: 6px;
+			}
+		}
+		.pos2{
+			width: 100px;
+			border-bottom: 1px solid #E2E2E2;
+			.el-input{
+				top: 0;
+				left: 6px;
+			}
+		}
+	}
+	.bot{
+		height: 30px;
+		.pos3{
+			width: 100px;
+			border-right: 1px solid #E2E2E2;
+			.el-input{
+				top: 4px;
+				left: 6px;
+			}
+		}
+		.pos4{
+			width: 100px;
+			.el-input{
+				top: 4px;
+				left: 6px;
+			}
+		}
+	}
+	#posErrorText{
+		margin-left: 8px;
+	}
+}

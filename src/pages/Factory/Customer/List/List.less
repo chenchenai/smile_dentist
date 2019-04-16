@@ -1,0 +1,200 @@
+.customer {
+  padding: 14px;
+  .row-right{
+    .top-btns {
+      background-color: #fff;
+      margin-bottom: 14px;
+      padding: 16px 40px 18px;
+      .el-button{
+        border: none;
+        margin-right: 16px;
+        margin-left: 0;
+        padding: 0;
+        color: #333333;
+        img{
+          display: block;
+          height: 27px;
+          width: auto;
+          margin:0 auto 10px;
+        }
+      }
+      .search-btn{
+        float: right;
+        overflow: hidden;
+        .choose{
+          float: left;
+          margin-right: 10px;
+          .el-select{
+            .el-input{
+              width: 200px;
+              height: 30px;
+              border: 1px solid #b8b8b8;
+              border-radius: 2px;
+            }
+            .el-input--mini .el-input__inner{
+              border: none;
+            }
+
+          }
+
+
+        }
+        .search{
+          float: left;
+          .el-input-group{
+            width: 220px;
+            height: 30px;
+            border:1px solid rgb(184,184,184);
+            border-radius: 2px;
+            .el-input__inner{
+              border: none;
+              height:30px;
+            }
+            .el-input-group__append{
+              width:50px;
+              height:30px;
+              background:rgb(89,115,152);
+              border: 0px;
+              border-radius: 0px;
+              border-top-left-radius: 2px;
+              border-bottom-left-radius: 2px;
+              padding: 0;
+              .el-button{
+                color: #fff;
+                margin:0 11px
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+  //表格
+  .Table{
+    width: 100%;
+    background: #ddd;
+    .el-table{
+      color: #777;
+      .el-table-column--selection{
+        .cell{
+          padding-left:30px;
+        }
+      }
+      thead{
+        color: #333;
+        tr{
+          background-color: #F5F5F5!important;
+          th{
+            background-color: #F5F5F5!important;
+            padding:19px 0;
+          }
+        }
+      }
+      tbody{
+        th{
+          padding:15px 0;
+        }
+      }
+    }
+    .el-checkbox__inner{
+      border: 1px solid #999999;
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner,
+    .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+      background-color: #fff;
+      border-color: #999999;
+    }
+    .el-checkbox__inner::after{
+      border: 1px solid #3672C6!important;
+    }
+  }
+  .addlineCustomerDialog{
+    .el-dialog{
+      width: 414px;
+      padding: 20px 20px 30px 30px;
+      border-radius: 3px;
+      .el-dialog__header{
+        padding: 0px 0 49px 0px;
+        font-weight: bold;
+        font-size: 18px;
+        .el-dialog__title {
+          font-weight: bold;
+          color: #333333;
+        }
+      }
+      .el-dialog__body{
+        padding: 0;
+        .el-form-item{
+          margin-bottom: 32px;
+          .el-form-item__label {
+            font-weight: 400;
+            color: #888888;
+            height: 30px;
+          }
+          .errorText{
+            height: 16px;
+            line-height: 16px;
+            font-size: 12px;
+            color: #f56c6c;
+          }
+          .el-input{
+            width: 280px;
+          }
+        }
+        .isRequired{
+          .el-form-item__label::before{
+            content: "*";
+            color: #f56c6c;
+            position: absolute;
+            left: 20px;
+          }
+        }
+      }
+      .dialog-footer{
+        .el-button {
+          width: 80px;
+          height: 30px;
+          border: none;
+          border-radius: 4px;
+          padding: 5px 26px;
+        }
+        .el-button--default {
+          border: 1px solid #fe8127;
+          color: #fe8127;
+        }
+        .el-button--primary{
+          background:rgba(254,129,39,1);
+
+        }
+      }
+
+
+    }
+
+  }
+
+}
+.add-customer-popover{
+  width: 30px!important;
+  background: none!important;
+  box-shadow:none!important;
+  border: none!important;
+  padding: 0;
+  top: 130px!important;
+  left: 20px!important;
+  .el-button{
+    display: block;
+    border: none;
+    padding: 12px 0;
+    width: 80%;
+    border-top: 1px solid #ebeef5;
+    border-left: 1px solid #ebeef5;
+    border-right: 1px solid #ebeef5;
+  }
+  .el-button+.el-button{
+    margin-left: 0;
+    border-top: 0px solid #ebeef5;
+  }
+}
+
